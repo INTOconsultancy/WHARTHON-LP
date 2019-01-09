@@ -32,11 +32,19 @@ jQuery(document).ready(function () {
     });
     jQuery(window).scroll(function () {
         if (jQuery(this).scrollTop() < 5) {
-            jQuery('.Logo-two').removeClass('remove');
+            jQuery('.header-button').removeClass('aparecer');
+            jQuery('.header-logos').removeClass('aparecer');
+            jQuery('.header').css({"background-color": "#004785"});
+            jQuery('.blue').removeClass('aparecer');
+            jQuery('.white').removeClass('desaparecer');
 
 
         } else {
-            jQuery('.Logo-two').addClass('remove');
+            jQuery('.header-button').addClass('aparecer');
+            jQuery('.header-logos').addClass('aparecer');
+            jQuery('.header').css({"background-color": "#FFFFFF"});
+            jQuery('.blue').addClass('aparecer');
+            jQuery('.white').addClass('desaparecer');
         }
     });
     //When click in btn "ver programas" animate to down

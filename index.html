@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,9 +33,203 @@
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
 </head>
+
 <body>
-    <header></header>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logos">
+                <img class="white" src="assets/img/svg/wharton-execed-white-LG.svg" alt="Executive Education">
+                <img class="blue" src="assets/img/svg/wharton-execed-blue-LG.svg" alt="Executive Education">
+            </div>
+            <div class="header-button">
+                <a class="fs14 blanco" href="#" target="_blank" rel="noopener noreferrer">
+                    MÁS INFORMACIÓN
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="space"></div>
+    <!-- Sección Hero Imagen -->
+    <div class="hero-container">
+        <div class="hero-data">
+            <div class="hero-data-cont">
+                <div class="fs18 blanco">
+                    NUEVO PROGRAMA ONLINE
+                </div>
+                <div class="fs32 blanco">
+                    Business Analytics
+                </div>
+                <div class="fs20 blanco">
+                    De los datos a la acción
+                </div>
+                <div class="movil fs20 blanco">
+                    01 / 04 / 2019
+                </div>
+            </div>
+        </div>
+        <div class="price-container">
+            <div class="desktop fs30 negro4B">
+                01 / 04 / 19
+            </div>
+            <div class="fs16 negro19">
+                8 SEMANAS
+            </div>
+            <div class="movil fs16 negro19">
+                6-7 HORAS POR SEMANA
+            </div>
+            <div class="desktop fs16 negro19">
+                | 6-7 HORAS POR SEMANA |
+            </div>
+            <div class="fs16 negro19">
+                COSTO: $ 1,950 USD
+            </div>
+        </div>
+        <div class="formulario-container">
+            <div class="formulario-cont">
+                <div class="form" id="form">
+                    <div class="form-title grapRe fs18 negro23">Para obtener más información, llena el formulario</div>
+                    <form class="form-cont" action="">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="grapRe mdl-textfield__input" type="text" id="tb_name">
+                            <label class="grapRe mdl-textfield__label" for="tb_name">Nombre(s)</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="grapRe mdl-textfield__input" type="text" id="tb_surname">
+                            <label class="grapRe mdl-textfield__label" for="tb_surname">Apellido(s)</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="grapRe mdl-textfield__input" type="email" id="tb_email">
+                            <label class="grapRe mdl-textfield__label" for="tb_email">Email</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                            <input type="text" value="" class="grapRe mdl-textfield__input" id="tb_pais" readonly
+                                required>
+                            <input type="hidden" value="" name="tb_pais">
+                            <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                            <label for="sample3" class="grapRe mdl-textfield__label">País</label>
+                            <ul for="sample3" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                <li class="grapRe mdl-menu__item" data-val="DEU">Germany</li>
+                                <li class="grapRe mdl-menu__item" data-val="BLR">Belarus</li>
+                                <li class="grapRe mdl-menu__item" data-val="RUS">Russia</li>
+                            </ul>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                            <input type="text" value="" class="grapRe mdl-textfield__input" id="tb_experience" readonly
+                                required>
+                            <input type="hidden" value="" name="tb_experience">
+                            <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                            <label for="sample3" class="grapRe mdl-textfield__label">Experiencia profesional</label>
+                            <ul for="sample3" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                <li class="grapRe mdl-menu__item" data-val="DEU">Menos de 5 años</li>
+                                <li class="grapRe mdl-menu__item" data-val="BLR">5-10 años</li>
+                                <li class="grapRe mdl-menu__item" data-val="RUS">10-15 años</li>
+                            </ul>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="grapRe mdl-textfield__input" type="tel" id="tb_number">
+                            <label class="grapRe mdl-textfield__label" for="tb_number">Número de celular</label>
+                        </div>
+                        <div class="button-container">
+                            <button class="grapBo fs16 blanco" type="submit">
+                                DESCARGAR EL FOLLETO
+                                <img src="assets/img/svg/icon-descargar.svg" alt="Download">
+                            </button>
+                        </div>
+                    </form>
+                    <div class="private-data">
+                        <div class="data">
+                            Tus datos personales no serán compartidos con terceros.
+                        </div>
+                        <div>
+                            <a class="grapBo fs14 rosaFB" href="#" target="_blank" rel="noopener noreferrer">
+                                Política de Privacidad
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sección Datos, análisis, ¡Acción! -->
+    <div class="datos-analisis-container">
+        <div class="datos-analisis-title fs32 blanco">
+            Datos, análisis, ¡Acción!
+        </div>
+        <div class="datos-analisis-desc fs18 blanco">
+            ¿Cómo decide Netflix en qué contenidos gastar millones de dólares al año? ¿cómo es 
+            que American Express previene la fuga de sus clientes por medio de sus redes 
+            sociales? ¿y cómo hace Starbucks para asegurar la lealtad de sus consumidores? La 
+            respuesta a todas estas preguntas está en su uso de los datos. Y es que la diferencia 
+            entre las compañías del futuro y las del pasado está en su capacidad para capitalizar los 
+            datos como un activo accionable de negocio.
+        </div>
+        <div class="datos-analisis-desc fs18 blanco">
+            Pero para lograrlo, <span class="">necesitan de profesionales con las habilidades para tomar 
+            decisiones con base en la aplicación de conceptos analíticos</span>; la combinación 
+            perfecta entre data hacker, analista, comunicador y consejero.
+        </div>
+    </div>
+    <!-- Sección Información -->
+    <div class="informacion-container">
+        <div class="informacion-desc fs20 gris70">
+            Conoce las claves de Business Analytics y pasa de los datos a la acción con la guía 
+            de Christopher D. Ittner: Doctor en Administración de Negocios por la 
+            Universidad de Harvard, articulista, editor y profesor galardonado en la 
+            enseñanza de MBA.
+        </div>
+        <div class="informacion-desc fs20 gris70">
+            Aprende a redimensionar oportunidades, mitigar conflictos y construir puentes hacia 
+            el futuro mediante simulaciones y casos reales que te permitirán liderar equipos con 
+            un enfoque innovador.
+        </div>
+    </div>
+    <!-- Sección Datos importantes -->
+    <div class="datos-importantes-container">
+        <div class="datos-cont">
+            <div class="dato">
+                <div class="fs36 azulDA">
+                    2x
+                </div>
+                <div class="fs20 blanco">
+                    La cantidad de datos a nivel 
+                    mundial se duplica cada tres años.
+                </div>
+                <div class="fs14 blanco">
+                    Fuente: McKinsey & Company
+                </div>
+            </div>
+            <div class="dato">
+                <div class="fs36 azulDA">
+                    1.5 millones
+                </div>
+                <div class="fs20 blanco">
+                    Es el déficit actual de gerentes y 
+                    analistas capacitados para tomar 
+                    decisiones con base en conceptos 
+                    analíticos.
+                </div>
+                <div class="fs14 blanco">
+                    Fuente: McKinsey & Company
+                </div>
+            </div>
+            <div class="dato">
+                <div class="fs36 azulDA">
+                    75%
+                </div>
+                <div class="fs20 blanco">
+                    De las compañías carecen de las 
+                    habilidades y tecnología para 
+                    sacar el máximo provecho de los 
+                    datos que colectan.
+                </div>
+                <div class="fs14 blanco">
+                    Fuente: PWC
+                </div>
+            </div>
+        </div>
+    </div>
     <footer></footer>
 </body>
-    <script src="assets/js/main.js"></script>
+<script src="assets/js/main.js"></script>
+
 </html>
