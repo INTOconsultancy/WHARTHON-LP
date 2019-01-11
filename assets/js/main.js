@@ -3,9 +3,11 @@ jQuery(document).ready(function () {
         dots: false,
         infinite: true,
         speed: 300,
-        arrows: true,
+        arrows: false,
         slidesToShow: 3,
         slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 3000,
         responsive: [{
                 breakpoint: 1024,
                 settings: {
