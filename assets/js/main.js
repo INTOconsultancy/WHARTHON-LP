@@ -48,7 +48,7 @@ jQuery(document).ready(function () {
         }
     });
     //When click in btn "ver programas" animate to down
-    jQuery(".header-button,.movil-button").click(function () {
+    jQuery(".header-button").click(function () {
         jQuery('html, body').animate({
             scrollTop: jQuery("#form").offset().top - 70
         }, 500);
