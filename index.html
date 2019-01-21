@@ -90,21 +90,21 @@
                     <div class="form-title fs18 negro23">Para obtener más información, llena el formulario</div>
                     <form class="form-cont" action="">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="grapRe mdl-textfield__input" type="text" id="tb_name">
+                            <input class="grapRe mdl-textfield__input" type="text" id="tb_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" >
                             <label class="grapRe mdl-textfield__label" for="tb_name">Nombre(s)</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="grapRe mdl-textfield__input" type="text" id="tb_surname">
+                            <input class="grapRe mdl-textfield__input" type="text" id="tb_surname" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" >
                             <label class="grapRe mdl-textfield__label" for="tb_surname">Apellido(s)</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="grapRe mdl-textfield__input" type="email" id="tb_email">
+                            <input class="grapRe mdl-textfield__input" type="email" id="tb_email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$" >
                             <label class="grapRe mdl-textfield__label" for="tb_email">Email</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
                             <input type="text" value="" class="grapRe mdl-textfield__input" id="tb_pais" readonly
-                                required>
-                            <input type="hidden" value="" name="tb_pais">
+                                >
+                            <input type="hidden" value="" name="tb_pais" >
                             <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
                             <label for="sample3" class="grapRe mdl-textfield__label">País</label>
                             <ul for="sample3" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
@@ -115,7 +115,7 @@
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
                             <input type="text" value="" class="grapRe mdl-textfield__input" id="tb_experience" readonly
-                                required>
+                                >
                             <input type="hidden" value="" name="tb_experience">
                             <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
                             <label for="sample3" class="grapRe mdl-textfield__label">Experiencia profesional</label>
@@ -126,7 +126,7 @@
                             </ul>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="grapRe mdl-textfield__input" type="tel" id="tb_number">
+                            <input class="grapRe mdl-textfield__input" type="tel" id="tb_number" maxlength="15" minlength="5" onkeypress="return valida(event)" pattern="[0-9]+" >
                             <label class="grapRe mdl-textfield__label" for="tb_number">Número de celular</label>
                         </div>
                         <div class="button-container">
@@ -580,8 +580,8 @@
                     Capital de marca
                 </div>
                 <div class="beneficio-desc fs14 gris66">
-                    Certificado de estudios expedido por IESE
-                    Business School, Executive Education.
+                    Certificado de estudios expedido por Wharton, 
+                    University of Pennsylvania, Executive Education.
                 </div>
             </div>
             <div class="beneficio" data-aos="fade-right" data-aos-offset="50" data-aos-delay="300" data-aos-duration="500"
@@ -950,4 +950,5 @@
     </script>
 </body>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/onkeypress.js"></script>
 </html>
