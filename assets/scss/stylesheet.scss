@@ -45,59 +45,88 @@ img {
 
 //FONTS
 @font-face {
-    font-family: Graphik-Bold;
-    src: url('../fonts/Graphik-Bold.otf');
+    font-family: Garamond-SemiBold;
+    src: url('../fonts/GaramondPremrPro-Smbd_0.otf');
 }
 
 @font-face {
-    font-family: Graphik-Medium;
-    src: url('../fonts/Graphik-Medium.otf');
+    font-family: Garamond-Bold;
+    src: url('../fonts/GaramondPremrPro-Bd_0.otf');
 }
 
 @font-face {
-    font-family: Graphik-Regular;
-    src: url('../fonts/Graphik-Regular.otf');
+    font-family: Garamond-Regular;
+    src: url('../fonts/GaramondPremrPro_0.otf');
 }
 
 @font-face {
-    font-family: Graphik-RegularItalic;
-    src: url('../fonts/Graphik-RegularItalic.otf');
+    font-family: Garamond-Medium;
+    src: url('../fonts/GaramondPremrPro-Med_1.otf');
 }
 
 @font-face {
-    font-family: Graphik-Semibold;
-    src: url('../fonts/Graphik-Semibold.otf');
+    font-family: Whitney-Light;
+    src: url('../fonts/Whitney-Light.otf');
 }
 
 @font-face {
-    font-family: MinionPro-Regular;
-    src: url('../fonts/MinionPro-Regular.otf');
+    font-family: Whitney-Medium;
+    src: url('../fonts/Whitney-Medium.otf');
+}
+
+@font-face {
+    font-family: Whitney-Semibold;
+    src: url('../fonts/Whitney-Semibold.otf');
+}
+
+@font-face {
+    font-family: Whitney-Bold;
+    src: url('../fonts/Whitney\ Bold.ttf');
+}
+
+@font-face {
+    font-family: Whitney-Medium;
+    src: url('../fonts/Whitney\ Medium.ttf');
 }
 
 //FONTS CLASS
-.grapBo {
-    font-family: Graphik-Bold;
+.garaSBo {
+    font-family: Garamond-SemiBold;
 }
 
-.grapMe {
-    font-family: Graphik-Medium;
+.garaBo {
+    font-family: Garamond-Bold;
 }
 
-.grapRe {
-    font-family: Graphik-Regular;
+.garaRe {
+    font-family: Garamond-Regular;
 }
 
-.grapRe-IT {
-    font-family: Graphik-RegularItalic;
+.garaMe {
+    font-family: Garamond-Medium;
 }
 
-.grapSe-Bo {
-    font-family: Graphik-Semibold;
+.whitLi {
+    font-family: Whitney-Light;
 }
 
-.MinRe {
-    font-family: MinionPro-Regular;
+.whitMe {
+    font-family: Whitney-Medium;
 }
+
+.whitSBo {
+    font-family: Whitney-Semibold;
+}
+
+.whitBo {
+    font-family: Whitney-Bold;
+}
+
+.whitMed {
+    font-family: Whitney-Medium;
+}
+
+
 
 //FONT SIZE
 .fs10 {
@@ -225,8 +254,12 @@ img {
     color: #026CB5;
 }
 
-.vino85 {
+.azul85 {
     color: #004785;
+}
+
+.vino56{
+    color: #AC3456;
 }
 
 .rosaFB {
@@ -466,7 +499,8 @@ header {
 
             &:nth-child(1) {
                 width: 100%;
-                margin: 0;
+                text-align: center;
+                margin: 0 0 7px;
             }
         }
     }
@@ -620,6 +654,7 @@ header {
                 &:nth-child(1) {
                     font-size: 30px;
                     width: 100%;
+                    text-align: left;
                     margin: 0 0 10px;
                 }
             }
@@ -865,11 +900,11 @@ header {
 
         .dato {
             width: 300px;
-            margin: 0 auto;
+            margin: 20px auto;
 
             div {
                 text-align: center;
-                margin: 10px auto;
+                margin: 5px auto;
 
                 &:nth-child(1) {
                     line-height: 44px;
@@ -1400,10 +1435,12 @@ header {
 
         .module-title {
             width: 70%;
-            margin-left: 20px;
+            margin-left: 15px;
         }
 
-        .No {}
+        .No {
+            text-transform: uppercase;
+        }
     }
 }
 
