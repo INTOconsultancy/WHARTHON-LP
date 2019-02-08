@@ -1058,24 +1058,31 @@ header {
 //SECCIÓN PROFESOR
 .profesor-container {
     width: 100%;
-    padding: 0;
+    padding: 0 17px;
     background-color: #ffffff;
 
     .profesor-title {
         width: 100%;
         margin: 0 auto;
-        padding: 35px 0 0;
+        padding: 35px 0;
         max-width: 1135px;
         text-align: center;
         line-height: 38px;
-        background-color: #EEEDEA;
+        background-color: #ffffff;
     }
+}
+
+.profesor-container hr {
+    width: 100%;
+    margin: 35px auto 0;
+    max-width: 1135px;
+    display: none;
 }
 
 .profesor-cont {
     width: 100%;
     margin: 0 auto;
-    padding: 0 18px 35px;
+    padding: 0 18px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1087,42 +1094,39 @@ header {
         width: 100%;
         margin: 0 auto;
         padding: 15px 0;
-        max-width: 480px;
+        max-width: 485px;
 
         .profesor-desc-cont {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            justify-content: center;
 
             .profesor-img {
                 width: auto;
 
                 img {
-                    width: 122px;
-                    height: 122px;
+                    width: 96px;
+                    height: 96px;
                 }
             }
 
             .profesor-data {
-                width: 100%;
-                margin: 20px 0 0 0;
+                width: 180px;
+                margin: 0 0 0 10px;
                 max-width: 260px;
 
                 div {
-                    text-align: center;
+                    text-align: left;
 
                     &:nth-child(1) {
                         line-height: 31px;
                     }
 
                     &:nth-child(2) {
-                        margin-top: 5px;
                         line-height: 21px;
                     }
 
                     &:nth-child(3) {
-                        margin-top: 5px;
                         line-height: 21px;
                     }
                 }
@@ -1130,7 +1134,7 @@ header {
         }
 
         .profesor-description {
-            text-align: center;
+            text-align: left;
             line-height: 22px;
             margin: 10px 0 0;
         }
@@ -1139,18 +1143,142 @@ header {
     }
 }
 
-.profesor-container hr {
-    width: 100%;
-    margin: 35px auto 0;
-    max-width: 1135px;
-    display: none;
-}
-
 .profesor-data .linea {
-    width: 75%;
+    width: 90%;
     height: 1px;
     background-color:  #6B6B6B;
-    margin: 5px auto !important;
+    margin: 0 !important;
+}
+.profesor-auxiliar {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+
+    .profesor-auxiliar-desc {
+        width: 100%;
+        margin: 20px 0;
+        padding: 15px;
+        max-width: 350px;
+        background-color: #EEEDEA;
+        @media only screen and (min-width:390px){
+            margin: 20px;
+        }
+
+        .profesor-auxiliar-desc-cont {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .profesor-auxiliar-img {
+                background-color: #6B6B6B;
+                width: 96px;
+                height: 96px;
+
+                img {
+                    width: 96px;
+                    height: 96px;
+                }
+            }
+
+            .profesor-auxiliar-data {
+                width: 100%;
+                margin: 0 0 0 10px;
+                max-width: 180px;
+
+                div {
+                    width: auto;
+                    text-align: left;
+
+                    &:nth-child(1) {
+                        line-height: 31px;
+                    }
+
+                    &:nth-child(2) {
+                        line-height: 21px;
+                    }
+
+                    &:nth-child(3) {
+                        line-height: 21px;
+                    }
+                }
+            }
+        }
+
+        .profesor-auxiliar-description {
+            text-align: left;
+            line-height: 22px;
+            margin: 10px 0 0;
+        }
+    }
+    .profesor-auxiliar-data .linea {
+        width: 90%;
+        height: 1px;
+        background-color:  #6B6B6B;
+        margin: 0;
+    }
+}
+@media only screen and (min-width: 1175px){
+    .profesor-auxiliar-desc {
+        margin: 20px 25px!important;
+        padding: 35px 25px!important;
+        max-width: 350px;
+        background-color: #EEEDEA;
+        &:nth-child(3n+0) {
+            margin: 20px 0 20px 20px!important;
+        }
+        &:nth-child(3n+1) {
+            margin: 20px 20px 20px 0!important;
+        }
+    }
+
+    .profesor-auxiliar{
+        justify-content: initial;
+    }
+    .profesor-auxiliar-img {
+        width: 175px!important;
+        height: 175px!important;
+        margin: 0 auto;
+
+        img {
+            width: 175px!important;
+            height: 175px!important;
+            margin: 0 auto;
+        }
+    }
+
+    .profesor-auxiliar-data {
+        margin: 10px auto 5px!important;
+        max-width: 300px!important;
+
+        div {
+            width: 100%!important;
+            text-align: center!important;
+
+            &:nth-child(1) {
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            &:nth-child(3) {
+                margin-top: 5px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .profesor-auxiliar-description {
+    line-height: 22px;
+    }
+    
+    .profesor-auxiliar-data .linea {
+        width: 70%!important;
+        margin: 5px auto!important;
+    }
 }
 
 @media only screen and (min-width: 396px) {
@@ -1165,7 +1293,6 @@ header {
     .profesor-container {
         padding: 90px 17px 0;
     }
-
     .profesor-title {
         text-align: center !important;
         padding: 0 0 20px !important;
@@ -1181,7 +1308,6 @@ header {
         width: 100%;
         margin: 0 30px 0 0 !important;
         padding: 0 !important;
-        max-width: 545px;
 
         .profesor-desc-cont {
             display: flex;
@@ -1199,6 +1325,7 @@ header {
             }
 
             .profesor-data {
+                width: auto!important;
                 div {
                     text-align: left !important;
 
@@ -2242,13 +2369,14 @@ footer {
             }
 
             .copyright {
-                width: 285px;
+                width: 200px;
                 text-align: center;
                 margin: 20px auto 10px;
             }
         }
 
         .right {
+            color: white;
             .terminos-politicas-cont {
                 display: flex;
                 flex-wrap: wrap;
@@ -2256,8 +2384,8 @@ footer {
                 justify-content: center;
 
                 a {
-                    width: 200px;
-                    margin: 0;
+                    width: auto;
+                    margin: 0 10px;
                     text-align: center;
                 }
             }
@@ -2311,7 +2439,7 @@ footer {
 
                     a {
                         width: auto;
-                        margin: 0 0 0 25px;
+                        margin: 0 15px;
                         text-align: center;
                     }
                 }
