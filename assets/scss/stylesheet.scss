@@ -1155,7 +1155,7 @@ header {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: initial;
     justify-content: center;
     max-width: 1140px;
 
@@ -1300,7 +1300,6 @@ header {
     }
 
     .profesor-cont {
-        align-items: center;
         padding: 40px 30px;
     }
 
@@ -1402,7 +1401,7 @@ header {
     .tutor-cont {
         width: 100%;
         margin: 36px 0 0;
-        max-width: 350px;
+        max-width: 500px;
         background-color: #EDEFF2;
 
         .tutor-img {
@@ -1410,14 +1409,23 @@ header {
             position: relative;
 
             img {
-                width: 350px;
+                width: 175px;
+                margin: 20px auto;
+                display: block;
             }
 
             .tutor-data {
                 width: 100%;
-                position: absolute;
-                bottom: 10px;
+                margin: 0 auto;
                 text-align: center;
+                max-width: 320px;
+                div{
+                    &:nth-child(1) {
+                    }
+                    &:nth-child(2) {
+                        margin: 5px 0 0;
+                    }
+                }
             }
         }
 
@@ -1432,7 +1440,21 @@ header {
     .tutores-expertos-container {
         padding: 90px 17px;
     }
-
+    
+    .tutor-data {
+        width: 100%;
+        text-align: center;
+        div{
+            &:nth-child(1) {
+                font-size: 24px;
+                line-height: 28px;
+            }
+            &:nth-child(2) {
+                font-size: 16px;
+                line-height: 18px;
+            }
+        }
+    }
     .tutor-cont {
         margin: 36px 0 0 !important;
 
@@ -1448,7 +1470,6 @@ header {
 }
 
 //
-
 //SECCIÓN CON CERTIFICADO
 .con-certificado-container {
     width: 100%;

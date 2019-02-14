@@ -1035,7 +1035,7 @@ header {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: initial;
   justify-content: center;
   max-width: 1140px;
 }
@@ -1169,7 +1169,6 @@ header {
   }
 
   .profesor-cont {
-    align-items: center;
     padding: 40px 30px;
   }
 
@@ -1255,7 +1254,7 @@ header {
 .tutores-expertos-container .tutor-cont {
   width: 100%;
   margin: 36px 0 0;
-  max-width: 350px;
+  max-width: 500px;
   background-color: #EDEFF2;
 }
 .tutores-expertos-container .tutor-cont .tutor-img {
@@ -1263,13 +1262,18 @@ header {
   position: relative;
 }
 .tutores-expertos-container .tutor-cont .tutor-img img {
-  width: 350px;
+  width: 175px;
+  margin: 20px auto;
+  display: block;
 }
 .tutores-expertos-container .tutor-cont .tutor-img .tutor-data {
   width: 100%;
-  position: absolute;
-  bottom: 10px;
+  margin: 0 auto;
   text-align: center;
+  max-width: 320px;
+}
+.tutores-expertos-container .tutor-cont .tutor-img .tutor-data div:nth-child(2) {
+  margin: 5px 0 0;
 }
 .tutores-expertos-container .tutor-cont .tutor-desc {
   text-align: center;
@@ -1279,6 +1283,19 @@ header {
 @media only screen and (min-width: 1024px) {
   .tutores-expertos-container {
     padding: 90px 17px;
+  }
+
+  .tutor-data {
+    width: 100%;
+    text-align: center;
+  }
+  .tutor-data div:nth-child(1) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .tutor-data div:nth-child(2) {
+    font-size: 16px;
+    line-height: 18px;
   }
 
   .tutor-cont {
