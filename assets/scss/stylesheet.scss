@@ -433,13 +433,12 @@ header {
 .hero-container {
     width: 100%;
     position: relative;
-    border-bottom: 1px solid transparent;
 
     .hero-data {
         width: 100%;
         position: relative;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 75%), url('../img/jpg/hero-image-mobile.jpg') no-repeat;
-        background-size: cover;
+        background-size: cover!important;
         background-position: center;
         height: 330px;
 
@@ -595,7 +594,8 @@ header {
 
 @media only screen and (min-width: 600px) {
     .hero-data {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 75%), url('../img/jpg/hero-image-desktop.jpg') no-repeat;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 75%), url('../img/jpg/hero-image-desktop.jpg')!important;
+        background-position-x: 45%!important;
     }
 }
 
@@ -604,7 +604,6 @@ header {
     .hero-container {
         width: 100%;
         position: relative;
-        border-bottom: 1px solid #026CB5;
 
         .hero-data {
             height: 470px;
@@ -809,76 +808,22 @@ header {
 }
 
 //
-//SECCIÓM DATOS ANÁLISIS ACCIÓN
-.datos-analisis-container {
+//SECCIÓN INFO OF UNIVERSITY
+.university-info-container{
     width: 100%;
-    padding: 35px 15px;
-    background-image: url('../img/jpg/background-fijo.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    .datos-analisis-title {
-        text-align: center;
-        line-height: 39px;
+    padding: 35px 16px;
+    background-color: #EDEFF2;
+    @media only screen and (min-width: 1024px){
+        padding: 90px 0;
     }
-
-    .datos-analisis-desc {
-        line-height: 22px;
-        text-align: center;
+    .info{
         width: 100%;
-        margin: 20px auto 0;
-        max-width: 736px;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .datos-analisis-container {
-        padding: 90px 15px;
-
-        .datos-analisis-title {
-            font-size: 44px;
-            line-height: 54px;
-        }
-
-        .datos-analisis-desc {
-            font-size: 20px;
-            line-height: 25px;
-        }
-    }
-}
-
-//
-//SECCIÓN INFORMACIÓN
-.informacion-container {
-    width: 100%;
-    padding: 35px 15px;
-    background-color: #ffffff;
-
-    .informacion-desc {
-        line-height: 22px;
         text-align: center;
-        width: 100%;
-        margin: 0 auto 20px;
-        max-width: 736px;
-
-        &:nth-child(2) {
-            margin: 20px auto 0;
-        }
+        margin: 0 auto;
+        line-height: 22px;
+        max-width: 740px;
     }
 }
-
-@media only screen and (min-width: 1024px) {
-    .informacion-container {
-        padding: 90px 15px;
-
-        .informacion-desc {
-            line-height: 25px;
-        }
-    }
-}
-
 //
 //SECCIÓN DATOS IMPORTANTES
 .datos-importantes-container {
@@ -889,6 +834,12 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    .datos-importantes-title{
+        width: 100%;
+        text-align: center;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
 
     .datos-cont {
         display: block;
@@ -896,7 +847,7 @@ header {
         margin: 0 auto;
         padding: 27px 0;
         max-width: 1135px;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.2);
 
         .dato {
             width: 300px;
@@ -925,6 +876,9 @@ header {
 @media only screen and (min-width: 1024px) {
     .datos-importantes-container {
         padding: 90px 15px;
+        .datos-importantes-title{
+            font-size: 32px;
+        }
 
         .datos-cont {
             padding: 38px 0;
@@ -939,17 +893,18 @@ header {
                     margin: 0;
 
                     &:nth-child(1) {
-                        line-height: 44px;
+                        font-size: 58px;
+                        line-height: 66px;
                     }
 
                     &:nth-child(2) {
                         margin-top: 10px;
-                        line-height: 25px;
+                        line-height: 23px;
                     }
 
                     &:nth-child(3) {
                         margin-top: 10px;
-                        line-height: 22px;
+                        line-height: 23px;
                     }
                 }
             }
@@ -957,6 +912,59 @@ header {
     }
 }
 
+//
+//SECCIÓN INFORMACIÓN
+.learning-container {
+    width: 100%;
+    padding: 35px 15px;
+    background-color: #EEEDEA;
+    .learning-title{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        line-height: 36px;
+    }
+    .learning-cont{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: initial;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1140px;
+        .learning{
+            width: 100%;
+            margin: 0 auto;
+            max-width: 260px;
+            .learning-img{
+                img{
+                    display: block;
+                    width: 100px;
+                    margin: 0 auto;
+                    height: 80px;
+                }
+            }
+            .title{
+                margin: 15px auto 10px;
+                line-height: 28px;
+                text-align: center;
+            }
+            .subtitle{
+                text-align: center;
+                line-height: 21px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .learning-container {
+        padding: 90px 0;
+        .learning-title{
+            font-size: 32px;
+        }
+    }
+}
 //
 //SECCIÓN EL CERTIFICADO...
 .el-certificado-container {
@@ -1056,484 +1064,6 @@ header {
 //
 
 //SECCIÓN PROFESOR
-.profesor-container {
-    width: 100%;
-    padding: 0 17px;
-    background-color: #ffffff;
-
-    .profesor-title {
-        width: 100%;
-        margin: 0 auto;
-        padding: 35px 0;
-        max-width: 1135px;
-        text-align: center;
-        line-height: 38px;
-        background-color: #ffffff;
-    }
-}
-
-.profesor-container hr {
-    width: 100%;
-    margin: 35px auto 0;
-    max-width: 1135px;
-    display: none;
-}
-
-.profesor-cont {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 18px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #EEEDEA;
-    max-width: 1140px;
-
-    .profesor-desc {
-        width: 100%;
-        margin: 0 auto;
-        padding: 15px 0;
-        max-width: 485px;
-
-        .profesor-desc-cont {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-
-            .profesor-img {
-                width: auto;
-
-                img {
-                    width: 96px;
-                    height: 96px;
-                }
-            }
-
-            .profesor-data {
-                width: 180px;
-                margin: 0 0 0 10px;
-                max-width: 260px;
-
-                div {
-                    text-align: left;
-
-                    &:nth-child(1) {
-                        line-height: 31px;
-                    }
-
-                    &:nth-child(2) {
-                        line-height: 21px;
-                    }
-
-                    &:nth-child(3) {
-                        line-height: 21px;
-                    }
-                }
-            }
-        }
-
-        .profesor-description {
-            text-align: left;
-            line-height: 22px;
-            margin: 10px 0 0;
-        }
-
-        .profesor-media {}
-    }
-}
-
-.profesor-data .linea {
-    width: 90%;
-    height: 1px;
-    background-color:  #6B6B6B;
-    margin: 0 !important;
-}
-.profesor-auxiliar {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: initial;
-    justify-content: center;
-    max-width: 1140px;
-
-    .profesor-auxiliar-desc {
-        width: 100%;
-        margin: 20px 0;
-        padding: 15px;
-        max-width: 350px;
-        background-color: #EEEDEA;
-        @media only screen and (min-width:390px){
-            margin: 20px;
-        }
-
-        .profesor-auxiliar-desc-cont {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-
-            .profesor-auxiliar-img {
-                background-color: #6B6B6B;
-                width: 96px;
-                height: 96px;
-
-                img {
-                    width: 96px;
-                    height: 96px;
-                }
-            }
-
-            .profesor-auxiliar-data {
-                width: 100%;
-                margin: 0 0 0 10px;
-                max-width: 180px;
-
-                div {
-                    width: auto;
-                    text-align: left;
-
-                    &:nth-child(1) {
-                        line-height: 31px;
-                    }
-
-                    &:nth-child(2) {
-                        line-height: 21px;
-                    }
-
-                    &:nth-child(3) {
-                        line-height: 21px;
-                    }
-                }
-            }
-        }
-
-        .profesor-auxiliar-description {
-            text-align: left;
-            line-height: 22px;
-            margin: 10px 0 0;
-        }
-    }
-    .profesor-auxiliar-data .linea {
-        width: 90%;
-        height: 1px;
-        background-color:  #6B6B6B;
-        margin: 0;
-    }
-}
-@media only screen and (min-width: 1175px){
-    .profesor-auxiliar-desc {
-        margin: 20px 25px!important;
-        padding: 35px 25px!important;
-        max-width: 350px;
-        background-color: #EEEDEA;
-        &:nth-child(3n+0) {
-            margin: 20px 0 20px 20px!important;
-        }
-        &:nth-child(3n+1) {
-            margin: 20px 20px 20px 0!important;
-        }
-    }
-
-    .profesor-auxiliar{
-        justify-content: initial;
-    }
-    .profesor-auxiliar-img {
-        width: 175px!important;
-        height: 175px!important;
-        margin: 0 auto;
-
-        img {
-            width: 175px!important;
-            height: 175px!important;
-            margin: 0 auto;
-        }
-    }
-
-    .profesor-auxiliar-data {
-        margin: 10px auto 5px!important;
-        max-width: 300px!important;
-
-        div {
-            width: 100%!important;
-            text-align: center!important;
-
-            &:nth-child(1) {
-                font-size: 24px;
-                line-height: 28px;
-            }
-
-            &:nth-child(3) {
-                margin-top: 5px;
-                font-size: 16px;
-            }
-        }
-    }
-
-    .profesor-auxiliar-description {
-    line-height: 22px;
-    }
-    
-    .profesor-auxiliar-data .linea {
-        width: 70%!important;
-        margin: 5px auto!important;
-    }
-}
-
-@media only screen and (min-width: 396px) {
-    .profesor-data {
-        width: 100%;
-        margin: 0 0 0 20px !important;
-        max-width: 230px;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .profesor-container {
-        padding: 90px 17px 0;
-    }
-    .profesor-title {
-        text-align: center !important;
-        padding: 0 0 20px !important;
-        background-color: #ffffff !important;
-    }
-
-    .profesor-cont {
-        padding: 40px 30px;
-    }
-
-    .profesor-desc {
-        width: 100%;
-        margin: 0 30px 0 0 !important;
-        padding: 0 !important;
-
-        .profesor-desc-cont {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: initial !important;
-
-            .profesor-img {
-                width: auto;
-
-                img {
-                    width: 175px !important;
-                    height: 175px !important;
-                }
-            }
-
-            .profesor-data {
-                width: auto!important;
-                div {
-                    text-align: left !important;
-
-                    &:nth-child(1) {
-                        line-height: 31px;
-                    }
-
-                    &:nth-child(2) {
-                        margin-top: 5px;
-                        line-height: 21px;
-                    }
-
-                    &:nth-child(3) {
-                        margin-top: 5px;
-                        line-height: 21px;
-                    }
-                }
-            }
-        }
-        .profesor-data .linea {
-            margin: 5px 0!important;
-        }
-        .profesor-description {
-            text-align: left !important;
-            line-height: 22px;
-            margin: 20px 0 0;
-        }
-    }
-
-
-    .profesor-container hr {
-        display: block;
-        margin: 90px auto 0;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .profesor-title {
-        text-align: left !important;
-    }
-}
-
-//
-
-//SECCIÓN TUTORES EXPERTOS
-.tutores-expertos-container {
-    width: 100%;
-    padding: 40px 17px;
-    background-color: #ffffff;
-
-    .tutores-expertos-title {
-        text-align: center;
-        line-height: 41px;
-    }
-
-    .tutores-expertos-subtitle {
-        text-align: center;
-        line-height: 24px;
-        margin: 20px auto 0;
-        width: 100%;
-        max-width: 550px;
-    }
-
-    .tutor-container {
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: initial;
-        justify-content: center;
-        max-width: 1170px;
-    }
-
-    .tutor-cont {
-        width: 100%;
-        margin: 36px 0 0;
-        max-width: 500px;
-        background-color: #EDEFF2;
-
-        .tutor-img {
-            width: 100%;
-            position: relative;
-
-            img {
-                width: 175px;
-                margin: 20px auto;
-                display: block;
-            }
-
-            .tutor-data {
-                width: 100%;
-                margin: 0 auto;
-                text-align: center;
-                max-width: 320px;
-                div{
-                    &:nth-child(1) {
-                    }
-                    &:nth-child(2) {
-                        margin: 5px 0 0;
-                    }
-                }
-            }
-        }
-
-        .tutor-desc {
-            text-align: center;
-            padding: 25px 14px;
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .tutores-expertos-container {
-        padding: 90px 17px;
-    }
-    
-    .tutor-data {
-        width: 100%;
-        text-align: center;
-        div{
-            &:nth-child(1) {
-                font-size: 24px;
-                line-height: 28px;
-            }
-            &:nth-child(2) {
-                font-size: 16px;
-                line-height: 18px;
-            }
-        }
-    }
-    .tutor-cont {
-        margin: 36px 0 0 !important;
-
-        &:nth-child(2) {
-            margin: 36px 44px 0 !important;
-        }
-
-        .tutor-desc {
-            text-align: center;
-            padding: 25px 20px !important;
-        }
-    }
-}
-
-//
-//SECCIÓN CON CERTIFICADO
-.con-certificado-container {
-    width: 100%;
-    padding: 40px 17px;
-    background-color: #ffffff;
-
-    .con-certificado-title {
-        line-height: 38px;
-        text-align: center;
-    }
-
-    .con-certificado-cont {
-        width: 100%;
-        margin: 20px auto 0;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: center;
-        max-width: 666px;
-
-        .con-certificado-beneficios {
-            width: 100%;
-            height: 100%;
-            margin: 0 auto 20px;
-            max-width: 275px;
-
-            .con-certificado-beneficios-img {
-                width: auto;
-
-                img {
-                    width: 80px;
-                    height: 81px;
-                    margin: 0 auto;
-                }
-            }
-
-            .con-certificado-beneficios-description {
-                line-height: 24px;
-                margin-top: 20px;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .con-certificado-container {
-        width: 100%;
-        padding: 0 17px 90px;
-    }
-
-    .con-certificado-cont {
-        max-width: 1135px !important;
-        margin: 40px auto 0 !important;
-    }
-
-    .con-certificado-beneficios {
-        margin: 0 auto !important;
-
-        .con-certificado-beneficios-description {
-            line-height: 24px;
-            margin-top: 30px;
-        }
-    }
-}
 
 //
 //SECCIÓN PLAN DE ESTUDIOS
@@ -1545,12 +1075,18 @@ header {
     width: 100%;
     line-height: 40px;
 }
-
+.plan-de-estudios-subtitle {
+    width: 100%;
+    margin: 5px auto 0;
+    max-width: 720px;
+    text-align: center;
+    width: 100%;
+    line-height: 24px;
+}
 .plan-de-estudios-container {
     width: 100%;
     padding: 35px 0;
     margin: 0 auto;
-    max-width: 1135px;
     background-image: url('../img/jpg/background-fijo.jpg');
     background-attachment: fixed;
 }
@@ -1775,7 +1311,6 @@ header {
 
 @media only screen and (min-width: 1024px) {
     .plan-de-estudios-title {
-        text-align: left;
         font-size: 32px;
         line-height: 48px;
     }
@@ -1790,271 +1325,6 @@ header {
 
     .collapsible-header-img {
         right: 25px;
-    }
-}
-
-//
-//SECCIÓN BENEFICIOS
-.beneficios-container {
-    width: 100%;
-    padding: 35px 9px;
-    background-color: #fff;
-
-    .beneficios-title {
-        width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
-        line-height: 38px;
-    }
-
-    .beneficios-cont {
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 1170px;
-
-        .beneficio {
-            margin: 9px;
-            padding: 40px 18px;
-            background-color: #E9E9E9;
-            width: 330px;
-
-            .beneficio-img {
-                width: 75px;
-                height: 75px;
-                margin: 0 auto;
-
-                img {
-                    width: 75px;
-                    height: 75px;
-                }
-            }
-
-            .beneficio-title {
-                width: 100%;
-                margin: 24px 0;
-                text-align: center;
-                line-height: 27px;
-            }
-
-            .beneficio-desc {
-                width: 100%;
-                text-align: center;
-                line-height: 20px;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .beneficios-container {
-        padding: 90px 9px;
-    }
-
-    .beneficio {
-        margin: 0;
-        padding: 40px 15px;
-        width: 270px !important;
-
-        .beneficio-img {
-            width: 75px;
-            height: 75px;
-            margin: 0 auto;
-
-            img {
-                width: 75px;
-                height: 75px;
-            }
-        }
-
-        .beneficio-title {
-            width: 100%;
-            margin: 24px 0;
-            text-align: center;
-            line-height: 27px;
-        }
-
-        .beneficio-desc {
-            width: 100%;
-            text-align: center;
-            line-height: 20px;
-        }
-    }
-}
-
-//
-// SECCIÓN TU VIAJE DE APRENDIZAJE
-.tu-viaje-container {
-    width: 100%;
-    padding: 35px 18px;
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #C5CBC0;
-    border-top: 1px solid #C5CBC0;
-    margin: 0 auto;
-    max-width: 1135px;
-
-    .tu-viaje-title {
-        width: 100%;
-        text-align: center;
-        line-height: 38px;
-        padding: 0 0 30px;
-        margin: 0 auto;
-        background-color: #ffffff;
-        max-width: 1135px;
-    }
-
-    .tu-viaje-cont {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-
-        .tu-viaje-icon {
-            width: 240px;
-            margin: 20px 30px;
-
-            .tu-viaje-img {
-                width: 95px;
-                height: 95px;
-                margin: 0 auto;
-
-                img {
-                    width: 95px;
-                    height: 95px;
-                    margin: 0 auto;
-                }
-            }
-
-            .tu-viaje-numero,
-            .tu-viaje-name {
-                text-align: center;
-                margin: 20px auto;
-                width: 100%;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .tu-viaje-container {
-        padding: 90px 18px;
-
-        .tu-viaje-title {
-            line-height: 38px;
-        }
-
-        .tu-viaje-cont {
-            max-width: 1135px;
-
-            .tu-viaje-icon {
-                margin: 0px 15px;
-                .tu-viaje-numero {
-                    line-height: 39px;
-                    margin: 20px auto 0;
-                }
-
-                .tu-viaje-name {
-                    line-height: 24px;
-                    margin: 20px auto;
-                }
-            }
-        }
-    }
-}
-
-//
-//SECCIÓN CÓMO FUNCIONA
-.como-funciona-container {
-    width: 100%;
-    padding: 35px 10px;
-    background-image: url('../img/jpg/background-fijo.jpg');
-    background-attachment: fixed;
-
-    .como-funciona-title {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto 20px;
-        max-width: 1135px;
-    }
-
-    .como-funciona-cont {
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: initial;
-        max-width: 1135px;
-
-        .como-funciona-paso {
-            width: 313px;
-            margin: 10px;
-            padding: 70px 20px 40px;
-            position: relative;
-            &:nth-child(1){
-                background-color: rgba(68, 163, 218, 0.7);
-            }
-            &:nth-child(2){
-                background-color: rgba(2, 110, 182, 0.7);
-            }
-            &:nth-child(3){
-                background-color: rgba(82, 42, 132, 0.7);
-            }
-            &:nth-child(4){
-                background-color: rgba(150, 34, 125, 0.7);
-            }
-
-            .paso-numero {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 58px;
-                height: 58px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                line-height: 16px;
-                background-color: #191919;
-            }
-
-            .paso-title,
-            .paso-desc {
-                line-height: 24px;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .como-funciona-container {
-        padding: 90px 10px;
-
-        .como-funciona-title {
-            text-align: center;
-            margin: 0 auto 40px;
-            max-width: 1090px;
-            font-size: 32px;
-        }
-
-        .como-funciona-cont {
-            .como-funciona-paso {
-                width: 257px;
-                margin: 10px;
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .como-funciona-title {
-        text-align: left!important;
-        margin: 0 auto 40px;
-        max-width: 1090px;
-        font-size: 32px;
     }
 }
 
@@ -2222,148 +1492,6 @@ header {
         }
     }
 }
-//
-//SECCIÓN SLIDER
-.slick-next::before {
-    content: url("../img/svg/icono-forward.svg") !important;
-}
-
-.slick-prev::before {
-    content: url("../img/svg/icon-back.svg") !important;
-}
-
-.slick-prev {
-    left: 10px !important;
-    width: 40px !important;
-}
-
-.slick-next {
-    right: 10px !important;
-    width: 40px !important;
-}
-
-.slick-prev,
-.slick-next {
-    position: absolute;
-    display: block;
-    height: 40px !important;
-    width: 40px !important;
-    line-height: 0px;
-    font-size: 0px;
-    cursor: pointer;
-    background: transparent;
-    color: transparent;
-    top: 40% !important;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    padding: 0;
-    border: none;
-    outline: none;
-    z-index: 1;
-}
-
-.slider-container {
-    width: 100%;
-    padding: 0;
-    background-color: #E9E9E9;
-
-    .silder-container-title {
-        width: 100%;
-        text-align: center;
-        line-height: 38px;
-        padding: 35px 0 0;
-        margin: 0 auto;
-        background-color: #ffffff;
-        max-width: 1135px;
-    }
-}
-
-.slide-testimonio {
-    width: 100%;
-    padding: 35px 0;
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    max-width: 1135px;
-
-    // .add-border {
-    //     border-right: 1px solid #666666;
-
-    //     @media only screen and (max-width: 680px) {
-    //         border-right: 1px solid transparent;
-    //     }
-    // }
-
-    .testimonio {
-        padding: 0 28px;
-        position: relative;
-
-        .testimonio-img {
-            img {
-                width: 112px;
-                margin: 0 auto;
-                border-radius: 50%;
-            }
-        }
-        .testimonio-img-comillas{
-            position: absolute;
-            top: 80px;
-            left: 40px;
-            img{
-                width: 36px;
-            }
-        }
-
-        .testimonio-desc {
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        .testimonio-name {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .testimonio-work {
-            text-align: center;
-            margin-top: 2px;
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .slider-container {
-        padding: 90px 18px;
-
-        .silder-container-title {
-            padding: 40px 0 10px;
-        }
-    }
-
-    .testimonio {
-        padding: 20px 28px;
-    }
-
-    // .add-border {
-    //     border-right: 1px solid #666666;
-    // }
-}
-
-@media only screen and (min-width: 1280px) {
-    .slick-prev {
-        left: -50px !important;
-    }
-
-    .slick-next {
-        right: -50px !important;
-    }
-
-    .slick-prev,
-    .slick-next {
-        z-index: 1;
-    }
-}
-
 //
 //FOOTER
 footer {
