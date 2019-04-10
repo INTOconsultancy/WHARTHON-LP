@@ -258,7 +258,7 @@ img {
     color: #004785;
 }
 
-.vino56{
+.vino56 {
     color: #AC3456;
 }
 
@@ -429,7 +429,7 @@ header {
 }
 
 //
-//SECCIÓN HERO
+//SECTION HERO
 .hero-container {
     width: 100%;
     position: relative;
@@ -438,7 +438,7 @@ header {
         width: 100%;
         position: relative;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 75%), url('../img/jpg/hero-image-mobile.jpg') no-repeat;
-        background-size: cover!important;
+        background-size: cover !important;
         background-position: center;
         height: 330px;
 
@@ -594,8 +594,8 @@ header {
 
 @media only screen and (min-width: 600px) {
     .hero-data {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 75%), url('../img/jpg/hero-image-desktop.jpg')!important;
-        background-position-x: 45%!important;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 75%), url('../img/jpg/hero-image-desktop.jpg') !important;
+        background-position-x: 45% !important;
     }
 }
 
@@ -808,15 +808,17 @@ header {
 }
 
 //
-//SECCIÓN INFO OF UNIVERSITY
-.university-info-container{
+//SECTION INFO OF UNIVERSITY
+.university-info-container {
     width: 100%;
     padding: 35px 16px;
     background-color: #EDEFF2;
-    @media only screen and (min-width: 1024px){
+
+    @media only screen and (min-width: 1024px) {
         padding: 90px 0;
     }
-    .info{
+
+    .info {
         width: 100%;
         text-align: center;
         margin: 0 auto;
@@ -824,8 +826,9 @@ header {
         max-width: 740px;
     }
 }
+
 //
-//SECCIÓN DATOS IMPORTANTES
+//SECTION DATOS IMPORTANTES
 .datos-importantes-container {
     width: 100%;
     padding: 35px 15px;
@@ -834,7 +837,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    .datos-importantes-title{
+
+    .datos-importantes-title {
         width: 100%;
         text-align: center;
         line-height: 36px;
@@ -876,7 +880,8 @@ header {
 @media only screen and (min-width: 1024px) {
     .datos-importantes-container {
         padding: 90px 15px;
-        .datos-importantes-title{
+
+        .datos-importantes-title {
             font-size: 32px;
         }
 
@@ -913,18 +918,20 @@ header {
 }
 
 //
-//SECCIÓN INFORMACIÓN
+//SECTION INFORMACIÓN
 .learning-container {
     width: 100%;
     padding: 35px 15px;
     background-color: #EEEDEA;
-    .learning-title{
+
+    .learning-title {
         width: 100%;
         text-align: center;
         margin-bottom: 30px;
         line-height: 36px;
     }
-    .learning-cont{
+
+    .learning-cont {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -932,26 +939,41 @@ header {
         justify-content: center;
         margin: 0 auto;
         max-width: 1140px;
-        .learning{
+
+        .learning {
             width: 100%;
-            margin: 0 auto;
-            max-width: 260px;
-            .learning-img{
-                img{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 10px auto;
+            max-width: 380px;
+
+            .learning-img {
+                img {
                     display: block;
-                    width: 100px;
+                    width: 50px;
                     margin: 0 auto;
-                    height: 80px;
+                    height: 50px;
                 }
             }
-            .title{
-                margin: 15px auto 10px;
-                line-height: 28px;
-                text-align: center;
+
+            .learning-description {
+                margin: 0 0 0 10px;
             }
-            .subtitle{
-                text-align: center;
+
+            .title {
+                width: 100%;
+                margin: 0 auto 5px;
+                line-height: 28px;
+                text-align: left;
+                max-width: 260px;
+            }
+
+            .subtitle {
+                width: 100%;
+                text-align: left;
                 line-height: 21px;
+                max-width: 260px;
             }
         }
     }
@@ -960,13 +982,50 @@ header {
 @media only screen and (min-width: 1024px) {
     .learning-container {
         padding: 90px 0;
-        .learning-title{
+
+        .learning-title {
             font-size: 32px;
+        }
+
+        .learning-cont {
+
+            .learning {
+                width: 100%;
+                display: block;
+                margin: 0 auto;
+                max-width: 260px;
+
+                .learning-img {
+                    img {
+                        display: block;
+                        width: 100px;
+                        margin: 0 auto;
+                        height: 80px;
+                    }
+                }
+
+                .learning-description {
+                    margin: 0 auto;
+                }
+
+                .title {
+                    margin: 15px auto 10px;
+                    line-height: 28px;
+                    text-align: center;
+                    font-size: 24px;
+                }
+
+                .subtitle {
+                    text-align: center;
+                    line-height: 21px;
+                }
+            }
         }
     }
 }
+
 //
-//SECCIÓN EL CERTIFICADO...
+//SECTION EL CERTIFICADO...
 .el-certificado-container {
     width: 100%;
     padding: 40px 17px;
@@ -1062,11 +1121,7 @@ header {
 }
 
 //
-
-//SECCIÓN PROFESOR
-
-//
-//SECCIÓN PLAN DE ESTUDIOS
+//SECTION PLAN DE ESTUDIOS
 .plan-de-estudios-title {
     width: 100%;
     margin: 0 auto;
@@ -1075,6 +1130,7 @@ header {
     width: 100%;
     line-height: 40px;
 }
+
 .plan-de-estudios-subtitle {
     width: 100%;
     margin: 5px auto 0;
@@ -1083,6 +1139,7 @@ header {
     width: 100%;
     line-height: 24px;
 }
+
 .plan-de-estudios-container {
     width: 100%;
     padding: 35px 0;
@@ -1093,7 +1150,7 @@ header {
 
 .modulos-container {
     width: 100%;
-    padding: 35px 14px 0;
+    padding: 15px 14px 0;
     margin: 0 auto;
     max-width: 745px;
 
@@ -1126,6 +1183,20 @@ header {
             text-transform: uppercase;
         }
     }
+
+    .metodo-header {
+        position: relative;
+        padding: 2rem 0 2rem 10px;
+
+        .module-title {
+            width: 70%;
+            margin-left: 15px;
+        }
+
+        .No {
+            text-transform: uppercase;
+        }
+    }
 }
 
 .collapsible-header {
@@ -1135,6 +1206,25 @@ header {
     line-height: 1.5;
     background-color: #e4eff9;
     border-bottom: 2px solid #C5CBC0;
+}
+
+.metodo-header {
+    width: 100%;
+    line-height: 1.5;
+    background-color: #e4eff9;
+    border-bottom: 2px solid #C5CBC0;
+
+    .list-description {
+        width: 100%;
+        margin-top: 20px;
+        list-style-type: disc !important;
+
+        li {
+            list-style-type: disc !important;
+            margin: 5px 0 5px 30px;
+            line-height: 22px;
+        }
+    }
 }
 
 .collapsible-body {
@@ -1166,6 +1256,11 @@ header {
     &.active {
         border-bottom: none;
     }
+}
+
+.metodo-header {
+    position: relative;
+    padding: 18px;
 }
 
 //
@@ -1329,7 +1424,264 @@ header {
 }
 
 //
-//SECCIÓN CERTIFICADO
+//SECTION EXAMPLES OF INDUSTRY
+.industry-container {
+    width: 100%;
+    padding: 35px 16px;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1180px;
+    border-bottom: 1px solid #d3d3d3;
+
+    .industry-title {
+        text-align: center;
+        line-height: 34px;
+        margin-bottom: 30px;
+    }
+
+    .industry-cont {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: initial;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1170px;
+
+        .examples-industry {
+            width: 100%;
+            margin: 10px;
+            max-width: 370px;
+            background-color: #004785;
+
+            .industry-img {
+                width: 100%;
+                height: 225px;
+                background-image: url("../img/jpg/productos-empacados.jpg");
+            }
+
+            &:nth-child(2) {
+                .industry-img {
+                    background-image: url("../img/jpg/servicios-financieros.jpg");
+                }
+            }
+
+            &:nth-child(3) {
+                .industry-img {
+                    background-image: url("../img/jpg/medios-entretenimiento.jpg");
+                }
+            }
+
+            &:nth-child(4) {
+                .industry-img {
+                    background-image: url("../img/jpg/ventas.jpg");
+                }
+            }
+
+            &:nth-child(5) {
+                .industry-img {
+                    background-image: url("../img/jpg/ropa.jpg");
+                }
+            }
+
+            &:nth-child(6) {
+                .industry-img {
+                    background-image: url("../img/jpg/tecnologia.jpg");
+                }
+            }
+        }
+
+        .industry-description {
+            width: 100%;
+            padding: 15px;
+
+            .title,
+            .subtitle {
+                margin: 5px auto;
+                text-align: center;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .industry-container {
+        padding: 90px 0;
+
+        .industry-title {
+            font-size: 32px;
+        }
+
+        .industry-cont {
+            .examples-industry {
+                .industry-description {
+                    .title {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//
+//SECTION PROFESSOR
+.professor-container {
+    width: 100%;
+    padding: 35px 16px;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1180px;
+    border-bottom: 1px solid #d3d3d3;
+
+    .professor-title {
+        width: 100%;
+        text-align: center;
+        line-height: 32px;
+        max-width: 1180px;
+    }
+
+    .professor-subtitle {
+        width: 100%;
+        text-align: center;
+        line-height: 24px;
+        margin: 30px auto;
+        max-width: 1180px;
+    }
+
+    .professor {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+        padding: 15px;
+        margin: 20px auto;
+        max-width: 1170px;
+        background-color: #EEEDEA;
+
+        .professor-img {
+            display: block;
+            width: 140px;
+            height: 140px;
+            margin: 0 auto;
+
+            img {
+                display: block;
+                width: 140px;
+                height: 140px;
+                margin: 0 auto;
+            }
+        }
+
+        .professor-description {
+            width: 100%;
+            margin: 15px 0 0;
+
+            .name {
+                width: 100%;
+                text-align: center;
+                line-height: 22px;
+                border-bottom: 1px solid #c0bfbe;
+            }
+
+            .position-work {
+                text-align: center;
+                font-style: italic;
+                margin-top: 5px;
+                line-height: 20px;
+            }
+
+            .information {
+                text-align: center;
+                margin-top: 5px;
+                line-height: 20px;
+            }
+        }
+
+        .button-link {
+            width: auto;
+            margin: 10px auto;
+
+            a {
+                display: block;
+                cursor: pointer;
+                line-height: 20px
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .professor-container {
+        width: 100%;
+        padding: 90px 16px;
+
+        .professor-title {
+            text-align: left;
+        }
+
+        .professor-subtitle {
+            text-align: left;
+        }
+
+        .professor {
+            padding: 35px;
+
+            .professor-img {
+                width: 120px;
+                height: 120px;
+                margin: 0;
+
+                img {
+                    width: 120px;
+                    height: 120px;
+                    margin: 0;
+                }
+            }
+
+            .professor-description {
+                width: auto;
+                margin: 0 0 0 15px;
+
+                .name {
+                    width: 230px;
+                    text-align: left;
+                    font-size: 24px;
+                    line-height: 22px;
+                    border-bottom: 2px solid #c0bfbe;
+                }
+
+                .position-work {
+                    text-align: left;
+                }
+
+                .information {
+                    text-align: left;
+                    margin-top: 5px;
+                }
+            }
+
+            .button-link {
+                position: absolute;
+                bottom: 0;
+                right: 15px;
+                width: auto;
+                margin: 10px auto;
+
+                a {
+                    display: block;
+                    cursor: pointer;
+                    line-height: 20px
+                }
+            }
+        }
+    }
+}
+
+//
+//SECTION CERTIFICADO
 .blocker {
     position: fixed;
     top: 0;
@@ -1374,7 +1726,8 @@ header {
     width: 100%;
     padding: 35px 18px;
     background-color: #012B58;
-    @media only screen and (min-width: 1024px){
+
+    @media only screen and (min-width: 1024px) {
         background-color: #ffffff;
     }
 
@@ -1388,7 +1741,8 @@ header {
         margin: 0 auto;
         max-width: 1135px;
         background-color: #012B58;
-        @media only screen and (min-width: 1024px){
+
+        @media only screen and (min-width: 1024px) {
             padding: 60px 95px;
         }
 
@@ -1492,6 +1846,7 @@ header {
         }
     }
 }
+
 //
 //FOOTER
 footer {
@@ -1526,6 +1881,7 @@ footer {
 
         .right {
             color: white;
+
             .terminos-politicas-cont {
                 display: flex;
                 flex-wrap: wrap;

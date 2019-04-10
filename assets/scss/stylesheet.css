@@ -860,23 +860,33 @@ header {
 }
 .learning-container .learning-cont .learning {
   width: 100%;
-  margin: 0 auto;
-  max-width: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+  max-width: 380px;
 }
 .learning-container .learning-cont .learning .learning-img img {
   display: block;
-  width: 100px;
+  width: 50px;
   margin: 0 auto;
-  height: 80px;
+  height: 50px;
+}
+.learning-container .learning-cont .learning .learning-description {
+  margin: 0 0 0 10px;
 }
 .learning-container .learning-cont .learning .title {
-  margin: 15px auto 10px;
+  width: 100%;
+  margin: 0 auto 5px;
   line-height: 28px;
-  text-align: center;
+  text-align: left;
+  max-width: 260px;
 }
 .learning-container .learning-cont .learning .subtitle {
-  text-align: center;
+  width: 100%;
+  text-align: left;
   line-height: 21px;
+  max-width: 260px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -885,6 +895,31 @@ header {
   }
   .learning-container .learning-title {
     font-size: 32px;
+  }
+  .learning-container .learning-cont .learning {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 260px;
+  }
+  .learning-container .learning-cont .learning .learning-img img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    height: 80px;
+  }
+  .learning-container .learning-cont .learning .learning-description {
+    margin: 0 auto;
+  }
+  .learning-container .learning-cont .learning .title {
+    margin: 15px auto 10px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .learning-container .learning-cont .learning .subtitle {
+    text-align: center;
+    line-height: 21px;
   }
 }
 .el-certificado-container {
@@ -995,7 +1030,7 @@ header {
 
 .modulos-container {
   width: 100%;
-  padding: 35px 14px 0;
+  padding: 15px 14px 0;
   margin: 0 auto;
   max-width: 745px;
 }
@@ -1017,6 +1052,17 @@ header {
 .modulo-cont .collapsible-header .No {
   text-transform: uppercase;
 }
+.modulo-cont .metodo-header {
+  position: relative;
+  padding: 2rem 0 2rem 10px;
+}
+.modulo-cont .metodo-header .module-title {
+  width: 70%;
+  margin-left: 15px;
+}
+.modulo-cont .metodo-header .No {
+  text-transform: uppercase;
+}
 
 .collapsible-header {
   width: 100%;
@@ -1025,6 +1071,23 @@ header {
   line-height: 1.5;
   background-color: #e4eff9;
   border-bottom: 2px solid #C5CBC0;
+}
+
+.metodo-header {
+  width: 100%;
+  line-height: 1.5;
+  background-color: #e4eff9;
+  border-bottom: 2px solid #C5CBC0;
+}
+.metodo-header .list-description {
+  width: 100%;
+  margin-top: 20px;
+  list-style-type: disc !important;
+}
+.metodo-header .list-description li {
+  list-style-type: disc !important;
+  margin: 5px 0 5px 30px;
+  line-height: 22px;
 }
 
 .collapsible-body {
@@ -1055,6 +1118,11 @@ header {
 }
 .collapsible-header.active {
   border-bottom: none;
+}
+
+.metodo-header {
+  position: relative;
+  padding: 18px;
 }
 
 .collapsible .collection {
@@ -1212,6 +1280,206 @@ header {
 
   .collapsible-header-img {
     right: 25px;
+  }
+}
+.industry-container {
+  width: 100%;
+  padding: 35px 16px;
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1180px;
+  border-bottom: 1px solid #d3d3d3;
+}
+.industry-container .industry-title {
+  text-align: center;
+  line-height: 34px;
+  margin-bottom: 30px;
+}
+.industry-container .industry-cont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: initial;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.industry-container .industry-cont .examples-industry {
+  width: 100%;
+  margin: 10px;
+  max-width: 370px;
+  background-color: #004785;
+}
+.industry-container .industry-cont .examples-industry .industry-img {
+  width: 100%;
+  height: 225px;
+  background-image: url("../img/jpg/productos-empacados.jpg");
+}
+.industry-container .industry-cont .examples-industry:nth-child(2) .industry-img {
+  background-image: url("../img/jpg/servicios-financieros.jpg");
+}
+.industry-container .industry-cont .examples-industry:nth-child(3) .industry-img {
+  background-image: url("../img/jpg/medios-entretenimiento.jpg");
+}
+.industry-container .industry-cont .examples-industry:nth-child(4) .industry-img {
+  background-image: url("../img/jpg/ventas.jpg");
+}
+.industry-container .industry-cont .examples-industry:nth-child(5) .industry-img {
+  background-image: url("../img/jpg/ropa.jpg");
+}
+.industry-container .industry-cont .examples-industry:nth-child(6) .industry-img {
+  background-image: url("../img/jpg/tecnologia.jpg");
+}
+.industry-container .industry-cont .industry-description {
+  width: 100%;
+  padding: 15px;
+}
+.industry-container .industry-cont .industry-description .title,
+.industry-container .industry-cont .industry-description .subtitle {
+  margin: 5px auto;
+  text-align: center;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .industry-container {
+    padding: 90px 0;
+  }
+  .industry-container .industry-title {
+    font-size: 32px;
+  }
+  .industry-container .industry-cont .examples-industry .industry-description .title {
+    font-size: 24px;
+  }
+}
+.professor-container {
+  width: 100%;
+  padding: 35px 16px;
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1180px;
+  border-bottom: 1px solid #d3d3d3;
+}
+.professor-container .professor-title {
+  width: 100%;
+  text-align: center;
+  line-height: 32px;
+  max-width: 1180px;
+}
+.professor-container .professor-subtitle {
+  width: 100%;
+  text-align: center;
+  line-height: 24px;
+  margin: 30px auto;
+  max-width: 1180px;
+}
+.professor-container .professor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 1170px;
+  background-color: #EEEDEA;
+}
+.professor-container .professor .professor-img {
+  display: block;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+}
+.professor-container .professor .professor-img img {
+  display: block;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+}
+.professor-container .professor .professor-description {
+  width: 100%;
+  margin: 15px 0 0;
+}
+.professor-container .professor .professor-description .name {
+  width: 100%;
+  text-align: center;
+  line-height: 22px;
+  border-bottom: 1px solid #c0bfbe;
+}
+.professor-container .professor .professor-description .position-work {
+  text-align: center;
+  font-style: italic;
+  margin-top: 5px;
+  line-height: 20px;
+}
+.professor-container .professor .professor-description .information {
+  text-align: center;
+  margin-top: 5px;
+  line-height: 20px;
+}
+.professor-container .professor .button-link {
+  width: auto;
+  margin: 10px auto;
+}
+.professor-container .professor .button-link a {
+  display: block;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .professor-container {
+    width: 100%;
+    padding: 90px 16px;
+  }
+  .professor-container .professor-title {
+    text-align: left;
+  }
+  .professor-container .professor-subtitle {
+    text-align: left;
+  }
+  .professor-container .professor {
+    padding: 35px;
+  }
+  .professor-container .professor .professor-img {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+  }
+  .professor-container .professor .professor-img img {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+  }
+  .professor-container .professor .professor-description {
+    width: auto;
+    margin: 0 0 0 15px;
+  }
+  .professor-container .professor .professor-description .name {
+    width: 230px;
+    text-align: left;
+    font-size: 24px;
+    line-height: 22px;
+    border-bottom: 2px solid #c0bfbe;
+  }
+  .professor-container .professor .professor-description .position-work {
+    text-align: left;
+  }
+  .professor-container .professor .professor-description .information {
+    text-align: left;
+    margin-top: 5px;
+  }
+  .professor-container .professor .button-link {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    width: auto;
+    margin: 10px auto;
+  }
+  .professor-container .professor .button-link a {
+    display: block;
+    cursor: pointer;
+    line-height: 20px;
   }
 }
 .blocker {
