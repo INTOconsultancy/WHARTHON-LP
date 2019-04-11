@@ -89,6 +89,12 @@
             <div class="whitMe fs16 negro19">
                 COSTO: $ 1,950 USD
             </div>
+            <div class="notas">
+                <a class="whitBo fs16 vino56" href="#ex2" rel="modal:open">
+                    <img src="assets/img/svg/info-circle-solid.svg" alt="información">
+                    Pagos flexibles disponibles
+                </a>
+            </div>
         </div>
 
         <div class="formulario-container">
@@ -161,6 +167,59 @@
             </div>
         </div>
 
+    </div>
+
+
+    <!-- Modal pagos flexibles -->
+    <div id="ex2" class="modal modal-pagos-flexibles">
+                <div class="modal-pagos-title fs24 whitBo negro19">
+                    Plan de pagos flexibles
+                </div>
+                <div class="modal-pagos-descripcion fs18 whitBo negro19">
+                    Esta opción permite al alumno pagar la cuota del curso en parcialidades. 
+                    Está disponible en la solicitud de inscripción y deberá seleccionarse 
+                    antes de realizar el pago.
+                </div>
+                <div class="modal-pagos-subtitle fs16 whitMe negro19">
+                    Las siguientes opciones de pago están disponibles para el Curso de Business Analytics:
+                </div>
+                <div class="pagos">
+                    <div class="pagos-title fs16 whitBo negro19">
+                        Pago total
+                    </div>
+                    <div class="precio-pago fs14 whitMe negro23">
+                        <div class="dot-pagos"></div>La cuota completa del curso $1,950 USD.
+                    </div>
+                </div>
+                <div class="pagos">
+                    <div class="pagos-title fs16 whitBo negro19">
+                        Pago en dos parcialidades
+                    </div>
+                    <div class="precio-pago fs14 whitMe negro23">
+                        <div class="dot-pagos"></div>La primera parcialidad de $,1055 USD
+                        se paga al inicio.
+                    </div>
+                    <div class="precio-pago">
+                        <div class="dot-pagos"></div>La segunda parcialidad de $934 USD.
+                        a pagar del 20 de mayo del 2019.
+                    </div>
+                </div>
+                <div class="pagos no-border">
+                    <div class="pagos-title fs16 whitBo negro19">
+                        Pago en 3 parcialidades
+                    </div>
+                    <div class="precio-pago fs14 whitMe negro23">
+                        <div class="dot-pagos"></div>La primera parcialidad de $778 USD.
+                        se paga al inicio.
+                    </div>
+                    <div class="precio-pago">
+                        <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
+                        a pagar del 20 de mayo del 2019.
+                    </div>
+                    <div class="precio-pago">
+                        <div class="dot-pagos"></div>La tercera parcialidad se paga a más tardar el 04 de julio $635 USD.
+                    </div>
+                </div>
     </div>
 
 
@@ -449,7 +508,7 @@
             Ejemplos de la industria
         </div>
         <div class="industry-cont">
-            <div class="examples-industry">
+            <div class="examples-industry" data-aos="zoom-in" data-aos-delay="100">
                 <div class="industry-img"></div>
                 <div class="industry-description">
                     <div class="title whitSBo fs20 blanco">
@@ -461,7 +520,7 @@
                     </div>
                 </div>
             </div>
-            <div class="examples-industry">
+            <div class="examples-industry" data-aos="zoom-in" data-aos-delay="200">
                 <div class="industry-img"></div>
                 <div class="industry-description">
                     <div class="title whitSBo fs20 blanco">
@@ -473,7 +532,7 @@
                     </div>
                 </div>
             </div>
-            <div class="examples-industry">
+            <div class="examples-industry" data-aos="zoom-in" data-aos-delay="300">
                 <div class="industry-img"></div>
                 <div class="industry-description">
                     <div class="title whitSBo fs20 blanco">
@@ -485,7 +544,7 @@
                     </div>
                 </div>
             </div>
-            <div class="examples-industry">
+            <div class="examples-industry" data-aos="zoom-in" data-aos-delay="100">
                 <div class="industry-img"></div>
                 <div class="industry-description">
                     <div class="title whitSBo fs20 blanco">
@@ -497,7 +556,7 @@
                     </div>
                 </div>
             </div>
-            <div class="examples-industry">
+            <div class="examples-industry" data-aos="zoom-in" data-aos-delay="200">
                 <div class="industry-img"></div>
                 <div class="industry-description">
                     <div class="title whitSBo fs20 blanco">
@@ -509,7 +568,7 @@
                     </div>
                 </div>
             </div>
-            <div class="examples-industry">
+            <div class="examples-industry" data-aos="zoom-in" data-aos-delay="300">
                 <div class="industry-img"></div>
                 <div class="industry-description">
                     <div class="title whitSBo fs20 blanco">
@@ -532,14 +591,14 @@
         <div class="professor-subtitle whitSBo fs24 negro4B">
             Director académico
         </div>
-        <div class="professor">
+        <div class="professor" data-aos="fade-right" data-aos-delay="100">
             <div class="professor-img">
-                <img src="assets/img/jpg/test.png" alt="Christopher-D.-Ittner">
+                <img src="assets/img/jpg/profesor-christopher-D.jpg" alt="Christopher-D.-Ittner">
             </div>
             <div class="professor-description">
-                <div class="name whitSBo fs18 negro4B">
+                <span class="name whitSBo fs18 negro4B">
                     Christopher D. Ittner
-                </div>
+                </span>
                 <div class="position-work whitLi fs16 negro4B">
                     Profesor EY de Contabilidad; Presidente del 
                     Departamento de Contabilidad, The Wharton 
@@ -559,14 +618,77 @@
         <div class="professor-subtitle whitSBo fs24 negro4B">
             Profesores adicionales
         </div>
-        <div class="professor">
+        <div class="professor" data-aos="fade-right" data-aos-delay="100">
             <div class="professor-img">
-                <img src="assets/img/jpg/test.png" alt="Christopher-D.-Ittner">
+                <img src="assets/img/jpg/profesor-Ron-Berman.jpg" alt="Ron-Berman,-PhD">
             </div>
             <div class="professor-description">
-                <div class="name whitSBo fs18 negro4B">
-                    Christopher D. Ittner
+                <span class="name whitSBo fs18 negro4B">
+                    Ron Berman, PhD
+                </span>
+                <div class="position-work whitLi fs16 negro4B">
+                    Profesor asistente de Marketing, The Wharton School
                 </div>
+                <div class="information whitLi fs14 negro4B">
+                    Temas de investigación: marketing online, emprendedurismo, analítica de marketing, mercadotecnia para motores de búsqueda, teoría de juegos, organización industrial
+                </div>
+            </div>
+            <div class="button-link">
+                <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
+                    Más información
+                </a>
+            </div>
+        </div>
+        <div class="professor" data-aos="fade-right" data-aos-delay="100">
+            <div class="professor-img">
+                <img src="assets/img/jpg/profesor-Matthew-Bidwell.jpg" alt="Matthew-Bidwell,-PhD">
+            </div>
+            <div class="professor-description">
+                <span class="name whitSBo fs18 negro4B">
+                    Matthew Bidwell, PhD
+                </span>
+                <div class="position-work whitLi fs16 negro4B">
+                    Profesor adjunto de Administración, The Wharton School
+                </div>
+                <div class="information whitLi fs14 negro4B">
+                    Temas de investigación: administración de recursos humanos, trabajadores del conocimiento, movilidad laboral
+                </div>
+            </div>
+            <div class="button-link">
+                <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
+                    Más información
+                </a>
+            </div>
+        </div>
+        <div class="professor" data-aos="fade-right" data-aos-delay="100">
+            <div class="professor-img">
+                <img src="assets/img/jpg/profesor-Eric-Bradlow.jpg" alt="Eric-Bradlow,-PhD">
+            </div>
+            <div class="professor-description">
+                <span class="name whitSBo fs18 negro4B">
+                    Eric Bradlow, PhD
+                </span>
+                <div class="position-work whitLi fs16 negro4B">
+                    Profesor K.P. Chao; profesor de Marketing; director de la facultad, Wharton Customer Analytics Initiative; presidente del departamento de Marketing de Wharton; profesor de Economía; profesor en Educación; profesor en Estadística
+                </div>
+                <div class="information whitLi fs14 negro4B">
+                    Temas de investigación: métodos de investigación en marketing, problemas de datos perdidos, psicométricas
+                </div>
+            </div>
+            <div class="button-link">
+                <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
+                    Más información
+                </a>
+            </div>
+        </div>
+        <div class="professor" data-aos="fade-right" data-aos-delay="100">
+            <div class="professor-img">
+                <img src="assets/img/jpg/profesor-Peter-Fader.jpg" alt="Peter-Fader,-PhD">
+            </div>
+            <div class="professor-description">
+                <span class="name whitSBo fs18 negro4B">
+                    Peter Fader, PhD
+                </span>
                 <div class="position-work whitLi fs16 negro4B">
                     Profesor EY de Contabilidad; Presidente del 
                     Departamento de Contabilidad, The Wharton 
@@ -583,22 +705,19 @@
                 </a>
             </div>
         </div>
-        <div class="professor">
+        <div class="professor" data-aos="fade-right" data-aos-delay="100">
             <div class="professor-img">
-                <img src="assets/img/jpg/test.png" alt="Christopher-D.-Ittner">
+                <img src="assets/img/jpg/profesor Noah Gans.jpg" alt="Noah-Gans">
             </div>
             <div class="professor-description">
-                <div class="name whitSBo fs18 negro4B">
-                    Christopher D. Ittner
-                </div>
+                <span class="name whitSBo fs18 negro4B">
+                    Noah Gans
+                </span>
                 <div class="position-work whitLi fs16 negro4B">
-                    Profesor EY de Contabilidad; Presidente del 
-                    Departamento de Contabilidad, The Wharton 
-                    School
+                    Profesor Anheuser-Busch de Ciencias de la Gestión; profesor de Operaciones, Información y Decisiones y presidente del departamento, The Wharton School
                 </div>
                 <div class="information whitLi fs14 negro4B">
-                    Temas de investigación: contabilidad analítica, 
-                    bienes intangibles, medición de desempeño
+                    Temas de investigación: operaciones de servicio, procesos estocásticos, control de sistemas de líneas de espera
                 </div>
             </div>
             <div class="button-link">
@@ -607,22 +726,19 @@
                 </a>
             </div>
         </div>
-        <div class="professor">
+        <div class="professor" data-aos="fade-right" data-aos-delay="100">
             <div class="professor-img">
-                <img src="assets/img/jpg/test.png" alt="Christopher-D.-Ittner">
+                <img src="assets/img/jpg/profesor-Raghuram-Iyengar.jpg" alt="Raghuram-Iyengar,-PhD">
             </div>
             <div class="professor-description">
-                <div class="name whitSBo fs18 negro4B">
-                    Christopher D. Ittner
-                </div>
+                <span class="name whitSBo fs18 negro4B">
+                    Raghuram Iyengar, PhD
+                </span>
                 <div class="position-work whitLi fs16 negro4B">
-                    Profesor EY de Contabilidad; Presidente del 
-                    Departamento de Contabilidad, The Wharton 
-                    School
+                    Profesor Miers-Busch, W‘1885; profesor de Marketing y Codirector de la facultad, Wharton Customer Analytics Initiative (WCAI), The Wharton School
                 </div>
                 <div class="information whitLi fs14 negro4B">
-                    Temas de investigación: contabilidad analítica, 
-                    bienes intangibles, medición de desempeño
+                    Temas de investigación: fijación de precios, influencia en redes sociales, redes sociales
                 </div>
             </div>
             <div class="button-link">
@@ -631,22 +747,19 @@
                 </a>
             </div>
         </div>
-        <div class="professor">
+        <div class="professor" data-aos="fade-right" data-aos-delay="100">
             <div class="professor-img">
-                <img src="assets/img/jpg/test.png" alt="Christopher-D.-Ittner">
+                <img src="assets/img/jpg/profesor-Sergei-Savin.jpg" alt="Sergei-Savin,-PhD">
             </div>
             <div class="professor-description">
-                <div class="name whitSBo fs18 negro4B">
-                    Christopher D. Ittner
-                </div>
+                <span class="name whitSBo fs18 negro4B">
+                    Sergei Savin, PhD
+                </span>
                 <div class="position-work whitLi fs16 negro4B">
-                    Profesor EY de Contabilidad; Presidente del 
-                    Departamento de Contabilidad, The Wharton 
-                    School
+                    Profesor adjunto de Operaciones, Información y Decisiones, The Wharton School
                 </div>
                 <div class="information whitLi fs14 negro4B">
-                    Temas de investigación: contabilidad analítica, 
-                    bienes intangibles, medición de desempeño
+                    Temas de investigación: gestión de capacidad y pacientes en operaciones del sector salud, modelos de difusión para nuevos productos y servicios, administración de ingresos
                 </div>
             </div>
             <div class="button-link">
@@ -655,94 +768,19 @@
                 </a>
             </div>
         </div>
-        <div class="professor">
+        <div class="professor" data-aos="fade-right" data-aos-delay="100">
             <div class="professor-img">
-                <img src="assets/img/jpg/test.png" alt="Christopher-D.-Ittner">
+                <img src="assets/img/jpg/profesor-Senthil-Veeraraghavan.jpg" alt="Senthil-Veeraraghavan">
             </div>
             <div class="professor-description">
-                <div class="name whitSBo fs18 negro4B">
-                    Christopher D. Ittner
-                </div>
+                <span class="name whitSBo fs18 negro4B">
+                    Senthil Veeraraghavan
+                </span>
                 <div class="position-work whitLi fs16 negro4B">
-                    Profesor EY de Contabilidad; Presidente del 
-                    Departamento de Contabilidad, The Wharton 
-                    School
+                    Profesor de Operaciones, Información y Decisiones, The Wharton School
                 </div>
                 <div class="information whitLi fs14 negro4B">
-                    Temas de investigación: contabilidad analítica, 
-                    bienes intangibles, medición de desempeño
-                </div>
-            </div>
-            <div class="button-link">
-                <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                    Más información
-                </a>
-            </div>
-        </div>
-        <div class="professor">
-            <div class="professor-img">
-                <img src="assets/img/jpg/test.png" alt="Christopher-D.-Ittner">
-            </div>
-            <div class="professor-description">
-                <div class="name whitSBo fs18 negro4B">
-                    Christopher D. Ittner
-                </div>
-                <div class="position-work whitLi fs16 negro4B">
-                    Profesor EY de Contabilidad; Presidente del 
-                    Departamento de Contabilidad, The Wharton 
-                    School
-                </div>
-                <div class="information whitLi fs14 negro4B">
-                    Temas de investigación: contabilidad analítica, 
-                    bienes intangibles, medición de desempeño
-                </div>
-            </div>
-            <div class="button-link">
-                <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                    Más información
-                </a>
-            </div>
-        </div>
-        <div class="professor">
-            <div class="professor-img">
-                <img src="assets/img/jpg/test.png" alt="Christopher-D.-Ittner">
-            </div>
-            <div class="professor-description">
-                <div class="name whitSBo fs18 negro4B">
-                    Christopher D. Ittner
-                </div>
-                <div class="position-work whitLi fs16 negro4B">
-                    Profesor EY de Contabilidad; Presidente del 
-                    Departamento de Contabilidad, The Wharton 
-                    School
-                </div>
-                <div class="information whitLi fs14 negro4B">
-                    Temas de investigación: contabilidad analítica, 
-                    bienes intangibles, medición de desempeño
-                </div>
-            </div>
-            <div class="button-link">
-                <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                    Más información
-                </a>
-            </div>
-        </div>
-        <div class="professor">
-            <div class="professor-img">
-                <img src="assets/img/jpg/test.png" alt="Christopher-D.-Ittner">
-            </div>
-            <div class="professor-description">
-                <div class="name whitSBo fs18 negro4B">
-                    Christopher D. Ittner
-                </div>
-                <div class="position-work whitLi fs16 negro4B">
-                    Profesor EY de Contabilidad; Presidente del 
-                    Departamento de Contabilidad, The Wharton 
-                    School
-                </div>
-                <div class="information whitLi fs14 negro4B">
-                    Temas de investigación: contabilidad analítica, 
-                    bienes intangibles, medición de desempeño
+                    Temas de investigación: operaciones empíricas de administración, operaciones analíticas, operaciones administrativas, operaciones estratégicas, fijación de precios y administración e ingresos, administración operativa de servicios, administración de cadena de suministros
                 </div>
             </div>
             <div class="button-link">
@@ -764,7 +802,7 @@
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
-            <div id="ex1" class="modal">
+            <div id="ex1" class="modal modal-certificado">
                 <img src="assets/img/jpg/diploma-Wharton-Business-Analytics.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">

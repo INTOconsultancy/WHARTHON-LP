@@ -505,6 +505,90 @@ header {
     }
 }
 
+.notas {
+    width: 100%!important;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0!important;
+    line-height: 22px;
+    @media only screen and (min-width: 1024px){
+        justify-content: initial;
+    }
+    a {
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        text-decoration: underline;
+        img {
+            width: 23px;
+            margin-right: 5px;
+        }
+    }
+}
+
+.modal-pagos-flexibles {
+    width: 100%!important;
+    margin: 0 auto!important;
+    max-width: 745px !important;
+    padding: 17px !important;
+    border-radius: 0px!important;
+    .close-modal {
+        // top: 10px!important;
+        // right: 10px!important;
+        // background-image: url('../img/svg/times-solid.svg')!important;
+    
+    }
+    .modal-pagos-title {
+        line-height: 28px;
+    }
+    .modal-pagos-descripcion {
+        margin: 10px 0;
+        line-height: 22px;
+    }
+    .modal-pagos-subtitle {
+        line-height: 26px;
+    }
+    .no-border {
+        border-bottom: none !important;
+    }
+    .pagos {
+        width: 100%;
+        padding: 10px;
+        max-width: 550px;
+        .pagos-title {
+            line-height: 41px;
+        }
+        .precio-pago {
+            display: -webkit-box;
+            line-height: 22px;
+            .dot-pagos {
+                width: 3px;
+                height: 3px;
+                margin-top: 7px;
+                margin-right: 5px;
+                border-radius: 1px;
+                background-color: #171717;
+            }
+        }
+    }
+}
+.modal{
+    .close-modal {
+        position: absolute;
+        top: -12.5px;
+        right: -12.5px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%!important;
+        background-color: white!important;
+        text-indent: -9999px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url('../img/svg/times-circle-solid.svg')!important;
+    }
+} 
 .form {
     width: 100%;
     max-width: 395px;
@@ -592,6 +676,30 @@ header {
     }
 }
 
+
+@media only screen and (min-width: 1024px) {
+    .modal-pagos-flexibles {
+        padding: 40px !important;
+        .modal-pagos-title {
+            line-height: 41px;
+        }
+        .modal-pagos-descripcion {
+            margin: 15px 0;
+            line-height: 22px;
+        }
+        .modal-pagos-subtitle {
+            line-height: 26px;
+        }
+        .pagos {
+            .pagos-title {
+                line-height: 41px;
+            }
+            .precio-pago {
+                line-height: 22px;
+            }
+        }
+    }
+}
 @media only screen and (min-width: 600px) {
     .hero-data {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 75%), url('../img/jpg/hero-image-desktop.jpg') !important;
@@ -1552,9 +1660,7 @@ header {
 
     .professor {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        display: block;
         position: relative;
         padding: 15px;
         margin: 20px auto;
@@ -1577,10 +1683,11 @@ header {
 
         .professor-description {
             width: 100%;
-            margin: 15px 0 0;
+            margin: 15px auto 0;
+            max-width: 740px;
 
             .name {
-                width: 100%;
+                display: block;
                 text-align: center;
                 line-height: 22px;
                 border-bottom: 1px solid #c0bfbe;
@@ -1606,6 +1713,8 @@ header {
 
             a {
                 display: block;
+                text-align: center;
+                margin: 0 auto;
                 cursor: pointer;
                 line-height: 20px
             }
@@ -1627,6 +1736,9 @@ header {
         }
 
         .professor {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
             padding: 35px;
 
             .professor-img {
@@ -1646,7 +1758,7 @@ header {
                 margin: 0 0 0 15px;
 
                 .name {
-                    width: 230px;
+                    display: inline;
                     text-align: left;
                     font-size: 24px;
                     line-height: 22px;
@@ -1708,7 +1820,7 @@ header {
     box-sizing: border-box;
     width: 90%;
     background: #fff;
-    padding: 0 !important;
+    padding: 0 ;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -o-border-radius: 8px;
@@ -1720,6 +1832,10 @@ header {
     -ms-box-shadow: 0 0 10px #000;
     box-shadow: 0 0 10px #000;
     text-align: left;
+}
+
+.modal-certificado {
+    padding: 0 !important;
 }
 
 .certificado-container {
