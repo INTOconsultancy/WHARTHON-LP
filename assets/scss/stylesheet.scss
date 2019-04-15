@@ -282,6 +282,10 @@ img {
     color: #191919;
 }
 
+.vino4E{
+    color: #A8204E;
+}
+
 .negro3D {
     color: #3D3D3D;
 }
@@ -320,6 +324,9 @@ img {
 
 body {
     overflow-x: hidden;
+}
+.hide{
+    display: none!important;
 }
 
 //HEADER
@@ -401,6 +408,9 @@ header {
         text-align: center;
         cursor: pointer;
         background-color: #A90533;
+        &:hover{
+            background-color: #8F193B;
+        }
     }
 }
 
@@ -518,10 +528,17 @@ header {
         width: 100%;
         display: block;
         cursor: pointer;
+        text-align: center;
         text-decoration: underline;
+        @media only screen and (min-width: 1024px){
+            text-align: left;
+        }
         img {
             width: 23px;
             margin-right: 5px;
+        }
+        &:hover{
+            color: #8F193B;
         }
     }
 }
@@ -598,7 +615,7 @@ header {
     margin: 0 auto;
 
     @media only screen and (max-width: 1023px) {
-        max-width: 600px;
+        max-width: 100%;
     }
 
     .form-title {
@@ -608,6 +625,8 @@ header {
 
     .form-cont {
         width: 100%;
+        margin: 0 auto;
+        max-width: 400px;
 
         .mdl-textfield {
             width: 100%;
@@ -640,6 +659,7 @@ header {
                 background-color: #A90533;
 
                 &:hover {
+                    background-color: #8F193B;
                     img {
                         margin-left: 5px;
                     }
@@ -672,6 +692,9 @@ header {
         a {
             color: #A90533;
             cursor: pointer;
+            &:hover{
+                color: #8F193B;
+            }
         }
     }
 }
@@ -903,17 +926,6 @@ header {
     color: inherit;
 }
 
-.getmdl-select .mdl-icon-toggle__label {
-    float: right;
-    margin-top: -38px !important;
-    color: rgba(0, 0, 0, 0.4);
-    transform: rotate(0);
-    transition: transform 0.3s;
-}
-
-.getmdl-select.is-focused .mdl-icon-toggle__label {
-    color: rgba(0, 0, 0, 0.4) !important;
-}
 
 //
 //SECTION INFO OF UNIVERSITY
@@ -930,7 +942,7 @@ header {
         width: 100%;
         text-align: center;
         margin: 0 auto;
-        line-height: 22px;
+        line-height: 23px;
         max-width: 740px;
     }
 }
@@ -1241,6 +1253,7 @@ header {
 
 .plan-de-estudios-subtitle {
     width: 100%;
+    padding: 0 10px;
     margin: 5px auto 0;
     max-width: 720px;
     text-align: center;
@@ -1278,9 +1291,9 @@ header {
         position: relative;
         padding: 2rem 0 2rem 10px;
 
-        &.active {
-            border-bottom: none;
-        }
+        // &.active {
+        //     border-bottom: none;
+        // }
 
         .module-title {
             width: 70%;
@@ -1288,6 +1301,7 @@ header {
         }
 
         .No {
+            line-height: 18px;
             text-transform: uppercase;
         }
     }
@@ -1310,17 +1324,19 @@ header {
 .collapsible-header {
     width: 100%;
     display: flex;
-    cursor: pointer;
-    line-height: 1.5;
+    // cursor: pointer;
+    line-height: 18px;
+    text-transform: uppercase;
     background-color: #e4eff9;
-    border-bottom: 2px solid #C5CBC0;
+    border-bottom: 2px solid #BCBCBC;
 }
 
 .metodo-header {
     width: 100%;
-    line-height: 1.5;
+    line-height: 18px;
+    text-transform: uppercase;
     background-color: #e4eff9;
-    border-bottom: 2px solid #C5CBC0;
+    border-bottom: 2px solid #BCBCBC;
 
     .list-description {
         width: 100%;
@@ -1346,24 +1362,24 @@ header {
     top: 30px;
     width: 21px;
     height: 21px;
-    background-image: url("../img/svg/icono-expandir.svg");
-    background-repeat: no-repeat;
+    // background-image: url("../img/svg/icono-expandir.svg");
+    // background-repeat: no-repeat;
 }
 
-.active .collapsible-header-img {
-    width: 21px;
-    height: 21px;
-    top: 35px;
-    background-image: url("../img/svg/icono-colapsar.svg");
-}
+// .active .collapsible-header-img {
+//     width: 21px;
+//     height: 21px;
+//     top: 35px;
+//     background-image: url("../img/svg/icono-colapsar.svg");
+// }
 
 .collapsible-header {
     position: relative;
     padding: 18px;
 
-    &.active {
-        border-bottom: none;
-    }
+    // &.active {
+    //     border-bottom: none;
+    // }
 }
 
 .metodo-header {
@@ -1611,8 +1627,30 @@ header {
             }
         }
     }
+    .button-industry{
+        width: 100%;
+        margin: 10px auto 0;
+        display: block;
+        max-width: 760px;
+        .button-examples{
+            text-align: right;
+            line-height: 24px;
+            cursor: pointer;
+            display: block;
+        }
+        @media only screen and (min-width: 1024px){
+            display: none;
+        }
+    }
 }
-
+//CLASS TO DISAPEAR EXMAPLES
+.ejemplos-ocultos{
+    display: none;
+    @media only screen and (min-width: 1024px){
+        display: block;
+    }
+}
+//
 @media only screen and (min-width: 1024px) {
     .industry-container {
         padding: 90px 0;
@@ -1654,7 +1692,7 @@ header {
         width: 100%;
         text-align: center;
         line-height: 24px;
-        margin: 30px auto;
+        margin: 15px auto;
         max-width: 1180px;
     }
 
@@ -1664,7 +1702,7 @@ header {
         position: relative;
         padding: 15px;
         margin: 20px auto;
-        max-width: 1170px;
+        max-width: 500px;
         background-color: #EEEDEA;
 
         .professor-img {
@@ -1716,8 +1754,42 @@ header {
                 text-align: center;
                 margin: 0 auto;
                 cursor: pointer;
-                line-height: 20px
+                line-height: 20px;
+                &:hover{
+                    color: #8F193B;
+                }
             }
+        }
+    }
+    .slide-profesores{
+        .slick-prev::before {
+            content: url('../img/svg/chevron-left-solid.svg')!important;
+        }
+        .slick-next::before {
+            content: url('../img/svg/chevron-right-solid.svg')!important;
+        }
+        .slick-prev {
+            left: 25px;
+            top: 40%;
+            z-index: 2;
+        }
+        .slick-next {
+            right: 25px;
+            top: 40%;
+            z-index: 2;
+        }
+        .slick-dots {
+            position: absolute;
+            bottom: 0;
+            list-style: none;
+            display: block;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        .professor-cont{
+            width: 100%;
         }
     }
 }
@@ -1740,6 +1812,7 @@ header {
             flex-wrap: wrap;
             align-items: center;
             padding: 35px;
+            max-width: 1170px;
 
             .professor-img {
                 width: 120px;
@@ -1875,7 +1948,7 @@ header {
         .certificado-datos {
             width: 100%;
             margin: 2 auto;
-            max-width: 570px;
+            max-width: 100%;
 
             .certificado-title {
                 text-align: center;
@@ -1902,6 +1975,7 @@ header {
                     background-color: #D7BC6A;
 
                     &:hover {
+                        background-color: #AE9753;
                         img {
                             margin-left: 20px;
                         }
@@ -1920,7 +1994,7 @@ header {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1140px) {
     .certificado-container {
         padding: 90px 18px;
 
@@ -1958,6 +2032,58 @@ header {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+//
+
+//SECTION COLABORACION
+.colaboracion-container {
+    width: 100%;
+    padding: 35px 18px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-top: 1px solid #d3d3d3;
+    max-width: 1140px;
+    .colaboracion-cont {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1140px;
+        .colaboracion-img {
+            width: 277px;
+            margin: 0 auto;
+            img {
+                width: 277px;
+                margin: 0 auto;
+            }
+        }
+        .colaboracion-desc {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            line-height: 24px;
+            max-width: 750px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .colaboracion-container {
+        padding: 90px 0;
+        .colaboracion-cont {
+            .colaboracion-img {
+                margin: 0;
+            }
+            .colaboracion-desc {
+                font-size: 18px;
+                text-align: left;
+                margin: 0;
             }
         }
     }
