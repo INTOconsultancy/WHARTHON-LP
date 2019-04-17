@@ -46,47 +46,47 @@ img {
 //FONTS
 @font-face {
     font-family: Garamond-SemiBold;
-    src: url('../fonts/GaramondPremrPro-Smbd_0.otf');
+    src: url('../../../assets/fonts/GaramondPremrPro-Smbd_0.otf');
 }
 
 @font-face {
     font-family: Garamond-Bold;
-    src: url('../fonts/GaramondPremrPro-Bd_0.otf');
+    src: url('../../../assets/fonts/GaramondPremrPro-Bd_0.otf');
 }
 
 @font-face {
     font-family: Garamond-Regular;
-    src: url('../fonts/GaramondPremrPro_0.otf');
+    src: url('../../../assets/fonts/GaramondPremrPro_0.otf');
 }
 
 @font-face {
     font-family: Garamond-Medium;
-    src: url('../fonts/GaramondPremrPro-Med_1.otf');
+    src: url('../../../assets/fonts/GaramondPremrPro-Med_1.otf');
 }
 
 @font-face {
     font-family: Whitney-Light;
-    src: url('../fonts/Whitney-Light.otf');
+    src: url('../../../assets/fonts/Whitney-Light.otf');
 }
 
 @font-face {
     font-family: Whitney-Medium;
-    src: url('../fonts/Whitney-Medium.otf');
+    src: url('../../../assets/fonts/Whitney-Medium.otf');
 }
 
 @font-face {
     font-family: Whitney-Semibold;
-    src: url('../fonts/Whitney-Semibold.otf');
+    src: url('../../../assets/fonts/Whitney-Semibold.otf');
 }
 
 @font-face {
     font-family: Whitney-Bold;
-    src: url('../fonts/Whitney\ Bold.ttf');
+    src: url('../../../assets/fonts/Whitney\ Bold.ttf');
 }
 
 @font-face {
     font-family: Whitney-Medium;
-    src: url('../fonts/Whitney\ Medium.ttf');
+    src: url('../../../assets/fonts/Whitney\ Medium.ttf');
 }
 
 //FONTS CLASS
@@ -631,20 +631,6 @@ header {
         .mdl-textfield {
             width: 100%;
             margin: 5px auto;
-
-            select {
-                text-align: left;
-                align-items: flex-end;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                appearance: none;
-                /* remove default arrow */
-                background-image: url('assets/img/svg/flecha-desplegar.svg') !important;
-                background-repeat: no-repeat;
-                background-position-x: 95%;
-                background-position-y: 15px;
-                background-size: 10px;
-            }
         }
 
         .button-container {
@@ -737,7 +723,7 @@ header {
         position: relative;
 
         .hero-data {
-            height: 470px;
+            height: 450px;
 
             .hero-data-cont {
                 position: relative;
@@ -769,7 +755,7 @@ header {
         .price-container {
             width: 100%;
             background-color: #ffffff;
-            padding: 70px 0;
+            padding: 40px 0;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
@@ -793,7 +779,7 @@ header {
 
     .formulario-container {
         position: absolute;
-        top: 25px;
+        top: 30px;
         margin-left: auto;
         margin-right: auto;
         left: 0;
@@ -851,7 +837,7 @@ header {
     width: 300px;
     max-width: 100%;
     margin: 0;
-    padding: 20px 0 0 !important;
+    padding: 0 0 !important;
     background-color: white;
     border-radius: 1px;
 }
@@ -865,6 +851,7 @@ header {
     margin: 0;
     padding: 4px 0;
     width: 100%;
+    height: 36px;
     background: 0 0;
     text-align: left;
     color: inherit;
@@ -892,7 +879,7 @@ header {
     pointer-events: none;
     position: absolute;
     display: block;
-    top: 13px !important;
+    top: 8px !important;
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
@@ -904,7 +891,7 @@ header {
 .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
     color: #68746E !important;
     font-size: 12px;
-    top: 0px !important;
+    top: -3px !important;
     left: 5px !important;
     visibility: visible;
 }
@@ -913,19 +900,18 @@ header {
     border: none;
     border-bottom-color: currentcolor;
     border-bottom-style: none;
-    border-bottom-width: medium;
+    border-bottom-width: Light;
     border-bottom: 1px solid rgba(0, 0, 0, .12);
     display: block;
     font-size: 16px;
     font-family: "Helvetica", "Arial", sans-serif;
     margin: 0;
-    padding: 4px 15px !important;
+    padding: 10px 15px 0 !important;
     width: 100%;
     background: 0 0;
     text-align: left;
     color: inherit;
 }
-
 
 //
 //SECTION INFO OF UNIVERSITY
@@ -1628,7 +1614,7 @@ header {
         }
     }
     .button-industry{
-        width: 100%;
+        width: 95%;
         margin: 10px auto 0;
         display: block;
         max-width: 760px;
@@ -1697,7 +1683,7 @@ header {
     }
 
     .professor {
-        width: 100%;
+        width: 90%;
         display: block;
         position: relative;
         padding: 15px;
@@ -1769,24 +1755,45 @@ header {
             content: url('../img/svg/chevron-right-solid.svg')!important;
         }
         .slick-prev {
-            left: 25px;
+            left: -8px;
             top: 40%;
-            z-index: 2;
+            z-index: 1;
         }
         .slick-next {
-            right: 25px;
+            right: -8px;
             top: 40%;
-            z-index: 2;
+            z-index: 1;
         }
         .slick-dots {
             position: absolute;
-            bottom: 0;
+            bottom: -20px;
             list-style: none;
             display: block;
             text-align: center;
             padding: 0;
             margin: 0;
             width: 100%;
+        }
+        .slick-dots li.slick-active button::before {
+            color: #026CB5;
+            opacity: 0.75;
+            content: url('../img/svg/slider-elipse-seleccionada.svg')!important;
+        }
+        .slick-dots li button::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: url('../img/svg/slider-elipse.svg')!important;
+            width: auto!important;
+            height: auto!important;
+            font-family: "slick";
+            font-size: 12px;
+            line-height: 0px;
+            text-align: center;
+            color: #026CB5;
+            opacity: 0.25;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
         .professor-cont{
             width: 100%;
@@ -1808,6 +1815,7 @@ header {
         }
 
         .professor {
+            width: 100%;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
@@ -1908,6 +1916,7 @@ header {
 }
 
 .modal-certificado {
+    max-width: 600px!important;
     padding: 0 !important;
 }
 
@@ -2090,175 +2099,65 @@ header {
 }
 
 //
-//FOOTER
-footer {
-    width: 100%;
-    padding: 35px 30px;
-    background-color: #3D3D3D;
-
-    .footer-cont {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-
-        .left {
-            display: block;
-
-            .footer-logo {
-                width: 210px;
-                margin: 0 auto;
-
-                img {
-                    width: 210px;
-                }
-            }
-
-            .copyright {
-                width: 200px;
-                text-align: center;
-                margin: 20px auto 10px;
-            }
-        }
-
-        .right {
-            color: white;
-
-            .terminos-politicas-cont {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-
-                a {
-                    width: auto;
-                    margin: 0 10px;
-                    text-align: center;
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    footer {
-        width: 100%;
-        padding: 20px 30px;
-        background-color: #3D3D3D;
-
-        .footer-cont {
-            width: 100%;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-            max-width: 1135px;
-
-            .left {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-
-                .footer-logo {
-                    width: 210px;
-                    margin: 0 auto;
-
-                    img {
-                        width: 210px;
-                    }
-                }
-
-                .copyright {
-                    width: 390px;
-                    text-align: left;
-                    margin: 0 auto 0 20px;
-                }
-            }
-
-            .right {
-                .terminos-politicas-cont {
-                    display: flex;
-                    flex-wrap: wrap;
-                    align-items: center;
-                    justify-content: center;
-
-                    a {
-                        width: auto;
-                        margin: 0 15px;
-                        text-align: center;
-                    }
-                }
-            }
-        }
-    }
-}
 
 //
 //THANK YOU PAGE
 .gracias-container {
-    background-image: linear-gradient(white, #805f58);
+    // background-image: linear-gradient(white, #805f58);
+    background-image: url("../img/jpg/background-fijo.jpg");
     padding: 35px 0;
     height: 100vh;
     display: flex;
     align-items: center;
-
     .dialog-container {
         width: 90%;
         padding: 35px 7px;
         margin: 0 auto;
-        background-color: #FFFFFF;
+        background-color: rgba(255, 255, 255, 0.9);
         max-width: 625px;
-
         .logos-container {
             display: flex;
-            flex-wrap: wrap;
-            align-items: center;
             justify-content: center;
-
             img {
-                width: 87px;
+                width: 280px;
                 margin: 0 15px;
             }
         }
-
         .dialog-cont {
+            width: 100%;
             margin: 20px auto;
+            max-width: 385px;
             text-align: center;
-
             div {
                 width: 100%;
-
                 &:nth-child(1) {
+                    margin-bottom: 15px;
                     line-height: 39px;
                 }
-
                 &:nth-child(2) {
                     line-height: 24px;
                     margin-top: 8px;
                 }
-
                 &:nth-child(3) {
-                    line-height: 21px;
-                    margin-top: 8px;
+                    line-height: 18px;
+                    margin-top: 0px;
                 }
-
                 &:nth-child(4) {
                     width: 210px;
                     margin: 8px auto 0;
-                    line-height: 19px;
+                    line-height: 18px;
+                    a{
+                        text-decoration: underline;
+                    }
                 }
             }
         }
-
         .gracias-linea {
             width: 80%;
             height: 1px;
             background-color: #666666;
             margin: 0 auto;
         }
-
         .gracias-button {
             div {
                 &:nth-child(1) {
@@ -2268,33 +2167,18 @@ footer {
                     margin: 20px auto 10px;
                 }
             }
-
             .btn-gracias {
                 display: block;
                 text-align: center;
-                width: 165px;
+                width: 270px;
                 margin: 0 auto;
                 cursor: pointer;
                 padding: 13px 10px;
+                border-radius: 5px;
                 margin: 0 auto;
-                background-color: #F15D29;
-
-                &:hover {
-                    img {
-                        margin-left: 15px;
-                    }
-                }
-
-                img {
-                    width: 12px;
-                    margin-left: 5px;
-                    -webkit-transition: all 300ms;
-                    -moz-transition: all 300ms;
-                    -o-transition: all 300ms;
-                }
+                background-color: #D7BC6A;
             }
         }
-
         .gracias-redes {
             div {
                 &:nth-child(1) {
@@ -2303,11 +2187,9 @@ footer {
                     margin: 10px auto;
                 }
             }
-
             .icon-redes {
                 width: 195px;
                 margin: 0 auto;
-
                 img {
                     width: 22px;
                     height: 22px;
@@ -2320,61 +2202,56 @@ footer {
 
 @media only screen and (min-width: 1024px) {
     .gracias-container {
-        background-image: linear-gradient(white, #805f58);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         padding: 40px 0;
         height: 100vh;
-
         .dialog-container {
             .logos-container {
+                display: flex;
+                justify-content: center;
                 img {
-                    width: 116px;
-                    margin: 0 23px;
+                    width: 280px;
+                    margin: 0 15px;
                 }
             }
-
             .dialog-cont {
                 margin: 30px auto;
-
                 div {
                     width: 100%;
-
                     &:nth-child(1) {
-                        line-height: 57px;
+                        line-height: 34px;
                         font-size: 44px;
                     }
-
                     &:nth-child(2) {
-                        line-height: 24px;
+                        line-height: 30px;
                         font-size: 18px;
                     }
-
                     &:nth-child(3) {
-                        line-height: 24px;
+                        line-height: 30px;
                         font-size: 18px;
                     }
-
                     &:nth-child(4) {
                         width: 100%;
                         margin: 8px auto 0;
                         line-height: 22px;
-                        font-size: 18px;
+                        font-size: 16px;
                     }
                 }
             }
-
             .gracias-button {
                 div {
                     &:nth-child(1) {
                         line-height: 27px;
+                        font-size: 25px;
                         margin: 30px auto 20px;
                     }
                 }
-
                 .btn-gracias {
-                    width: 165px;
+                    width: 270px;
                 }
             }
-
             .gracias-redes {
                 div {
                     &:nth-child(1) {
@@ -2382,13 +2259,10 @@ footer {
                         margin: 30px auto 10px;
                     }
                 }
-
                 .icon-redes {
                     margin: 0 auto;
-
                     a {
                         cursor: pointer;
-
                         img {
                             width: 22px;
                             height: 22px;

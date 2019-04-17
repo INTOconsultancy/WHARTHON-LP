@@ -6,33 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WHARTHON | Busines Analytics</title>
+
+
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
 
 
-
-    <!-- Javascript Files-->
-    <script type="text/javascript" src="assets/libs/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/libs/mdl/material.min.js"></script>
-    <script src="assets/libs/mdl/getmdl-select.min.js"></script>
-    <script src="assets/js/materialize.js"></script>
-    <script src="assets/js/materialize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <script type="text/javascript" src="assets/libs/slick/slick.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="assets/js/onkeypress.js"></script>
-
-
-    <!-- Styling -->
     <link rel="stylesheet" href="assets/scss/stylesheet.css">
-    <link rel="stylesheet" href="assets/libs/mdl/material.min.css">
-    <link rel="stylesheet" href="assets/libs/mdl/getmdl-select.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-    <link rel="stylesheet" href="assets/libs/slick/slick.css">
-    <link rel="stylesheet" href="assets/libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="../assets/libs/mdl/material.min.css">
+    <link rel="stylesheet" href="../assets/libs/slick/slick.css">
+    <link rel="stylesheet" href="../assets/libs/slick/slick-theme.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
+    <script type="text/javascript" src="../assets/libs/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/onkeypress.js"></script>
+    <script type="text/javascript" src="../assets/js/logs.js"></script>
+    <script type="text/javascript" src="../assets/js/utm_populate.js"></script>
+    <script type="text/javascript" src="../assets/libs/mdl/material.min.js"></script>
+    <script type="text/javascript" src="../assets/js/countries-latam-update.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+    <script type="text/javascript" src="../assets/libs/slick/slick.js"></script>
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 
 
 </head>
@@ -45,7 +43,7 @@
                 <img class="blue" src="assets/img/svg/wharton-execed-blue-LG.svg" alt="Executive Education">
             </div>
             <div class="header-button">
-                <a class="whitSBo fs14 blanco" href="#">
+                <a class="whitSBo fs14 blanco">
                     MÁS INFORMACIÓN
                 </a>
             </div>
@@ -103,51 +101,68 @@
                     <div class="form-title whitSBo fs18 negro23">Para obtener más información, llena el formulario</div>
 
                     <!-- Form Element -->
-                    <form class="form-cont" action="">
+                    <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-04-12/4ybyr1" id="fordesk">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="whitLi mdl-textfield__input" type="text" id="tb_name"
-                                pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
-                            <label class="whitLi mdl-textfield__label" for="tb_name">Nombre(s)</label>
+                            <input class="whitLi fs16 gris91 mdl-textfield__input" type="text" id="first_name"
+                                name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
+                            <label class="whitLi fs16 gris91 mdl-textfield__label" for="first_name">Nombre(s)</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="whitLi mdl-textfield__input" type="text" id="tb_surname"
-                                pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+">
-                            <label class="whitLi mdl-textfield__label" for="tb_surname">Apellido(s)</label>
+                            <input class="whitLi fs16 gris91 mdl-textfield__input" type="text" id="last_name"
+                                name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
+                            <label class="whitLi fs16 gris91 mdl-textfield__label" for="last_name">Apellido(s)</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="whitLi mdl-textfield__input" type="email" id="tb_email"
+                            <input class="whitLi fs16 gris91 mdl-textfield__input" type="email" id="email" name="email"
                                 pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
-                            <label class="whitLi mdl-textfield__label" for="tb_email">Email</label>
-                        </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
-                            <input type="text" value="" class="whitLi mdl-textfield__input" id="tb_pais" readonly>
-                            <input type="hidden" value="" name="tb_pais">
-                            <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
-                            <label for="sample3" class="whitLi mdl-textfield__label">País</label>
-                            <ul for="sample3" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-                                <li class="whitLi mdl-menu__item" data-val="DEU">Germany</li>
-                                <li class="whitLi mdl-menu__item" data-val="BLR">Belarus</li>
-                                <li class="whitLi mdl-menu__item" data-val="RUS">Russia</li>
-                            </ul>
-                        </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
-                            <input type="text" value="" class="whitLi mdl-textfield__input" id="tb_experience" readonly>
-                            <input type="hidden" value="" name="tb_experience">
-                            <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
-                            <label for="sample3" class="whitLi mdl-textfield__label">Experiencia profesional</label>
-                            <ul for="sample3" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-                                <li class="whitLi mdl-menu__item" data-val="DEU">Menos de 5 años</li>
-                                <li class="whitLi mdl-menu__item" data-val="BLR">5-10 años</li>
-                                <li class="whitLi mdl-menu__item" data-val="RUS">10-15 años</li>
-                            </ul>
+                            <label class="whitLi fs16 gris91 mdl-textfield__label" for="email">Email</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="whitLi mdl-textfield__input" type="tel" id="tb_number" maxlength="15"
-                                minlength="5" onkeypress="return valida(event)" pattern="[0-9]+">
-                            <label class="whitLi mdl-textfield__label" for="tb_number">Número de celular</label>
+                            <select id="country" name="Country" class="mdl-textfield__input Country" required>
+                            </select>
+                            <label class="whitLi fs16 gris91 mdl-textfield__label" for="country">País</label>
                         </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <select id="work_experience" name="work_experience"
+                                class="whitLi fs16 gris91 mdl-textfield__input work_experience" required>
+                                <option value=""></option>
+                                <option value="Less than 5 Years">Menos de 5 años</option>
+                                <option value="5-10 Years">5-10 años</option>
+                                <option value="10-15 Years">10-15 años</option>
+                                <option value="15-20 Years">15-20 años</option>
+                                <option value="> 20 Years">&gt; 20 años</option>
+                            </select>
+                            <label class="whitLi fs16 gris91 mdl-textfield__label" for="work_experience">Experiencia
+                                Profesional</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="whitLi fs16 gris91 mdl-textfield__input" type="tel" id="mobile" name="mobile"
+                                maxlength="15" minlength="5" onkeypress="return valida(event)" pattern="[0-9]+">
+                            <label class="whitLi fs16 gris91 mdl-textfield__label" for="mobile">Teléfono Movíl</label>
+                        </div>
+                        <!-- GDPR checkbox -->
+                        <div class="">
+                            <div class="form-group" id="gdpr-consent" style="display:none;">
+                                <label class="checkbox-inline fs14 grapRe negro23">
+                                    <input type="checkbox" value="Yes I Agree" name="agree" id="agree">
+                                    Me gustaría recibir un correo electrónico y otras comunicaciones de EMERITUS y
+                                    Sus socios universitarios sobre este curso y otros cursos relevantes.
+                                </label>
+                            </div>
+                        </div>
+                        <!-- End checkbox -->
                         <div class="button-container">
-                            <button class="whitSBo fs16 blanco" type="submit">
+                            <input type="hidden" name="lead_source" id="lead_source" value="">
+                            <input type="hidden" name="utm_source" id="utm_source" value="">
+                            <input type="hidden" name="utm_medium" id="utm_medium" value="">
+                            <input type="hidden" name="utm_term" id="utm_term" value="">
+                            <input type="hidden" name="utm_content" id="utm_content" value="">
+                            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+                            <input type="hidden" name="browser" id="browser" value="">
+                            <input type="hidden" name="course" id="course" value="WHARTON - Business Analytics">
+                            <input type="hidden" name="retURL"
+                                value="https://intoconsultancy.com/sub/LP/WHARTHON/Business-analytics/Thanks.php">
+                            <button class="whitSBo fs16 blanco" type="submit" id="btn-download-brochure">
                                 DESCARGAR EL FOLLETO
                                 <img src="assets/img/svg/icon-descargar.svg" alt="Download">
                             </button>
@@ -172,54 +187,54 @@
 
     <!-- Modal pagos flexibles -->
     <div id="ex2" class="modal modal-pagos-flexibles">
-                <div class="modal-pagos-title fs24 whitBo negro19">
-                    Plan de pagos flexibles
-                </div>
-                <div class="modal-pagos-descripcion fs18 whitBo negro19">
-                    Esta opción permite al alumno pagar la cuota del curso en parcialidades. 
-                    Está disponible en la solicitud de inscripción y deberá seleccionarse 
-                    antes de realizar el pago.
-                </div>
-                <div class="modal-pagos-subtitle fs16 whitMe negro19">
-                    Las siguientes opciones de pago están disponibles para el Curso de Business Analytics:
-                </div>
-                <div class="pagos">
-                    <div class="pagos-title fs16 whitBo negro19">
-                        Pago total
-                    </div>
-                    <div class="precio-pago fs14 whitMe negro23">
-                        <div class="dot-pagos"></div>La cuota completa del curso $1,950 USD.
-                    </div>
-                </div>
-                <div class="pagos">
-                    <div class="pagos-title fs16 whitBo negro19">
-                        Pago en dos parcialidades
-                    </div>
-                    <div class="precio-pago fs14 whitMe negro23">
-                        <div class="dot-pagos"></div>La primera parcialidad de $,1055 USD
-                        se paga al inicio.
-                    </div>
-                    <div class="precio-pago">
-                        <div class="dot-pagos"></div>La segunda parcialidad de $934 USD.
-                        a pagar del 20 de mayo del 2019.
-                    </div>
-                </div>
-                <div class="pagos no-border">
-                    <div class="pagos-title fs16 whitBo negro19">
-                        Pago en 3 parcialidades
-                    </div>
-                    <div class="precio-pago fs14 whitMe negro23">
-                        <div class="dot-pagos"></div>La primera parcialidad de $778 USD.
-                        se paga al inicio.
-                    </div>
-                    <div class="precio-pago">
-                        <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
-                        a pagar del 20 de mayo del 2019.
-                    </div>
-                    <div class="precio-pago">
-                        <div class="dot-pagos"></div>La tercera parcialidad se paga a más tardar el 04 de julio $635 USD.
-                    </div>
-                </div>
+        <div class="modal-pagos-title fs24 whitBo negro19">
+            Plan de pagos flexibles
+        </div>
+        <div class="modal-pagos-descripcion fs18 whitBo negro19">
+            Esta opción permite al alumno pagar la cuota del curso en parcialidades.
+            Está disponible en la solicitud de inscripción y deberá seleccionarse
+            antes de realizar el pago.
+        </div>
+        <div class="modal-pagos-subtitle fs16 whitMe negro19">
+            Las siguientes opciones de pago están disponibles para el Curso de Business Analytics:
+        </div>
+        <div class="pagos">
+            <div class="pagos-title fs16 whitBo negro19">
+                Pago total
+            </div>
+            <div class="precio-pago fs14 whitMe negro23">
+                <div class="dot-pagos"></div>La cuota completa del curso $1,950 USD.
+            </div>
+        </div>
+        <div class="pagos">
+            <div class="pagos-title fs16 whitBo negro19">
+                Pago en dos parcialidades
+            </div>
+            <div class="precio-pago fs14 whitMe negro23">
+                <div class="dot-pagos"></div>La primera parcialidad de $,1055 USD
+                se paga al inicio.
+            </div>
+            <div class="precio-pago">
+                <div class="dot-pagos"></div>La segunda parcialidad de $934 USD.
+                a pagar del 20 de mayo del 2019.
+            </div>
+        </div>
+        <div class="pagos no-border">
+            <div class="pagos-title fs16 whitBo negro19">
+                Pago en 3 parcialidades
+            </div>
+            <div class="precio-pago fs14 whitMe negro23">
+                <div class="dot-pagos"></div>La primera parcialidad de $778 USD.
+                se paga al inicio.
+            </div>
+            <div class="precio-pago">
+                <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
+                a pagar del 20 de mayo del 2019.
+            </div>
+            <div class="precio-pago">
+                <div class="dot-pagos"></div>La tercera parcialidad se paga a más tardar el 04 de julio $635 USD.
+            </div>
+        </div>
     </div>
 
 
@@ -369,16 +384,17 @@
                         <div class="No whitMe fs14 vino56">Módulo 1</div>
                         <div class="module-title whitLi negro23">Analítica descriptiva: reuniendo insights.
                         </div>
-                        
+
                     </div>
                     <div class="collapsible-body hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header fs16">
                         <div class="No whitMe fs14 vino56">Módulo 2</div>
-                        <div class="module-title whitLi negro23">Analítica descriptiva: describiendo y pronosticando eventos futuros.
+                        <div class="module-title whitLi negro23">Analítica descriptiva: describiendo y pronosticando
+                            eventos futuros.
                         </div>
-                        
+
                     </div>
                     <div class="collapsible-body hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
@@ -387,52 +403,57 @@
                         <div class="No whitMe fs14 vino56">Módulo 3</div>
                         <div class="module-title whitLi negro23">Analítica predictiva: hacer predicciones usando datos.
                         </div>
-                        
+
                     </div>
                     <div class="collapsible-body hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header fs16">
                         <div class="No whitMe fs14 vino56">Módulo 4</div>
-                        <div class="module-title whitLi negro23">Analítica predictiva y prescriptiva: aplicación y kit de herramientas.
+                        <div class="module-title whitLi negro23">Analítica predictiva y prescriptiva: aplicación y kit
+                            de herramientas.
                         </div>
-                        
+
                     </div>
                     <div class="collapsible-body hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header fs16">
                         <div class="No whitMe fs14 vino56">Módulo 5</div>
-                        <div class="module-title whitLi negro23">Analítica predictiva: herramientas para la toma de decisiones.
+                        <div class="module-title whitLi negro23">Analítica predictiva: herramientas para la toma de
+                            decisiones.
                         </div>
-                        
+
                     </div>
                     <div class="collapsible-body hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header fs16">
                         <div class="No whitMe fs14 vino56">Módulo 6</div>
-                        <div class="module-title whitLi negro23">Analítica predictiva: usar datos para predecir el desempeño de los empleados.
+                        <div class="module-title whitLi negro23">Analítica predictiva: usar datos para predecir el
+                            desempeño de los empleados.
                         </div>
-                        
+
                     </div>
                     <div class="collapsible-body hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header fs16">
                         <div class="No whitMe fs14 vino56">Módulo 7</div>
-                        <div class="module-title whitLi negro23">Analítica prescriptiva: aportar recomendaciones para cambiar el comportamiento.
+                        <div class="module-title whitLi negro23">Analítica prescriptiva: aportar recomendaciones para
+                            cambiar el comportamiento.
                         </div>
-                        
+
                     </div>
                     <div class="collapsible-body hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header fs16">
                         <div class="No whitMe fs14 vino56">Módulo 8</div>
-                        <div class="module-title whitLi negro23">Analítica prescriptiva: determinar los resultados más favorables.
+                        <div class="module-title whitLi negro23">Analítica prescriptiva: determinar los resultados más
+                            favorables.
                         </div>
-                        
+
                     </div>
                     <div class="collapsible-body hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
@@ -441,7 +462,7 @@
                         <div class="No whitMe fs14 vino56">Módulo 9</div>
                         <div class="module-title whitLi negro23">Aplicación de analítica de negocios.
                         </div>
-                        
+
                     </div>
                     <div class="collapsible-body hide"><span>Lorem ipsum dolor sit amet.</span></div>
                 </li>
@@ -458,7 +479,8 @@
                         <div class="metodo-header fs16">
                             <div class="module-title whitLi negro4D">MÉTODOS DE RECOLECCIÓN DE DATOS</div>
                             <ul class="list-description">
-                                <li class="whitMe fs16 negro4D">Recolección de datos descriptivos: Encuestas, Net Promoter Score (NPS) y autoinformes</li>
+                                <li class="whitMe fs16 negro4D">Recolección de datos descriptivos: Encuestas, Net
+                                    Promoter Score (NPS) y autoinformes</li>
                                 <li class="whitMe fs16 negro4D">Recolección de datos pasivos</li>
                                 <li class="whitMe fs16 negro4D">Recolección de datos de medios:</li>
                             </ul>
@@ -480,12 +502,15 @@
                     </li>
                     <li class="modulo-cont">
                         <div class="metodo-header fs16">
-                            <div class="module-title whitLi negro4D">ANÁLISIS DE REGRESIÓN HERRAMIENTAS DE SIMULACIÓN</div>
+                            <div class="module-title whitLi negro4D">ANÁLISIS DE REGRESIÓN HERRAMIENTAS DE SIMULACIÓN
+                            </div>
                             <ul class="list-description">
                                 <li class="whitMe fs16 negro4D">Paquete de herramientas de análisis </li>
                                 <li class="whitMe fs16 negro4D">Herramienta de Soluciones</li>
                             </ul>
-                            <div class="module-title whitLi negro4D">OPTIMIZADAS (SOLVER OPTIMIZATION TOOL) VISUALIZACIÓN E INTERPRETACIÓN DE DATOS MODELOS DE OPTIMIZACIÓN ÁRBOLES DE DECISIÓN</div>
+                            <div class="module-title whitLi negro4D">OPTIMIZADAS (SOLVER OPTIMIZATION TOOL)
+                                VISUALIZACIÓN E INTERPRETACIÓN DE DATOS MODELOS DE OPTIMIZACIÓN ÁRBOLES DE DECISIÓN
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -507,7 +532,7 @@
                         Productos empacados
                     </div>
                     <div class="subtitle whitMe fs16 blanco">
-                        ¿Cómo Starbucks identifica a qué clientes debe darles ofertas 
+                        ¿Cómo Starbucks identifica a qué clientes debe darles ofertas
                         con el objetivo de maximizar el retorno de inversión (RoI)?
                     </div>
                 </div>
@@ -519,7 +544,7 @@
                         Servicios financieros
                     </div>
                     <div class="subtitle whitMe fs16 blanco">
-                        ¿Cómo American Express utiliza las redes sociales para predecir 
+                        ¿Cómo American Express utiliza las redes sociales para predecir
                         si vas a cancelar tu tarjeta?
                     </div>
                 </div>
@@ -531,7 +556,7 @@
                         Medios y entretenimiento
                     </div>
                     <div class="subtitle whitMe fs16 blanco">
-                        ¿Cómo Netflix utiliza etiquetado de metadatos para saber qué es lo que 
+                        ¿Cómo Netflix utiliza etiquetado de metadatos para saber qué es lo que
                         ves y crear contenido relevante?
                     </div>
                 </div>
@@ -543,7 +568,7 @@
                         Ventas
                     </div>
                     <div class="subtitle whitMe fs16 blanco">
-                        ¿Por qué había tiendas o bien vendiendo todos los ejemplares de la revista 
+                        ¿Por qué había tiendas o bien vendiendo todos los ejemplares de la revista
                         Time o solo vendiendo una pequeña fracción de su inventario?
                     </div>
                 </div>
@@ -555,7 +580,7 @@
                         Ropa
                     </div>
                     <div class="subtitle whitMe fs16 blanco">
-                        Cómo Kohl ha empleado la analítica para el targeting 
+                        Cómo Kohl ha empleado la analítica para el targeting
                         en smartphones
                     </div>
                 </div>
@@ -597,17 +622,19 @@
                     Christopher D. Ittner
                 </span>
                 <div class="position-work whitLi fs16 negro4B">
-                    Profesor EY de Contabilidad; Presidente del 
-                    Departamento de Contabilidad, The Wharton 
+                    Profesor EY de Contabilidad; Presidente del
+                    Departamento de Contabilidad, The Wharton
                     School
                 </div>
                 <div class="information whitLi fs16 negro4B">
-                    Temas de investigación: contabilidad analítica, 
+                    Temas de investigación: contabilidad analítica,
                     bienes intangibles, medición de desempeño
                 </div>
             </div>
             <div class="button-link">
-                <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
+                <a class="whitBo vino56 fs14"
+                    href="https://executiveeducation.wharton.upenn.edu/faculty/christopher-ittner/" target="_blank"
+                    rel="noopener noreferrer">
                     Más información
                 </a>
             </div>
@@ -616,193 +643,220 @@
             Profesores adicionales
         </div>
         <div id="width-detect">
-        <div class="profesor-cont">
-            <div class="professor">
-                <div class="professor-img">
-                    <img src="assets/img/jpg/profesor-Ron-Berman.jpg" alt="Ron-Berman,-PhD">
-                </div>
-                <div class="professor-description">
-                    <span class="name whitSBo fs18 negro4B">
-                        Ron Berman, PhD
-                    </span>
-                    <div class="position-work whitLi fs16 negro4B">
-                        Profesor asistente de Marketing, The Wharton School
+            <div class="profesor-cont">
+                <div class="professor">
+                    <div class="professor-img">
+                        <img src="assets/img/jpg/profesor-Ron-Berman.jpg" alt="Ron-Berman,-PhD">
                     </div>
-                    <div class="information whitLi fs16 negro4B">
-                        Temas de investigación: marketing online, emprendedurismo, analítica de marketing, mercadotecnia para motores de búsqueda, teoría de juegos, organización industrial
+                    <div class="professor-description">
+                        <span class="name whitSBo fs18 negro4B">
+                            Ron Berman, PhD
+                        </span>
+                        <div class="position-work whitLi fs16 negro4B">
+                            Profesor asistente de Marketing, The Wharton School
+                        </div>
+                        <div class="information whitLi fs16 negro4B">
+                            Temas de investigación: marketing online, emprendedurismo, analítica de marketing,
+                            mercadotecnia para motores de búsqueda, teoría de juegos, organización industrial
+                        </div>
                     </div>
-                </div>
-                <div class="button-link">
-                    <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                        Más información
-                    </a>
+                    <div class="button-link">
+                        <a class="whitBo vino56 fs14"
+                            href="https://executiveeducation.wharton.upenn.edu/faculty/ron-berman/" target="_blank"
+                            rel="noopener noreferrer">
+                            Más información
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="profesor-cont">
-            <div class="professor">
-                <div class="professor-img">
-                    <img src="assets/img/jpg/profesor-Matthew-Bidwell.jpg" alt="Matthew-Bidwell,-PhD">
-                </div>
-                <div class="professor-description">
-                    <span class="name whitSBo fs18 negro4B">
-                        Matthew Bidwell, PhD
-                    </span>
-                    <div class="position-work whitLi fs16 negro4B">
-                        Profesor adjunto de Administración, The Wharton School
+            <div class="profesor-cont">
+                <div class="professor">
+                    <div class="professor-img">
+                        <img src="assets/img/jpg/profesor-Matthew-Bidwell.jpg" alt="Matthew-Bidwell,-PhD">
                     </div>
-                    <div class="information whitLi fs16 negro4B">
-                        Temas de investigación: administración de recursos humanos, trabajadores del conocimiento, movilidad laboral
+                    <div class="professor-description">
+                        <span class="name whitSBo fs18 negro4B">
+                            Matthew Bidwell, PhD
+                        </span>
+                        <div class="position-work whitLi fs16 negro4B">
+                            Profesor adjunto de Administración, The Wharton School
+                        </div>
+                        <div class="information whitLi fs16 negro4B">
+                            Temas de investigación: administración de recursos humanos, trabajadores del conocimiento,
+                            movilidad laboral
+                        </div>
                     </div>
-                </div>
-                <div class="button-link">
-                    <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                        Más información
-                    </a>
+                    <div class="button-link">
+                        <a class="whitBo vino56 fs14"
+                            href="https://executiveeducation.wharton.upenn.edu/faculty/matthew-bidwell/" target="_blank"
+                            rel="noopener noreferrer">
+                            Más información
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="profesor-cont">
-            <div class="professor">
-                <div class="professor-img">
-                    <img src="assets/img/jpg/profesor-Eric-Bradlow.jpg" alt="Eric-Bradlow,-PhD">
-                </div>
-                <div class="professor-description">
-                    <span class="name whitSBo fs18 negro4B">
-                        Eric Bradlow, PhD
-                    </span>
-                    <div class="position-work whitLi fs16 negro4B">
-                        Profesor K.P. Chao; profesor de Marketing; director de la facultad, Wharton Customer Analytics Initiative; presidente del departamento de Marketing de Wharton; profesor de Economía; profesor en Educación; profesor en Estadística
+            <div class="profesor-cont">
+                <div class="professor">
+                    <div class="professor-img">
+                        <img src="assets/img/jpg/profesor-Eric-Bradlow.jpg" alt="Eric-Bradlow,-PhD">
                     </div>
-                    <div class="information whitLi fs16 negro4B">
-                        Temas de investigación: métodos de investigación en marketing, problemas de datos perdidos, psicométricas
+                    <div class="professor-description">
+                        <span class="name whitSBo fs18 negro4B">
+                            Eric Bradlow, PhD
+                        </span>
+                        <div class="position-work whitLi fs16 negro4B">
+                            Profesor K.P. Chao; profesor de Marketing; director de la facultad, Wharton Customer
+                            Analytics Initiative; presidente del departamento de Marketing de Wharton; profesor de
+                            Economía; profesor en Educación; profesor en Estadística
+                        </div>
+                        <div class="information whitLi fs16 negro4B">
+                            Temas de investigación: métodos de investigación en marketing, problemas de datos perdidos,
+                            psicométricas
+                        </div>
                     </div>
-                </div>
-                <div class="button-link">
-                    <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                        Más información
-                    </a>
+                    <div class="button-link">
+                        <a class="whitBo vino56 fs14"
+                            href="https://executiveeducation.wharton.upenn.edu/faculty/eric-bradlow/" target="_blank"
+                            rel="noopener noreferrer">
+                            Más información
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="profesor-cont">
-            <div class="professor">
-                <div class="professor-img">
-                    <img src="assets/img/jpg/profesor-Peter-Fader.jpg" alt="Peter-Fader,-PhD">
-                </div>
-                <div class="professor-description">
-                    <span class="name whitSBo fs18 negro4B">
-                        Peter Fader, PhD
-                    </span>
-                    <div class="position-work whitLi fs16 negro4B">
-                        Profesor EY de Contabilidad; Presidente del 
-                        Departamento de Contabilidad, The Wharton 
-                        School
+            <div class="profesor-cont">
+                <div class="professor">
+                    <div class="professor-img">
+                        <img src="assets/img/jpg/profesor-Peter-Fader.jpg" alt="Peter-Fader,-PhD">
                     </div>
-                    <div class="information whitLi fs16 negro4B">
-                        Temas de investigación: valor del ciclo de vida del cliente, 
-                        pronóstico de ventas para nuevos productos, datos de comportamiento
+                    <div class="professor-description">
+                        <span class="name whitSBo fs18 negro4B">
+                            Peter Fader, PhD
+                        </span>
+                        <div class="position-work whitLi fs16 negro4B">
+                            Profesor EY de Contabilidad; Presidente del
+                            Departamento de Contabilidad, The Wharton
+                            School
+                        </div>
+                        <div class="information whitLi fs16 negro4B">
+                            Temas de investigación: valor del ciclo de vida del cliente,
+                            pronóstico de ventas para nuevos productos, datos de comportamiento
+                        </div>
                     </div>
-                </div>
-                <div class="button-link">
-                    <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                        Más información
-                    </a>
+                    <div class="button-link">
+                        <a class="whitBo vino56 fs14"
+                            href="https://executiveeducation.wharton.upenn.edu/faculty/peter-fader/" target="_blank"
+                            rel="noopener noreferrer">
+                            Más información
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="profesor-cont">
-            <div class="professor">
-                <div class="professor-img">
-                    <img src="assets/img/jpg/profesor Noah Gans.jpg" alt="Noah-Gans">
-                </div>
-                <div class="professor-description">
-                    <span class="name whitSBo fs18 negro4B">
-                        Noah Gans
-                    </span>
-                    <div class="position-work whitLi fs16 negro4B">
-                        Profesor Anheuser-Busch de Ciencias de la Gestión; profesor de Operaciones, Información y Decisiones y presidente del departamento, The Wharton School
+            <div class="profesor-cont">
+                <div class="professor">
+                    <div class="professor-img">
+                        <img src="assets/img/jpg/profesor Noah Gans.jpg" alt="Noah-Gans">
                     </div>
-                    <div class="information whitLi fs16 negro4B">
-                        Temas de investigación: operaciones de servicio, procesos estocásticos, control de sistemas de líneas de espera
+                    <div class="professor-description">
+                        <span class="name whitSBo fs18 negro4B">
+                            Noah Gans
+                        </span>
+                        <div class="position-work whitLi fs16 negro4B">
+                            Profesor Anheuser-Busch de Ciencias de la Gestión; profesor de Operaciones, Información y
+                            Decisiones y presidente del departamento, The Wharton School
+                        </div>
+                        <div class="information whitLi fs16 negro4B">
+                            Temas de investigación: operaciones de servicio, procesos estocásticos, control de sistemas
+                            de líneas de espera
+                        </div>
                     </div>
-                </div>
-                <div class="button-link">
-                    <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                        Más información
-                    </a>
+                    <div class="button-link">
+                        <a class="whitBo vino56 fs14"
+                            href="https://executiveeducation.wharton.upenn.edu/faculty/noah-gans/" target="_blank"
+                            rel="noopener noreferrer">
+                            Más información
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="profesor-cont">
-            <div class="professor">
-                <div class="professor-img">
-                    <img src="assets/img/jpg/profesor-Raghuram-Iyengar.jpg" alt="Raghuram-Iyengar,-PhD">
-                </div>
-                <div class="professor-description">
-                    <span class="name whitSBo fs18 negro4B">
-                        Raghuram Iyengar, PhD
-                    </span>
-                    <div class="position-work whitLi fs16 negro4B">
-                        Profesor Miers-Busch, W‘1885; profesor de Marketing y Codirector de la facultad, Wharton Customer Analytics Initiative (WCAI), The Wharton School
+            <div class="profesor-cont">
+                <div class="professor">
+                    <div class="professor-img">
+                        <img src="assets/img/jpg/profesor-Raghuram-Iyengar.jpg" alt="Raghuram-Iyengar,-PhD">
                     </div>
-                    <div class="information whitLi fs16 negro4B">
-                        Temas de investigación: fijación de precios, influencia en redes sociales, redes sociales
+                    <div class="professor-description">
+                        <span class="name whitSBo fs18 negro4B">
+                            Raghuram Iyengar, PhD
+                        </span>
+                        <div class="position-work whitLi fs16 negro4B">
+                            Profesor Miers-Busch, W‘1885; profesor de Marketing y Codirector de la facultad, Wharton
+                            Customer Analytics Initiative (WCAI), The Wharton School
+                        </div>
+                        <div class="information whitLi fs16 negro4B">
+                            Temas de investigación: fijación de precios, influencia en redes sociales, redes sociales
+                        </div>
                     </div>
-                </div>
-                <div class="button-link">
-                    <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                        Más información
-                    </a>
+                    <div class="button-link">
+                        <a class="whitBo vino56 fs14"
+                            href="https://executiveeducation.wharton.upenn.edu/faculty/raghuram-iyengar/"
+                            target="_blank" rel="noopener noreferrer">
+                            Más información
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="profesor-cont">
-            <div class="professor">
-                <div class="professor-img">
-                    <img src="assets/img/jpg/profesor-Sergei-Savin.jpg" alt="Sergei-Savin,-PhD">
-                </div>
-                <div class="professor-description">
-                    <span class="name whitSBo fs18 negro4B">
-                        Sergei Savin, PhD
-                    </span>
-                    <div class="position-work whitLi fs16 negro4B">
-                        Profesor adjunto de Operaciones, Información y Decisiones, The Wharton School
+            <div class="profesor-cont">
+                <div class="professor">
+                    <div class="professor-img">
+                        <img src="assets/img/jpg/profesor-Sergei-Savin.jpg" alt="Sergei-Savin,-PhD">
                     </div>
-                    <div class="information whitLi fs16 negro4B">
-                        Temas de investigación: gestión de capacidad y pacientes en operaciones del sector salud, modelos de difusión para nuevos productos y servicios, administración de ingresos
+                    <div class="professor-description">
+                        <span class="name whitSBo fs18 negro4B">
+                            Sergei Savin, PhD
+                        </span>
+                        <div class="position-work whitLi fs16 negro4B">
+                            Profesor adjunto de Operaciones, Información y Decisiones, The Wharton School
+                        </div>
+                        <div class="information whitLi fs16 negro4B">
+                            Temas de investigación: gestión de capacidad y pacientes en operaciones del sector salud,
+                            modelos de difusión para nuevos productos y servicios, administración de ingresos
+                        </div>
                     </div>
-                </div>
-                <div class="button-link">
-                    <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                        Más información
-                    </a>
+                    <div class="button-link">
+                        <a class="whitBo vino56 fs14"
+                            href="https://executiveeducation.wharton.upenn.edu/faculty/sergei-savin/" target="_blank"
+                            rel="noopener noreferrer">
+                            Más información
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="profesor-cont">
-            <div class="professor">
-                <div class="professor-img">
-                    <img src="assets/img/jpg/profesor-Senthil-Veeraraghavan.jpg" alt="Senthil-Veeraraghavan">
-                </div>
-                <div class="professor-description">
-                    <span class="name whitSBo fs18 negro4B">
-                        Senthil Veeraraghavan
-                    </span>
-                    <div class="position-work whitLi fs16 negro4B">
-                        Profesor de Operaciones, Información y Decisiones, The Wharton School
+            <div class="profesor-cont">
+                <div class="professor">
+                    <div class="professor-img">
+                        <img src="assets/img/jpg/profesor-Senthil-Veeraraghavan.jpg" alt="Senthil-Veeraraghavan">
                     </div>
-                    <div class="information whitLi fs16 negro4B">
-                        Temas de investigación: operaciones empíricas de administración, operaciones analíticas, operaciones administrativas, operaciones estratégicas, fijación de precios y administración e ingresos, administración operativa de servicios, administración de cadena de suministros
+                    <div class="professor-description">
+                        <span class="name whitSBo fs18 negro4B">
+                            Senthil Veeraraghavan
+                        </span>
+                        <div class="position-work whitLi fs16 negro4B">
+                            Profesor de Operaciones, Información y Decisiones, The Wharton School
+                        </div>
+                        <div class="information whitLi fs16 negro4B">
+                            Temas de investigación: operaciones empíricas de administración, operaciones analíticas,
+                            operaciones administrativas, operaciones estratégicas, fijación de precios y administración
+                            e ingresos, administración operativa de servicios, administración de cadena de suministros
+                        </div>
                     </div>
-                </div>
-                <div class="button-link">
-                    <a class="whitBo vino56 fs14" href="" target="_blank" rel="noopener noreferrer">
-                        Más información
-                    </a>
+                    <div class="button-link">
+                        <a class="whitBo vino56 fs14"
+                            href="https://executiveeducation.wharton.upenn.edu/faculty/senthil-veeraraghavan/"
+                            target="_blank" rel="noopener noreferrer">
+                            Más información
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 
@@ -841,7 +895,6 @@
     </div>
 
 
-    
     <!-- Section Colaboración -->
     <div class="colaboracion-container">
         <div class="colaboracion-cont">
@@ -849,41 +902,20 @@
                 <img src="assets/img/svg/emeritus-logo-complete.svg" alt="EMERITUS">
             </div>
             <div class="colaboracion-desc robotoRe fs16 negro17">
-                Wharton Executive Education está colaborando con el proveedor de educación en línea EMERITUS Institute of Management 
-                para ofrecer una cartera de programas de alto impacto para profesionales que trabajan. Con más de 16,000 estudiantes 
-                de más de 132 países, EMERITUS ofrece programas de educación gerencial con un modelo de enseñanza en vivo junto con 
-                trabajo en grupo y tareas calificadas. A través de esta colaboración, podemos ofrecer un amplio acceso al conocimiento 
-                de clase mundial por el que se conoce a la Escuela Wharton, en un entorno digital atractivo e interactivo.
+                Wharton Executive Education está colaborando con el proveedor de educación en línea EMERITUS Institute
+                of Management
+                para ofrecer una cartera de programas de alto impacto para profesionales que trabajan. Con más de 16,000
+                estudiantes
+                de más de 132 países, EMERITUS ofrece programas de educación gerencial con un modelo de enseñanza en
+                vivo junto con
+                trabajo en grupo y tareas calificadas. A través de esta colaboración, podemos ofrecer un amplio acceso
+                al conocimiento
+                de clase mundial por el que se conoce a la Escuela Wharton, en un entorno digital atractivo e
+                interactivo.
             </div>
         </div>
     </div>
 
-
-    <!-- Section no 9: Footer. -->
-    <footer>
-        <div class="footer-cont">
-            <div class="left">
-                <div class="footer-logo">
-                    <img src="assets/img/svg/wharton-execed-white-LG.svg" alt="Executive Education">
-                </div>
-                <div class="copyright whitLi fs14 blanco">
-                    ©
-                    <?php echo date('Y'); ?> The Wharton School, The University of Pennsylvania
-                </div>
-            </div>
-            <div class="right">
-                <div class="terminos-politicas-cont">
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="whitLi fs12 blanco">Términos de
-                        servicio
-                    </a>
-                    |
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="whitLi fs12 blanco">Política de
-                        privacidad
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <!-- AOS Animations inline Script -->
     <script>
@@ -911,7 +943,11 @@
 
         });
     </script>
-
+    <script async type="text/javascript" src="../assets/js/gdpr.js"></script>
+    <!-- Script para select de países -->
+    <script type="text/javascript">
+        populateCountries("country");
+    </script>
 </body>
 
 </html>
