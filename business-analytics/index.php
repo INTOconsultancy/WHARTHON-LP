@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TJ2PZ8R');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -35,7 +43,34 @@
 
 </head>
 
-<body>
+<body> 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJ2PZ8R"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->   
+    
+    <!-- Getting the querystring -->
+    <?php
+        $queryStringArray = array();
+        foreach($_GET as $key=>$value){
+        $parameter = $key."=".$value;
+            array_push($queryStringArray, $parameter);
+        }
+        $queryString = implode("&", $queryStringArray);
+    ?>
+
+    <!-- Getting the current url (used in the retURL in the form.) -->
+    <?php
+    if (isset($_SERVER["HTTPS"]) && ($_SERVER["HTTPS"] == "on" || $_SERVER["HTTPS"] == 1) ||  isset($_SERVER["HTTP_X_FORWARDED_PROTO"]) && $_SERVER["HTTP_X_FORWARDED_PROTO"] == "https") {
+        $protocol = "https://";
+
+    }else {
+        $protocol = "http://";
+    }
+        
+    $current_link = $protocol.$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"];
+    
+    ?>
     <header class="header">
         <div class="header-container">
             <div class="header-logos">
@@ -161,7 +196,7 @@
                             <input type="hidden" name="browser" id="browser" value="">
                             <input type="hidden" name="course" id="course" value="WHARTON - Business Analytics">
                             <input type="hidden" name="retURL"
-                                value="https://intoconsultancy.com/sub/LP/WHARTHON/Business-analytics/Thanks.php">
+                                value="<?php echo $current_link.'Thanks.php' ?>">
                             <button class="whitSBo fs16 blanco" type="submit" id="btn-download-brochure">
                                 DESCARGAR EL FOLLETO
                                 <img src="assets/img/svg/icon-descargar.svg" alt="Download">
@@ -885,7 +920,7 @@
                     Institute of Executive Education.
                 </div>
                 <div class="certificado-button">
-                    <a class="whitSBo fs14 blanco" href="#" target="_blank" rel="noopener noreferrer">
+                    <a class="whitSBo fs14 blanco" href="http://bit.ly/2VQvwCg" target="_blank" rel="noopener noreferrer">
                         APLICAR
                         <!-- <img src="assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow"> -->
                     </a>
