@@ -246,12 +246,12 @@
                 Pago en dos parcialidades
             </div>
             <div class="precio-pago fs14 whitMe negro23">
-                <div class="dot-pagos"></div>La primera parcialidad de $,1055 USD
+                <div class="dot-pagos"></div>La primera parcialidad de $,1054 USD
                 se paga al inicio.
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La segunda parcialidad de $934 USD.
-                a pagar del 20 de mayo del 2019.
+                <div class="dot-pagos"></div>La segunda parcialidad de $935 USD.
+                a pagar del 22 de julio del 2019.
             </div>
         </div>
         <div class="pagos no-border">
@@ -264,10 +264,10 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
-                a pagar del 20 de mayo del 2019.
+                a pagar del 22 de julio del 2019.
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La tercera parcialidad se paga a más tardar el 04 de julio $635 USD.
+                <div class="dot-pagos"></div>La tercera parcialidad se paga a más tardar el 06 de agosto $635 USD.
             </div>
         </div>
     </div>
