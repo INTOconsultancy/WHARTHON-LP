@@ -108,7 +108,7 @@
 
         <div class="price-container">
             <div class="whitSBo fs20 negro4B">
-                25 / abril / 2019
+                27 / junio / 2019
             </div>
             <div class="whitMe fs16 negro19">
                 3 MESES
