@@ -20,7 +20,7 @@ jQuery(document).ready(function () {
             }
         });
         //When click in btn "ver programas" animate to down
-        jQuery(".header-button").click(function () {
+        jQuery(".header-button, .btn-apply-now").click(function () {
             jQuery('html, body').animate({
                 scrollTop: jQuery("#fordesk").offset().top - 160
             }, 500);

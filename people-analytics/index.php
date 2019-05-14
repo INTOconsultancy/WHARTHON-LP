@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +12,26 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../assets/css/stylesheet.css">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> <!-- Material Design -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Script -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="crossorigin="anonymous"></script> <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <!-- jQuery -->
     <script type="text/javascript" src="../assets/js/form-input-manager.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="../assets/js/logs.js"></script>
     <script type="text/javascript" src="../assets/js/utm_populate.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js">
+    </script>
     <script type="text/javascript" src="https://code.getmdl.io/1.3.0/material.min.js"></script> <!-- Material Design -->
 
 </head>
+
 <body>
 
     <!-- Getting the querystring -->
@@ -54,7 +63,8 @@
         <div class="header-container">
             <div class="header-logos">
                 <img class="white" src="../business-analytics/assets/img/svg/wharton-execed-white-LG.svg" alt="Wharton">
-                <img class="blue" src="../business-analytics/assets/img/svg/wharton-execed-blue-LG.svg" alt="Executive-Education">
+                <img class="blue" src="../business-analytics/assets/img/svg/wharton-execed-blue-LG.svg"
+                    alt="Executive-Education">
             </div>
             <div class="text-button robotoBo fs20 blanco">CERTIFICADO ONLINE</div>
             <div class="header-button">
@@ -71,99 +81,99 @@
         <div class="hero-title-cont">
             <div class="hero-title">
                 <div class="banner robotoRe fs16 dorado73">Aplica hoy al programa</div>
-                <div class="title robotoBo fs26 blanco">Administración e Inteligencia Analítica de Recursos Humanos:</div>
+                <div class="title robotoBo fs26 blanco">Administración e Inteligencia Analítica de Recursos Humanos:
+                </div>
                 <div class="subtitle robotoRe fs18 blanco"><i>People Analytics</i>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Section Formulario -->
+    <!-- Section Form -->
     <div class="formulario-container">
-            <div class="formulario-cont">
-                <div class="form" id="form">
-                    <div class="form-title robotoBo fs18 azul41">Solicitar información del curso</div>
-                    <!-- Form Element -->
-                    <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-04-12/4ybyr1" id="fordesk">
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="robotoRe fs16 gris91 mdl-textfield__input" type="text" id="first_name"
-                                name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
-                            <label class="robotoRe fs16 gris91 mdl-textfield__label" for="first_name">Nombre(s)</label>
+        <div class="formulario-cont">
+            <div class="form" id="form">
+                <div class="form-title robotoBo fs18 azul41">Solicitar información del curso</div>
+                <!-- Form Element -->
+                <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-04-12/4ybyr1" id="fordesk">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="robotoRe fs16 gris91 mdl-textfield__input" type="text" id="first_name"
+                            name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
+                        <label class="robotoRe fs16 gris91 mdl-textfield__label" for="first_name">Nombre(s)</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="robotoRe fs16 gris91 mdl-textfield__input" type="text" id="last_name"
+                            name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
+                        <label class="robotoRe fs16 gris91 mdl-textfield__label" for="last_name">Apellido(s)</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="robotoRe fs16 gris91 mdl-textfield__input" type="email" id="email" name="email"
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
+                        <label class="robotoRe fs16 gris91 mdl-textfield__label" for="email">Email</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <select id="country" name="Country" class="mdl-textfield__input Country" required>
+                        </select>
+                        <label class="robotoRe fs16 gris91 mdl-textfield__label" for="country">País</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <select id="work_experience" name="work_experience"
+                            class="robotoRe fs16 gris91 mdl-textfield__input work_experience" required>
+                            <option value=""></option>
+                            <option value="Less than 5 Years">Menos de 5 años</option>
+                            <option value="5-10 Years">5-10 años</option>
+                            <option value="10-15 Years">10-15 años</option>
+                            <option value="15-20 Years">15-20 años</option>
+                            <option value="> 20 Years">&gt; 20 años</option>
+                        </select>
+                        <label class="robotoRe fs16 gris91 mdl-textfield__label" for="work_experience">Experiencia
+                            Profesional</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="robotoRe fs16 gris91 mdl-textfield__input" type="tel" id="mobile" name="mobile"
+                            maxlength="15" minlength="5" onkeypress="return valida(event)" pattern="[0-9]+">
+                        <label class="robotoRe fs16 gris91 mdl-textfield__label" for="mobile">Teléfono Movíl</label>
+                    </div>
+                    <!-- GDPR checkbox -->
+                    <div class="">
+                        <div class="form-group" id="gdpr-consent" style="display:none;">
+                            <label class="checkbox-inline fs14 robotoRe negro23">
+                                <input type="checkbox" value="Yes I Agree" name="agree" id="agree">
+                                Me gustaría recibir un correo electrónico y otras comunicaciones de EMERITUS y
+                                Sus socios universitarios sobre este curso y otros cursos relevantes.
+                            </label>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="robotoRe fs16 gris91 mdl-textfield__input" type="text" id="last_name"
-                                name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
-                            <label class="robotoRe fs16 gris91 mdl-textfield__label" for="last_name">Apellido(s)</label>
-                        </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="robotoRe fs16 gris91 mdl-textfield__input" type="email" id="email" name="email"
-                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
-                            <label class="robotoRe fs16 gris91 mdl-textfield__label" for="email">Email</label>
-                        </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <select id="country" name="Country" class="mdl-textfield__input Country" required>
-                            </select>
-                            <label class="robotoRe fs16 gris91 mdl-textfield__label" for="country">País</label>
-                        </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <select id="work_experience" name="work_experience"
-                                class="robotoRe fs16 gris91 mdl-textfield__input work_experience" required>
-                                <option value=""></option>
-                                <option value="Less than 5 Years">Menos de 5 años</option>
-                                <option value="5-10 Years">5-10 años</option>
-                                <option value="10-15 Years">10-15 años</option>
-                                <option value="15-20 Years">15-20 años</option>
-                                <option value="> 20 Years">&gt; 20 años</option>
-                            </select>
-                            <label class="robotoRe fs16 gris91 mdl-textfield__label" for="work_experience">Experiencia
-                                Profesional</label>
-                        </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="robotoRe fs16 gris91 mdl-textfield__input" type="tel" id="mobile" name="mobile"
-                                maxlength="15" minlength="5" onkeypress="return valida(event)" pattern="[0-9]+">
-                            <label class="robotoRe fs16 gris91 mdl-textfield__label" for="mobile">Teléfono Movíl</label>
-                        </div>
-                        <!-- GDPR checkbox -->
-                        <div class="">
-                            <div class="form-group" id="gdpr-consent" style="display:none;">
-                                <label class="checkbox-inline fs14 robotoRe negro23">
-                                    <input type="checkbox" value="Yes I Agree" name="agree" id="agree">
-                                    Me gustaría recibir un correo electrónico y otras comunicaciones de EMERITUS y
-                                    Sus socios universitarios sobre este curso y otros cursos relevantes.
-                                </label>
-                            </div>
-                        </div>
-                        <!-- End checkbox -->
-                        <div class="button-container">
-                            <input type="hidden" name="lead_source" id="lead_source" value="">
-                            <input type="hidden" name="utm_source" id="utm_source" value="">
-                            <input type="hidden" name="utm_medium" id="utm_medium" value="">
-                            <input type="hidden" name="utm_term" id="utm_term" value="">
-                            <input type="hidden" name="utm_content" id="utm_content" value="">
-                            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
-                            <input type="hidden" name="browser" id="browser" value="">
-                            <input type="hidden" name="course" id="course" value="WHARTON - Business Analytics">
-                            <input type="hidden" name="retURL"
-                                value="<?php echo $current_link.'Thanks.php' ?>">
-                            <button class="robotoBo fs16 blanco" type="submit" id="btn-download-brochure">
-                                DESCARGAR EL FOLLETO
-                                <img src="../assets/img/svg/icon-descargar.svg" alt="Download">
-                            </button>
-                        </div>
-                    </form>
-                    <div class="private-data">
-                        <div class="data robotoRe fs16 negro3D">
-                            Tu información no se compartirá con nadie
-                        </div>
-                        <div>
-                            <a class="robotoBo fs16 azul85" href="#" target="_blank" rel="noopener noreferrer">
-                                Política de Privacidad
-                            </a>
-                        </div>
+                    </div>
+                    <!-- End checkbox -->
+                    <div class="button-container">
+                        <input type="hidden" name="lead_source" id="lead_source" value="">
+                        <input type="hidden" name="utm_source" id="utm_source" value="">
+                        <input type="hidden" name="utm_medium" id="utm_medium" value="">
+                        <input type="hidden" name="utm_term" id="utm_term" value="">
+                        <input type="hidden" name="utm_content" id="utm_content" value="">
+                        <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+                        <input type="hidden" name="browser" id="browser" value="">
+                        <input type="hidden" name="course" id="course" value="Wharton - People Analytics">
+                        <input type="hidden" name="retURL" value="<?php echo $current_link.'Thanks.php' ?>">
+                        <button class="robotoBo fs16 blanco" type="submit" id="btn-download-brochure">
+                            DESCARGAR EL FOLLETO
+                            <img src="../assets/img/svg/icon-descargar.svg" alt="Download">
+                        </button>
+                    </div>
+                </form>
+                <div class="private-data">
+                    <div class="data robotoRe fs16 negro3D">
+                        Tu información no se compartirá con nadie
+                    </div>
+                    <div>
+                        <a class="robotoBo fs16 azul85" href="#" target="_blank" rel="noopener noreferrer">
+                            Política de Privacidad
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    <!-- Section Detalles del programa -->
+    </div>
+    <!-- Section Details of program -->
     <div class="detalles-container">
         <div class="detalles-cont">
             <div class="detalle">
@@ -171,10 +181,10 @@
                     <img src="../assets/img/svg/icono-inicio.svg" alt="">
                 </div>
                 <div class="detalles">
-                    <div class="text robotoRe fs24 grisD9">
+                    <div class="text robotoRe fs20 grisD9">
                         INICIA EL
                     </div>
-                    <div class="fechas-precio robotoBo fs24 grisD9">
+                    <div class="fechas-precio robotoBo fs20 grisD9">
                         06 de junio del 2019
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
@@ -187,10 +197,10 @@
                     <img src="../assets/img/svg/icono-duracion.svg" alt="">
                 </div>
                 <div class="detalles">
-                    <div class="text robotoRe fs24 grisD9">
+                    <div class="text robotoRe fs20 grisD9">
                         DURACIÓN
                     </div>
-                    <div class="fechas-precio robotoBo fs24 grisD9">
+                    <div class="fechas-precio robotoBo fs20 grisD9">
                         2 meses, en línea,
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
@@ -205,10 +215,10 @@
                     <img src="../assets/img/svg/icono-cuota.svg" alt="">
                 </div>
                 <div class="detalles">
-                    <div class="text robotoRe fs24 grisD9">
+                    <div class="text robotoRe fs20 grisD9">
                         CUOTA DEL PROGRAMA
                     </div>
-                    <div class="fechas-precio robotoBo fs24 grisD9">
+                    <div class="fechas-precio robotoBo fs20 grisD9">
                         $1,950 dólares
                     </div>
                     <div class="notas robotoRe fs14 amarillo73">
@@ -228,7 +238,7 @@
                         </div>
                         <div class="modal-pagos-subtitle robotoRe fs16 negro46">
                             Las siguientes opciones de pago están disponibles para el
-                            <span class="robotoBo">Curso de Estrategias digitales de marketing:</span>
+                            <span class="robotoBo">Curso de People Analytics :</span>
                         </div>
                         <div class="pagos">
                             <div class="pagos-title fs18 openBo gris70">
@@ -237,7 +247,7 @@
                             <div class="precio-pago fs14 robotoRe negro23">
                                 <div class="dot-pagos"></div>
                                 La cuota completa del curso <span class="robotoBo">$1,950
-                                        USD</span> .
+                                    USD</span> .
                             </div>
                         </div>
                         <div class="pagos">
@@ -279,5 +289,198 @@
             </div>
         </div>
     </div>
+    <!-- Section Information of program -->
+    <div class="information-container">
+        <div class="information-title robotoBo fs24 azul85">
+            Las nuevas reglas de la administración de RH en la era digital
+        </div>
+        <div class="information-description robotoRe fs16 negro23">
+            El <i>Big Data</i> alcanza hoy cada esquina de la organización y abre caminos hacia la
+            implementación de mejoras en operaciones, ventas, investigación y desarrollo. Su
+            objetivo: lograr procesos más eficientes, <i>insights</i> acertados del negocio y ventajas
+            competitivas para aquellos que saben cómo aprovechar los datos.
+            <br>
+            <br>
+            La mayoría de las organizaciones se ha dado cuenta de que la transformación digital
+            es inminente y abraza el concepto de la analítica de RH. Por eso resulta indispensable
+            contar con profesionales con el conocimiento y las habilidades necesarias para recolectar,
+            analizar e interpretar los datos, de forma que sus hallazgos influyan e impulsen el
+            mejor desempeño del capital humano.
+        </div>
+        <div class="information-cont container-fluid">
+            <div class="row">
+                <div class="information col-sm">
+                    <div class="number robotoBo fs42 azul85">
+                        5<span class="robotoRe fs19">%</span>
+                    </div>
+                    <div class="description robotoBo fs16 gris7D">
+                        Solo el 5 por ciento de las inversiones en Big Data se destinan a RH. Esto es,
+                        al grupo que usualmente administra la analítica de RH.
+                    </div>
+                    <div class="source robotoRe fs14 gris7D">FUENTE: TATA CONSULTANCY SERVICES</div>
+                </div>
+                <div class="information col-sm">
+                    <div class="number robotoBo fs42 azul85">
+                        9<span class="robotoRe fs19">%</span>
+                    </div>
+                    <div class="description robotoBo fs16 gris7D">
+                        Solo el 9 por ciento de las compañías cree que entiende con claridad cuál es
+                        el tipo de talento que impulsa el desempeño en su organización.
+                    </div>
+                    <div class="source robotoRe fs14 gris7D">FUENTE: DELOITTE</div>
+                </div>
+                <div class="information col-sm">
+                    <div class="number robotoBo fs42 azul85">
+                        11<span class="robotoRe fs19">%</span>
+                    </div>
+                    <div class="description robotoBo fs16 gris7D">
+                        Solo el 11 por ciento de los encuestados indicaron que su sistema de compensaciones se 
+                        encuentra verdaderamente alineado con sus metas organizacionales; mientras 
+                        que 23% reportaron no saber cuáles son las recompensas que valoran más sus 
+                        empleados.
+                    </div>
+                    <div class="source robotoRe fs14 gris7D">FUENTE: DELOITTE</div>
+                </div>
+            </div>
+        </div>
+        <div class="button-apply-now">
+            <a class="btn-apply-now robotoBo fs16 blanco">
+                DESCARGA EL FOLLETO
+            </a>
+        </div>
+    </div>
+    <!-- Section Experience of journey -->
+    <div class="experience-container">
+        <div class="experience-title robotoBo fs24 azul85">
+            Tu experiencia de aprendizaje
+        </div>
+        <div class="experience-description robotoBo fs18 gris7D">
+            El programa en línea de Wharton, Administración e Inteligencia Analítica de
+            Recursos Humanos, combina la teoría con aplicaciones prácticas, y la flexibilidad
+            con el rigor, lo que da como resultado una experiencia de educación profesional
+            holística. Al final de este curso en línea serás capaz de:
+        </div>
+        <div class="experience-list container-fluid">
+            <div class="row">
+                <div class="list col-sm-6">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Comprender los cuatro factores clave en medidas de
+                                desempeño: regresión
+                                a la media, tamaño de muestra, independencia de señales (signal independence)
+                                y proceso vs. resultado.</span>
+                        </li>
+
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Aprovechar el análisis de datos para separar habilidades
+                                de suerte;
+                                identificar sesgos internos, y entender los ciclos de contratación,
+                                movilidad interna y deserción.</span>
+                        </li>
+
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Entender los principios básicos del uso de la analítica
+                                de RH para mejorar
+                                la colaboración entre empleados y entre departamentos para lograr objetivos,
+                                ya sea que conlleve innovación o eficiencia.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list col-sm-6">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Motivar el desempeño individual y diseñar sistemas de
+                                recompensas.</span>
+                        </li>
+
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Crear una mentalidad y una cultura alrededor de los
+                                sistemas de
+                                trabajo vs. el trabajo individualizado.</span>
+                        </li>
+
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Diseñar una estructura organizacional optimizada para el
+                                éxito.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="experience-icons container-fluid">
+            <div class="row">
+                <div class="icons col-md-3 col-sm-6">
+                    <div class=row>
+                        <div class="icons-img col-sm-12 col-2">
+                            <img src="../assets/img/svg/contexto-icon.svg" alt="Contexto">
+                        </div>
+                        <div class="icons-description col-sm-12 col-10">
+                            <div class="robotoBo fs20 negro23">
+                                Contexto
+                            </div>
+                            <div class="robotoRe fs16 negro23">
+                                Independientemente de su grado de madurez
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons col-md-3 col-sm-6">
+                    <div class=row>
+                        <div class="icons-img col-sm-12 col-2">
+                            <img src="../assets/img/svg/mundo-real-icon.svg" alt="Ejemplos-del-mundo-real">
+                        </div>
+                        <div class="icons-description col-sm-12 col-10">
+                            <div class="robotoBo fs20 negro23">
+                                Ejemplos del mundo real
+                            </div>
+                            <div class="robotoRe fs16 negro23">
+                                A través de clases en video y clases en vivo
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons col-md-3 col-sm-6">
+                    <div class=row>
+                        <div class="icons-img col-sm-12 col-2">
+                            <img src="../assets/img/svg/aplicacion-al-conjunto.svg" alt="Aplicación-al-conjunto-de-datos">
+                        </div>
+                        <div class="icons-description col-sm-12 col-10">
+                            <div class="robotoBo fs20 negro23">
+                                Aplicación al conjunto de datos
+                            </div>
+                            <div class="robotoRe fs16 negro23">
+                                Aprende a través de tareas individuales y 
+                                retroalimentación
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons col-md-3 col-sm-6">
+                    <div class=row>
+                        <div class="icons-img col-sm-12 col-2">
+                            <img src="../assets/img/svg/Reportes-de-aprendizaje-icon.svg" alt="Reportes-de-aprendizaje">
+                        </div>
+                        <div class="icons-description col-sm-12 col-10">
+                            <div class="robotoBo fs20 negro23">
+                                Reportes de aprendizaje
+                            </div>
+                            <div class="robotoRe fs16 negro23">
+                                A través de una mezcla de videos grabados 
+                                y en vivo
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section Who is this program? -->
+    <!-- Section Management of human deploy -->
+    <!-- Section Examples of the insdustry -->
+    <!-- Section Professor -->
+    <!-- Section Certificate -->
+    <!-- Section Apply Now / Felxible Payments -->
+    <!-- Section Colaboration -->
 </body>
+
 </html>
