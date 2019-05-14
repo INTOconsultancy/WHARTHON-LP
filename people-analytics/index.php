@@ -559,6 +559,81 @@
                 </div>
             </div>
         </div>
+        <div class="for-who-subtitle robotoBo fs20 azul85">
+            Compañías representativas
+        </div>
+        <div class="for-who-list container-fluid">
+            <div class="row">
+                <div class="list col-sm-4">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">DBS Bank</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">3M</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Google</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">The Home Depot</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list col-sm-4">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Kotak Mahindra Bank</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">The Emirates Group</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Godrej Industries Ltd</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">AECOM</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list col-sm-4">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Interops Consulting</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Oasis Investments - Al Shirawi Group</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Mercer Japón</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Power Finance Corporation</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="for-who-diagrams container-fluid">
+            <div class="row">
+                <div class="col-sm-6" style="border: 1px solid red;">
+                    <div class="diagram-title robotoBo fs20 gris7D">
+                        Experiencia laboral
+                    </div>
+                    <div class="diagram-img">
+                        <img src="../assets/img/svg/Experiencia-laboral.svg" alt="Experiencia-laboral">
+                    </div>
+                </div>
+                <div class="col-sm-6" style="border: 1px solid blue;">
+                    <div class="diagram-title robotoBo fs20 gris7D">
+                        Industrias Participantes
+                    </div>
+                    <div class="diagram-img">
+                        <img src="../assets/img/svg/Industrias-participantes.svg" alt="Industrias-Participantes">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Section Management of human deploy -->
     <!-- Section Examples of the insdustry -->

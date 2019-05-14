@@ -1105,7 +1105,7 @@ header {
     }
     .for-who-subtitle{
         width: 100%;
-        margin: 0 auto;
+        margin: 30px auto 0;
         max-width: 1160px;
     }
     .for-who-list{
@@ -1116,7 +1116,7 @@ header {
             .list{
                 width: 100%;
                 margin: 0 auto;
-                max-width: 530px;
+                max-width: 580px;
                 ul{
                     list-style: disc;
                     margin-bottom: 0;
@@ -1145,6 +1145,15 @@ header {
                     }
                 }
             }
+        }
+    }
+    .for-who-diagrams{
+        width: 100%;
+        margin: 60px auto 0;
+        max-width: 950px;
+        .diagram-title{
+            text-align: center;
+            line-height: 45px;
         }
     }
 }

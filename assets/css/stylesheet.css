@@ -1055,7 +1055,7 @@ header {
 }
 .for-who-container .for-who-subtitle {
   width: 100%;
-  margin: 0 auto;
+  margin: 30px auto 0;
   max-width: 1160px;
 }
 .for-who-container .for-who-list {
@@ -1066,7 +1066,7 @@ header {
 .for-who-container .for-who-list .row .list {
   width: 100%;
   margin: 0 auto;
-  max-width: 530px;
+  max-width: 580px;
 }
 .for-who-container .for-who-list .row .list ul {
   list-style: disc;
@@ -1094,6 +1094,15 @@ header {
 }
 .for-who-container .for-who-list .row .second-list ul li span {
   line-height: 24px;
+}
+.for-who-container .for-who-diagrams {
+  width: 100%;
+  margin: 60px auto 0;
+  max-width: 950px;
+}
+.for-who-container .for-who-diagrams .diagram-title {
+  text-align: center;
+  line-height: 45px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
