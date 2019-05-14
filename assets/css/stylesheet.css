@@ -306,10 +306,15 @@ header {
   position: fixed;
   width: 100%;
   background-color: #004785;
-  padding: 20px;
-  box-shadow: 0 4px 2px -2px #44484B;
+  padding: 15px;
   z-index: 1;
   transition: all 0.3s ease-out;
+}
+@media only screen and (min-width: 1024px) {
+  header {
+    padding: 20px;
+    box-shadow: 0 4px 2px -2px #44484B;
+  }
 }
 
 .aparecer {
@@ -399,7 +404,7 @@ header {
 }
 .space {
   width: 100%;
-  height: 85px;
+  height: 77px;
 }
 @media only screen and (min-width: 1024px) {
   .space {
@@ -407,11 +412,19 @@ header {
   }
 }
 
+.text-float {
+  width: 100%;
+  text-align: center;
+  padding: 5px 16px 10px;
+  background-color: #004785;
+}
+
 .hero-container {
   width: 100%;
   padding: 25px 0 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.5) 75%), url("../img/jpg/banner_bg_1.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("../img/jpg/hero-img-mobile.jpg");
   background-size: cover;
+  background-position-x: center !important;
   position: relative;
   height: 400px;
 }
@@ -511,6 +524,8 @@ header {
   .hero-container {
     padding: 25px 0;
     height: 700px;
+    background-position-x: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("../img/jpg/hero-img-desktop.jpg");
   }
   .hero-container .hero-title-cont {
     bottom: 200px;
@@ -1029,6 +1044,56 @@ header {
   .experience-container .experience-icons .row .icons .row .icons-description div {
     margin-top: 10px;
   }
+}
+.for-who-container {
+  width: 100%;
+  padding: 35px 16px;
+}
+.for-who-container .for-who-title {
+  text-align: center;
+  line-height: 28px;
+}
+.for-who-container .for-who-subtitle {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1160px;
+}
+.for-who-container .for-who-list {
+  width: 100%;
+  margin: 15px auto;
+  max-width: 1160px;
+}
+.for-who-container .for-who-list .row .list {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 530px;
+}
+.for-who-container .for-who-list .row .list ul {
+  list-style: disc;
+  margin-bottom: 0;
+}
+.for-who-container .for-who-list .row .list ul li {
+  list-style: disc;
+  margin: 10px 0 0;
+}
+.for-who-container .for-who-list .row .list ul li span {
+  line-height: 24px;
+}
+.for-who-container .for-who-list .row .second-list {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 530px;
+}
+.for-who-container .for-who-list .row .second-list ul {
+  list-style: disc;
+  margin-bottom: 0;
+}
+.for-who-container .for-who-list .row .second-list ul li {
+  list-style: disc;
+  margin: 10px 0 0;
+}
+.for-who-container .for-who-list .row .second-list ul li span {
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

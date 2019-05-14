@@ -63,10 +63,11 @@
         <div class="header-container">
             <div class="header-logos">
                 <img class="white" src="../business-analytics/assets/img/svg/wharton-execed-white-LG.svg" alt="Wharton">
-                <img class="blue" src="../business-analytics/assets/img/svg/wharton-execed-blue-LG.svg"
-                    alt="Executive-Education">
+                <img class="blue" src="../business-analytics/assets/img/svg/wharton-execed-blue-LG.svg" alt="Executive-Education">
             </div>
-            <div class="text-button robotoBo fs20 blanco">CERTIFICADO ONLINE</div>
+
+            <div class="text-button desktop robotoBo fs20 blanco">CERTIFICADO ONLINE</div>
+
             <div class="header-button">
                 <a class="robotoBo fs14 blanco">
                     MÁS INFORMACIÓN
@@ -76,6 +77,7 @@
     </header>
     <!-- Body -->
     <div class="space"></div>
+    <div class="text-float movil robotoBo fs20 blanco">CERTIFICADO ONLINE</div>
     <!-- Section Hero Image -->
     <div class="hero-container">
         <div class="hero-title-cont">
@@ -94,7 +96,7 @@
             <div class="form" id="form">
                 <div class="form-title robotoBo fs18 azul41">Solicitar información del curso</div>
                 <!-- Form Element -->
-                <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-04-12/4ybyr1" id="fordesk">
+                <form class="form-cont" action="https://www2.emeritus.org/l/134351/2019-04-24/4ypz77" id="fordesk">
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                         <input class="robotoRe fs16 gris91 mdl-textfield__input" type="text" id="first_name"
                             name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
@@ -475,6 +477,89 @@
         </div>
     </div>
     <!-- Section Who is this program? -->
+    <div class="for-who-container">
+        <div class="for-who-title robotoBo fs24 azul85">
+            ¿A quién va dirigido este programa?
+        </div>
+        <div class="for-who-list container-fluid">
+            <div class="row">
+                <div class="list col-sm-12">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Gerentes y directores de recursos humanos y profesionales de capacitación. </span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Jefes de equipo con funciones de evaluación de desempeño. </span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Directores generales. </span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Propietarios de negocios pequeños y medianos que deseen desarrollar talento. </span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Consultores y profesionales del desarrollo de talento en empresas.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="for-who-subtitle robotoBo fs20 azul85">
+            Roles representativos
+        </div>
+        <div class="for-who-list container-fluid">
+            <div class="row">
+                <div class="list col-sm-4">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">VP de gestión de talento</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Director de estrategia</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Business manager de división de RH</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Socio de RH</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list col-sm-4">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Gerente de programa de people analytics</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">VP senior/Director de operaciones</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Director de compensaciones</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Director de gestión de talento</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list col-sm-4">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">VP de RH</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Director de estrategia</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Gerente de Grupo de Recursos Humanos</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Director de cambios y personas</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Section Management of human deploy -->
     <!-- Section Examples of the insdustry -->
     <!-- Section Professor -->
