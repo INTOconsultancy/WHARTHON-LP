@@ -621,7 +621,7 @@
                         Experiencia laboral
                     </div>
                     <div class="diagram-img">
-                        <img src="../assets/img/svg/Experiencia-laboral.svg" alt="Experiencia-laboral">
+                        
                     </div>
                 </div>
                 <div class="col-sm-6" style="border: 1px solid blue;">
@@ -629,7 +629,7 @@
                         Industrias Participantes
                     </div>
                     <div class="diagram-img">
-                        <img src="../assets/img/svg/Industrias-participantes.svg" alt="Industrias-Participantes">
+                        
                     </div>
                 </div>
             </div>
