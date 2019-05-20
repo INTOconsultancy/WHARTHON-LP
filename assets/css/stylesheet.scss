@@ -274,8 +274,8 @@
     color: #4F2582;
 }
 
-.azul85{
-    color: #004785;
+.azul84{
+    color: #004884;
 }
 
 .azul41{
@@ -548,6 +548,8 @@ header {
         height: 700px;
         background-position-x: center;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) 25%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.0) 75%), url('../img/jpg/hero-img-desktop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         .hero-title-cont {
             bottom: 200px;
             .hero-title {
@@ -990,115 +992,11 @@ header {
     }
 }
 //
-//SECTION EXPERIENCE
-.experience-container{
-    width: 100%;
-    padding: 35px 16px;
-    background-color: #F3F3F3;
-    .experience-title{
-        text-align: center;
-        line-height: 28px;
-    }
-    .experience-description{
-        width: 100%;
-        margin: 15px auto;
-        text-align: center;
-        line-height: 24px;
-        max-width: 675px;
-    }
-    .experience-list{
-        width: 100%;
-        margin: 0 auto;
-        max-width: 1160px;
-        .row{
-            .list{
-                width: 100%;
-                margin: 0 auto;
-                max-width: 530px;
-                ul{
-                    list-style: disc;
-                    margin-bottom: 0;
-                    li{
-                        list-style: disc;
-                        margin: 10px 0 0;
-                        span{
-                            line-height: 24px
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .experience-icons{
-        width: 100%;
-        margin: 30px auto 0;
-        max-width: 1160px;
-        .row{
-            .icons{
-                margin: 8px auto;
-                .row{
-                    .icons-img{
-                        padding: 0;
-                        img{
-                            display: block;
-                            width: 55px;
-                            height: 40px;
-                            margin: 10px auto 0;
-                        }
-                    }
-                    .icons-description{
-                        padding-right: 0;
-                        div{
-                            text-align: left;
-                            @media only screen and (min-width: 576px){
-                                text-align: center;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-@media only screen and (min-width: 1024px){
-    .experience-container{
-        padding: 90px 0;
-        .experience-title{
-            font-size: 36px;
-            line-height: 40px;
-        }
-        .experience-description{
-            font-size: 22px;
-            line-height: 30px;
-        }
-        .experience-icons{
-            .row{
-                .icons{
-                    margin: 10px auto;
-                    .row{
-                        .icons-img{
-                            img{
-                                width: 120px;
-                                height: 80px;
-                                margin: 0 auto;
-                            }
-                        }
-                        .icons-description{
-                            div{
-                                margin-top: 10px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-//
 //SECTION WHO IS THIS PROGRAM
 .for-who-container{
     width: 100%;
     padding: 35px 16px;
+    background-color: #F3F3F3;
     .for-who-title{
         text-align: center;
         line-height: 28px;
@@ -1115,8 +1013,8 @@ header {
         .row{
             .list{
                 width: 100%;
-                margin: 0 auto;
-                max-width: 580px;
+                margin: 0;
+                max-width: 780px;
                 ul{
                     list-style: disc;
                     margin-bottom: 0;
@@ -1154,6 +1052,219 @@ header {
         .diagram-title{
             text-align: center;
             line-height: 45px;
+        }
+        .diagram-img{
+            img{
+                width: 100%;
+                display: block;
+                margin: 20px auto 0;
+                max-width: 555px;
+                max-height: 420px;
+            }
+        }
+        .diagram-description{
+            text-align: center;
+            line-height: 24px;
+            margin: 25px auto 0;
+        }
+        .details-cont{
+            width: 75%;
+            margin: 10px auto 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            .detail{
+                width: 95px;
+                display: flex;
+                align-items: center;
+                margin: 0;
+                .back-1{
+                    background-color: #3C3B52;
+                }
+                .back-2{
+                    background-color: #AB388D;
+                }
+                .back-3{
+                    background-color: #23B3E8;
+                }
+                .back-4{
+                    background-color: #D5244C;
+                }
+                .back-5{
+                    background-color: #0C7EC1;
+                }
+                .back-6{
+                    background-color: #6A3D94;
+                }
+                .square{
+                    width: 12px;
+                    height: 12px;
+                }
+                .title{
+                    margin-left: 5px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1024px){
+    .for-who-container{
+        padding: 90px 16px;
+        .for-who-title{
+            line-height: 40px;
+            font-size: 36px;
+        }
+        .for-who-diagrams{
+            width: 100%;
+            margin: 60px auto 0;
+            max-width: 950px;
+            .diagram-title{
+                font-size: 24px;
+            }
+            .diagram-img{
+                img{
+                    width: 100%;
+                    display: block;
+                    margin: 20px auto 0;
+                    max-width: 555px;
+                    max-height: 420px;
+                }
+            }
+            .diagram-description{
+                text-align: center;
+                line-height: 24px;
+                margin: 25px auto 0;
+            }
+        }
+    }
+}
+//
+//SECTION EXPERIENCE
+.experience-container{
+    width: 100%;
+    padding: 35px 16px;
+    .experience-title{
+        text-align: center;
+        line-height: 28px;
+    }
+    .experience-description{
+        width: 100%;
+        margin: 15px auto;
+        text-align: left;
+        line-height: 24px;
+        max-width: 900px;
+    }
+    .experience-list{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1160px;
+        .row{
+            .list{
+                width: 100%;
+                margin: 0 auto;
+                max-width: 900px;
+                ul{
+                    list-style: disc;
+                    margin-bottom: 0;
+                    li{
+                        list-style: disc;
+                        margin: 10px 0 0;
+                        span{
+                            line-height: 24px
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .experience-icons{
+        width: 100%;
+        margin: 30px auto 0;
+        max-width: 1160px;
+        .row{
+            .plus{
+                width: 25px;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-width: 25px;
+                .plus-img{
+                    margin-top: -150px;
+                    img{
+                        display: block;
+                        width: 25px;
+                    }
+                }
+            }
+            .icons{
+                padding: 0;
+                margin: 8px auto;
+                .row{
+                    .icons-img{
+                        padding: 0;
+                        img{
+                            display: block;
+                            width: 50px;
+                            height: 50px;
+                            margin: 5px auto 0;
+                        }
+                    }
+                    .icons-description{
+                        padding: 0;
+                        .title{
+                            text-align: left;
+                            text-transform: uppercase;
+                            @media only screen and (min-width: 576px){
+                                text-align: center;
+                            }
+                        }
+                        .subtitle{
+                            text-align: left;
+                            @media only screen and (min-width: 576px){
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1024px){
+    .experience-container{
+        padding: 90px 0;
+        .experience-title{
+            font-size: 36px;
+            line-height: 40px;
+        }
+        .experience-icons{
+            margin: 90px auto 0;
+            .row{
+                .icons{
+                    margin: 10px auto;
+                    .row{
+                        .icons-img{
+                            img{
+                                width: 140px;
+                                height: 140px;
+                                margin: 0 auto;
+                            }
+                        }
+                        .icons-description{
+                            .title{
+                                margin-top: 10px;
+                            }
+                            .subtitle{
+                                font-size: 18px;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -264,8 +264,8 @@
   color: #4F2582;
 }
 
-.azul85 {
-  color: #004785;
+.azul84 {
+  color: #004884;
 }
 
 .azul41 {
@@ -526,6 +526,8 @@ header {
     height: 700px;
     background-position-x: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%), url("../img/jpg/hero-img-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .hero-container .hero-title-cont {
     bottom: 200px;
@@ -955,99 +957,10 @@ header {
     line-height: 26px;
   }
 }
-.experience-container {
-  width: 100%;
-  padding: 35px 16px;
-  background-color: #F3F3F3;
-}
-.experience-container .experience-title {
-  text-align: center;
-  line-height: 28px;
-}
-.experience-container .experience-description {
-  width: 100%;
-  margin: 15px auto;
-  text-align: center;
-  line-height: 24px;
-  max-width: 675px;
-}
-.experience-container .experience-list {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1160px;
-}
-.experience-container .experience-list .row .list {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 530px;
-}
-.experience-container .experience-list .row .list ul {
-  list-style: disc;
-  margin-bottom: 0;
-}
-.experience-container .experience-list .row .list ul li {
-  list-style: disc;
-  margin: 10px 0 0;
-}
-.experience-container .experience-list .row .list ul li span {
-  line-height: 24px;
-}
-.experience-container .experience-icons {
-  width: 100%;
-  margin: 30px auto 0;
-  max-width: 1160px;
-}
-.experience-container .experience-icons .row .icons {
-  margin: 8px auto;
-}
-.experience-container .experience-icons .row .icons .row .icons-img {
-  padding: 0;
-}
-.experience-container .experience-icons .row .icons .row .icons-img img {
-  display: block;
-  width: 55px;
-  height: 40px;
-  margin: 10px auto 0;
-}
-.experience-container .experience-icons .row .icons .row .icons-description {
-  padding-right: 0;
-}
-.experience-container .experience-icons .row .icons .row .icons-description div {
-  text-align: left;
-}
-@media only screen and (min-width: 576px) {
-  .experience-container .experience-icons .row .icons .row .icons-description div {
-    text-align: center;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .experience-container {
-    padding: 90px 0;
-  }
-  .experience-container .experience-title {
-    font-size: 36px;
-    line-height: 40px;
-  }
-  .experience-container .experience-description {
-    font-size: 22px;
-    line-height: 30px;
-  }
-  .experience-container .experience-icons .row .icons {
-    margin: 10px auto;
-  }
-  .experience-container .experience-icons .row .icons .row .icons-img img {
-    width: 120px;
-    height: 80px;
-    margin: 0 auto;
-  }
-  .experience-container .experience-icons .row .icons .row .icons-description div {
-    margin-top: 10px;
-  }
-}
 .for-who-container {
   width: 100%;
   padding: 35px 16px;
+  background-color: #F3F3F3;
 }
 .for-who-container .for-who-title {
   text-align: center;
@@ -1065,8 +978,8 @@ header {
 }
 .for-who-container .for-who-list .row .list {
   width: 100%;
-  margin: 0 auto;
-  max-width: 580px;
+  margin: 0;
+  max-width: 780px;
 }
 .for-who-container .for-who-list .row .list ul {
   list-style: disc;
@@ -1103,6 +1016,205 @@ header {
 .for-who-container .for-who-diagrams .diagram-title {
   text-align: center;
   line-height: 45px;
+}
+.for-who-container .for-who-diagrams .diagram-img img {
+  width: 100%;
+  display: block;
+  margin: 20px auto 0;
+  max-width: 555px;
+  max-height: 420px;
+}
+.for-who-container .for-who-diagrams .diagram-description {
+  text-align: center;
+  line-height: 24px;
+  margin: 25px auto 0;
+}
+.for-who-container .for-who-diagrams .details-cont {
+  width: 75%;
+  margin: 10px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.for-who-container .for-who-diagrams .details-cont .detail {
+  width: 95px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.for-who-container .for-who-diagrams .details-cont .detail .back-1 {
+  background-color: #3C3B52;
+}
+.for-who-container .for-who-diagrams .details-cont .detail .back-2 {
+  background-color: #AB388D;
+}
+.for-who-container .for-who-diagrams .details-cont .detail .back-3 {
+  background-color: #23B3E8;
+}
+.for-who-container .for-who-diagrams .details-cont .detail .back-4 {
+  background-color: #D5244C;
+}
+.for-who-container .for-who-diagrams .details-cont .detail .back-5 {
+  background-color: #0C7EC1;
+}
+.for-who-container .for-who-diagrams .details-cont .detail .back-6 {
+  background-color: #6A3D94;
+}
+.for-who-container .for-who-diagrams .details-cont .detail .square {
+  width: 12px;
+  height: 12px;
+}
+.for-who-container .for-who-diagrams .details-cont .detail .title {
+  margin-left: 5px;
+  text-align: left;
+}
+
+@media only screen and (min-width: 1024px) {
+  .for-who-container {
+    padding: 90px 16px;
+  }
+  .for-who-container .for-who-title {
+    line-height: 40px;
+    font-size: 36px;
+  }
+  .for-who-container .for-who-diagrams {
+    width: 100%;
+    margin: 60px auto 0;
+    max-width: 950px;
+  }
+  .for-who-container .for-who-diagrams .diagram-title {
+    font-size: 24px;
+  }
+  .for-who-container .for-who-diagrams .diagram-img img {
+    width: 100%;
+    display: block;
+    margin: 20px auto 0;
+    max-width: 555px;
+    max-height: 420px;
+  }
+  .for-who-container .for-who-diagrams .diagram-description {
+    text-align: center;
+    line-height: 24px;
+    margin: 25px auto 0;
+  }
+}
+.experience-container {
+  width: 100%;
+  padding: 35px 16px;
+}
+.experience-container .experience-title {
+  text-align: center;
+  line-height: 28px;
+}
+.experience-container .experience-description {
+  width: 100%;
+  margin: 15px auto;
+  text-align: left;
+  line-height: 24px;
+  max-width: 900px;
+}
+.experience-container .experience-list {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1160px;
+}
+.experience-container .experience-list .row .list {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.experience-container .experience-list .row .list ul {
+  list-style: disc;
+  margin-bottom: 0;
+}
+.experience-container .experience-list .row .list ul li {
+  list-style: disc;
+  margin: 10px 0 0;
+}
+.experience-container .experience-list .row .list ul li span {
+  line-height: 24px;
+}
+.experience-container .experience-icons {
+  width: 100%;
+  margin: 30px auto 0;
+  max-width: 1160px;
+}
+.experience-container .experience-icons .row .plus {
+  width: 25px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 25px;
+}
+.experience-container .experience-icons .row .plus .plus-img {
+  margin-top: -150px;
+}
+.experience-container .experience-icons .row .plus .plus-img img {
+  display: block;
+  width: 25px;
+}
+.experience-container .experience-icons .row .icons {
+  padding: 0;
+  margin: 8px auto;
+}
+.experience-container .experience-icons .row .icons .row .icons-img {
+  padding: 0;
+}
+.experience-container .experience-icons .row .icons .row .icons-img img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 5px auto 0;
+}
+.experience-container .experience-icons .row .icons .row .icons-description {
+  padding: 0;
+}
+.experience-container .experience-icons .row .icons .row .icons-description .title {
+  text-align: left;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 576px) {
+  .experience-container .experience-icons .row .icons .row .icons-description .title {
+    text-align: center;
+  }
+}
+.experience-container .experience-icons .row .icons .row .icons-description .subtitle {
+  text-align: left;
+}
+@media only screen and (min-width: 576px) {
+  .experience-container .experience-icons .row .icons .row .icons-description .subtitle {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .experience-container {
+    padding: 90px 0;
+  }
+  .experience-container .experience-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .experience-container .experience-icons {
+    margin: 90px auto 0;
+  }
+  .experience-container .experience-icons .row .icons {
+    margin: 10px auto;
+  }
+  .experience-container .experience-icons .row .icons .row .icons-img img {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+  }
+  .experience-container .experience-icons .row .icons .row .icons-description .title {
+    margin-top: 10px;
+  }
+  .experience-container .experience-icons .row .icons .row .icons-description .subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
