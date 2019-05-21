@@ -29,6 +29,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js">
     </script>
     <script type="text/javascript" src="https://code.getmdl.io/1.3.0/material.min.js"></script> <!-- Material Design -->
+    
 
 </head>
 
@@ -556,10 +557,42 @@
                         <img src="../assets/img/svg/Industrias-participantes-mobile.svg" alt="Industrias-Participantes">
                     </div>
                     <div class="movil">
-                        <div class="detail">
-                            <div class="square back-1"></div>
-                            <div class="title robotoRe fs14 negro23">
-                                1-5 años
+                        <div class="details-cont">
+                            <div class="detail" style="width: 210px; margin: 0 auto;">
+                                <div class="square back-2"></div>
+                                <div class="title robotoRe fs14 negro23">
+                                    Consultoría
+                                </div>
+                            </div>
+                            <div class="detail" style="width: 210px; margin: 0 auto;">
+                                <div class="square back-3"></div>
+                                <div class="title robotoRe fs14 negro23">
+                                    Banca y servicios financieros
+                                </div>
+                            </div>
+                            <div class="detail" style="width: 210px; margin: 0 auto;">
+                                <div class="square back-4"></div>
+                                <div class="title robotoRe fs14 negro23">
+                                    Proveedor de servicios de RH
+                                </div>
+                            </div>
+                            <div class="detail" style="width: 210px; margin: 0 auto;">
+                                <div class="square back-5"></div>
+                                <div class="title robotoRe fs14 negro23">
+                                    Salud
+                                </div>
+                            </div>
+                            <div class="detail" style="width: 210px; margin: 0 auto;">
+                                <div class="square back-6"></div>
+                                <div class="title robotoRe fs14 negro23">
+                                    Energía
+                                </div>
+                            </div>
+                            <div class="detail" style="width: 210px; margin: 0 auto;">
+                                <div class="square back-1"></div>
+                                <div class="title robotoRe fs14 negro23">
+                                    Otros
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -716,7 +749,102 @@
             </div>
         </div>
     </div>
-    <!-- Section Management of human deploy -->
+    <!-- Section Themes of the program -->
+    <div class="themes-program-container">
+        <div class="themes-program-title robotoBo fs24 azul84">
+            Temas del programa
+        </div>
+        <div class="themes-program-diagram">
+            <img class="desktop" src="../assets/img/svg/Temas-del-programa-desktop.svg" alt="Diagram">
+        </div>
+        <div class="themes-container container-fluid">
+            <div class="row">
+                <div class="theme-cont col-md-6">
+                    <div class="row">
+                        <div class="theme col-md-12">
+                            <div class="row">
+                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                    Módulo 1
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Introducción a people analytics y evaluación de desempeño
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme col-md-12">
+                            <div class="row">
+                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                    Módulo 2
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Motivación y recompensa
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme col-md-12">
+                            <div class="row">
+                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                    Módulo 3
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Puestos y sistemas de trabajo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme col-md-12">
+                            <div class="row">
+                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                    Módulo 4
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Selección estratégica de personal
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="theme-cont col-md-6">
+                    <div class="row">
+                        <div class="theme col-md-12">
+                            <div class="row">
+                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                    Módulo 5
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Colaboración y redes
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme col-md-12">
+                            <div class="row">
+                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                    Módulo 6
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Analítica de talento
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme col-md-12">
+                            <div class="row">
+                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                    Módulo 7
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Gestionar tu carrera como un profesional de RH
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-apply-now">
+            <a class="btn-apply-now robotoBo fs16 blanco">
+                DESCARGA EL PLAN DE ESTUDIOS
+            </a>
+        </div>
+    </div>
     <!-- Section Examples of the insdustry -->
     <!-- Section Professor -->
     <!-- Section Certificate -->

@@ -10,22 +10,27 @@
 
 @font-face {
   font-family: Roboto-Bold;
+  font-display: swap;
   src: url("../../assets/fonts/Roboto-Bold.ttf");
 }
 @font-face {
   font-family: Roboto-Light;
+  font-display: swap;
   src: url("../../assets/fonts/Roboto-Light.ttf");
 }
 @font-face {
   font-family: Roboto-Regular;
+  font-display: swap;
   src: url("../../assets/fonts/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: Roboto-Light;
+  font-display: swap;
   src: url("../../assets/fonts/Roboto-Light.ttf");
 }
 @font-face {
   font-family: Roboto-Black;
+  font-display: swap;
   src: url("../../assets/fonts/Roboto-Black.ttf");
 }
 .robotoBo {
@@ -760,7 +765,8 @@ header {
   .detalles-container .detalles-cont .detalle {
     margin: 20px auto 0;
   }
-  .detalles-container .detalles-cont .detalle .detalles .text, .detalles-container .detalles-cont .detalle .detalles .fechas-precio {
+  .detalles-container .detalles-cont .detalle .detalles .text,
+.detalles-container .detalles-cont .detalle .detalles .fechas-precio {
     font-size: 24px;
     line-height: 28px;
   }
@@ -1140,6 +1146,9 @@ header {
   margin: 30px auto 0;
   max-width: 1160px;
 }
+.experience-container .experience-icons .row {
+  margin: 0 auto;
+}
 .experience-container .experience-icons .row .plus {
   width: 25px;
   padding: 0;
@@ -1172,8 +1181,9 @@ header {
   padding: 0;
 }
 .experience-container .experience-icons .row .icons .row .icons-description .title {
+  width: 90%;
+  margin: 0 auto;
   text-align: left;
-  text-transform: uppercase;
 }
 @media only screen and (min-width: 576px) {
   .experience-container .experience-icons .row .icons .row .icons-description .title {
@@ -1181,6 +1191,8 @@ header {
   }
 }
 .experience-container .experience-icons .row .icons .row .icons-description .subtitle {
+  width: 90%;
+  margin: 0 auto;
   text-align: left;
 }
 @media only screen and (min-width: 576px) {
@@ -1214,6 +1226,77 @@ header {
   .experience-container .experience-icons .row .icons .row .icons-description .subtitle {
     font-size: 18px;
     margin-top: 10px;
+  }
+}
+.themes-program-container {
+  width: 100%;
+  padding: 35px 16px;
+  background-color: #F3F3F3;
+}
+.themes-program-container .themes-program-title {
+  text-align: center;
+  line-height: 24px;
+}
+.themes-program-container .themes-program-diagram {
+  width: 100%;
+  margin: 30px auto;
+}
+.themes-program-container .themes-program-diagram img {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 730px;
+}
+.themes-program-container .themes-container {
+  width: 100%;
+  margin: 30px auto;
+  max-width: 1160px;
+  padding: 0;
+}
+.themes-program-container .themes-container .row {
+  width: 100%;
+  margin: 0 auto;
+}
+.themes-program-container .themes-container .row .theme-cont .row .theme {
+  width: 100%;
+  padding: 0 0 20px;
+  margin: 10px auto;
+  max-width: 510px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.themes-program-container .themes-container .row .theme-cont .row .theme .row {
+  margin: 0 auto;
+}
+.themes-program-container .themes-container .row .theme-cont .row .theme .row .number {
+  margin: 0;
+  max-width: 70px;
+  padding: 0;
+  line-height: 22px;
+}
+.themes-program-container .themes-container .row .theme-cont .row .theme .row .title {
+  padding-right: 0;
+  padding-left: 2px;
+  margin: 0 auto;
+  line-height: 22px;
+}
+.themes-program-container .button-apply-now a {
+  width: 290px;
+  display: block;
+  margin: 40px auto 0;
+  text-align: center;
+  padding: 17px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: #A90533;
+}
+
+@media only screen and (min-width: 1024px) {
+  .themes-program-container {
+    padding: 90px 0;
+  }
+  .themes-program-container .themes-program-title {
+    font-size: 36px;
+    line-height: 40px;
   }
 }
 
