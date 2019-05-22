@@ -38,6 +38,12 @@
     font-display: swap;
     src: url('../../assets/fonts/Roboto-Black.ttf');
 }
+@font-face {
+    font-family: 'slick';
+    font-display: swap!important;
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix')!important;
+}
 
 //FONTS CLASS
 .robotoBo {
@@ -321,7 +327,7 @@ header {
     width: 100%;
     background-color: #004785;
     padding: 15px;
-    z-index: 1;
+    z-index: 4;
     transition: all 0.3s ease-out;
 
     @media only screen and (min-width: 1024px) {
@@ -483,8 +489,6 @@ header {
         }
     }
 }
-
-//
 .form {
     width: 100%;
     max-width: 395px;
@@ -537,7 +541,6 @@ header {
         }
     }
 }
-
 .private-data {
     width: auto;
 
@@ -557,7 +560,6 @@ header {
         }
     }
 }
-
 @media only screen and (min-width: 1024px) {
     .hero-container {
         padding: 25px 0;
@@ -620,7 +622,6 @@ header {
         }
     }
 }
-
 //
 //Customize CSS from MDL
 .mdl-textfield.is-invalid .mdl-textfield__input {
@@ -733,7 +734,6 @@ header {
     text-align: left;
     color: inherit;
 }
-
 //
 //SECTION DETAILS
 .detalles-container {
@@ -810,7 +810,6 @@ header {
         }
     }
 }
-
 @media only screen and (min-width: 1161px) {
     .detalles-container {
         width: 100%;
@@ -833,7 +832,6 @@ header {
         }
     }
 }
-
 .modal-pagos-flexibles {
     max-width: 745px !important;
     padding: 17px !important;
@@ -881,7 +879,6 @@ header {
         }
     }
 }
-
 .modal {
     overflow: initial !important;
     vertical-align: middle !important;
@@ -901,7 +898,6 @@ header {
     box-shadow: 0 0 10px #000 !important;
     text-align: left !important;
 }
-
 @media only screen and (min-width: 1024px) {
     .modal-pagos-flexibles {
         padding: 40px !important;
@@ -935,7 +931,6 @@ header {
         }
     }
 }
-
 //
 //SECTION INFORMATION
 .information-container {
@@ -1026,7 +1021,6 @@ header {
         }
     }
 }
-
 @media only screen and (min-width: 1024px) {
     .information-container {
         padding: 180px 0 90px;
@@ -1067,7 +1061,6 @@ header {
         }
     }
 }
-
 //
 //SECTION WHO IS THIS PROGRAM
 .for-who-container {
@@ -1211,7 +1204,6 @@ header {
         }
     }
 }
-
 @media only screen and (min-width: 1024px) {
     .for-who-container {
         padding: 90px 16px;
@@ -1248,7 +1240,6 @@ header {
         }
     }
 }
-
 //
 //SECTION EXPERIENCE
 .experience-container {
@@ -1365,7 +1356,6 @@ header {
         }
     }
 }
-
 @media only screen and (min-width: 1024px) {
     .experience-container {
         padding: 90px 0;
@@ -1407,7 +1397,6 @@ header {
         }
     }
 }
-
 //
 //SECTION THEMES OF THE PROGRAM
 .themes-program-container {
@@ -1476,7 +1465,7 @@ header {
 
     .button-apply-now {
         a {
-            width: 290px;
+            width: 260px;
             display: block;
             margin: 40px auto 0;
             text-align: center;
@@ -1495,6 +1484,291 @@ header {
         .themes-program-title {
             font-size: 36px;
             line-height: 40px;
+        }
+    }
+}
+//
+//SECTION EXAMPLES OF INDUSTRY
+.examples-industry-container{
+    padding: 35px 0;
+    background-color: #ffffff;
+    .examples-industry-title{
+        text-align: center;
+        line-height: 24px;
+    }
+    .examples-container{
+        width: 100%;
+        margin: 30px auto 0;
+        max-width: 1180px;
+        .row{
+            margin: 0 auto;
+            align-items: initial;
+            justify-content: center;
+        }
+    }
+    .example{
+        width: 100%;
+        margin: 15px 5px 0;
+        max-width: 370px;
+        padding: 0;
+        background-color: #004884;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        img{
+            width: 100%;
+            display: block;
+        }
+        .information{
+            width: 100%;
+            padding: 15px;
+            .title{
+                color: #ffffff;
+                text-align: center;
+                text-transform: capitalize;
+            }
+            .description{
+                color: #ffffff;
+                text-align: center;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1024px){
+    .examples-industry-container{
+        padding: 90px 0;
+        .examples-industry-title{
+            line-height: 40px;
+            font-size: 36px;
+        }
+        .example{
+            .information{
+                .title{
+                    font-size: 24px;
+                    text-align: left;
+                }
+                .description{
+                    font-size: 18px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+//
+//SECTION PROFESSORS
+.professor-container{
+    padding: 35px 16px;
+    background-color: #F3F3F3;
+    .professor-title{
+        text-align: center;
+    }
+    .professor-slider-container{
+        width: 100%;
+        margin: 30px auto 0;
+        max-width: 1160px;
+        position: relative;
+        .professor{
+            width: 100%;
+            padding: 35px 0;
+            border-radius: 20px;
+            border: 1px solid #F3F3F3;
+            position: relative;
+            .professor-img{
+                img{
+                    width: 100%;
+                    display: block;
+                    margin: 0 auto 20px;
+                    max-width: 140px;
+                }
+            }
+            .professor-description{
+                .name, .info{
+                    text-align: center;
+                    line-height: 24px;
+                    width: 100%;
+                    padding: 0 10px;
+                    margin: 0 auto;
+                    max-width: 360px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1024px){
+    .professor-container{
+    padding: 90px 0 130px;
+        .professor-title{
+            font-size: 36px;
+            line-height: 40px;
+        }
+        .professor-slider-container{
+            .professor{
+                border-radius: 20px;
+                border: 1px solid #707070;
+                padding: 50px 0 35px;
+                margin: 100px 10px 0;
+                .professor-img{
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    top: -100px;
+                }
+                .professor-description{
+                    .name{
+                        font-size: 24px;
+                    }
+                    .info{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+//
+/* Arrows - Slick Slider */
+.slick-prev
+{
+    left: 0!important;
+    z-index: 3;
+    @media only screen and (min-width: 1200px){
+        left: -25px!important;
+    }
+}
+
+.slick-prev::before {
+    content: url('../../business-analytics/assets/img/svg/chevron-left-solid.svg')!important;
+}
+
+.slick-next
+{
+    right: 0!important;
+    z-index: 3;
+    @media only screen and (min-width: 1200px){
+        right: -25px!important;
+    }
+}
+
+.slick-next::before {
+    content: url('../../business-analytics/assets/img/svg/chevron-right-solid.svg')!important;
+}
+
+/* Dots - Slick Slider */
+.slick-dots
+{
+    position: absolute;
+    bottom: -50px!important;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li button:before
+{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: url("../../business-analytics/assets/img/svg/slider-elipse.svg")!important;
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+    content: url("../../business-analytics/assets/img/svg/slider-elipse-seleccionada.svg")!important;
+}
+//SECTION CERTIFICATE
+.certificate-container{
+    padding: 35px 0px;
+    .certificate-cont{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1160px;
+        .row{
+            margin: 0 auto;
+            align-items: center;
+            .certificate-info{
+                width: 100%;
+                margin: 15px auto;
+                padding: 0;
+                max-width: 560px;
+                .certificate-title{
+                    text-align: center;
+                    line-height: 24px;
+                }
+                .certificate-subtitle{
+                    margin-top: 10px;
+                    text-align: center;
+                    line-height: 22px;
+                }
+            }
+            .certificate-img{
+                width: 100%;
+                img{
+                    width: 100%;
+                    display: block;
+                    margin: 15px auto;
+                    max-width: 450px;
+                }
+            }
+            .certificate-note{
+                width: 100%;
+                margin: 0 auto;
+                padding: 0;
+                line-height: 24px;
+                text-align: left;
+                max-width: 1160px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1024px){
+    .certificate-container{
+        padding: 90px 0px;
+        .certificate-cont{
+            .row{
+                .certificate-info{
+                    margin: 0 auto 30px;
+                    .certificate-title{
+                        text-align: left;
+                        line-height: 40px;
+                        font-size: 36px;
+                    }
+                    .certificate-subtitle{
+                        text-align: left;
+                        line-height: 26px;
+                        font-size: 20px;
+                    }
+                }
+                .certificate-img{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                        display: block;
+                        margin: 0 auto 30px;
+                        max-width: 450px;
+                    }
+                }
+            }
         }
     }
 }

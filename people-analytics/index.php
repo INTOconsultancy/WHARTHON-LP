@@ -21,6 +21,13 @@
     <!-- jQuery -->
     <script type="text/javascript" src="../assets/js/form-input-manager.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/lazysizes.min.js"></script>
+
+
     <script type="text/javascript" src="../assets/js/logs.js"></script>
     <script type="text/javascript" src="../assets/js/utm_populate.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
@@ -63,8 +70,8 @@
     <header class="header">
         <div class="header-container">
             <div class="header-logos">
-                <img class="white" src="../business-analytics/assets/img/svg/wharton-execed-white-LG.svg" alt="Wharton">
-                <img class="blue" src="../business-analytics/assets/img/svg/wharton-execed-blue-LG.svg" alt="Executive-Education">
+                <img class="white lazyload" data-src="../business-analytics/assets/img/svg/wharton-execed-white-LG.svg" alt="Wharton">
+                <img class="blue lazyload" data-src="../business-analytics/assets/img/svg/wharton-execed-blue-LG.svg" alt="Executive-Education">
             </div>
 
             <div class="text-button desktop robotoBo fs20 blanco">CERTIFICADO ONLINE</div>
@@ -159,7 +166,7 @@
                         <input type="hidden" name="retURL" value="<?php echo $current_link.'Thanks.php' ?>">
                         <button class="robotoBo fs16 blanco" type="submit" id="btn-download-brochure">
                             DESCARGAR EL FOLLETO
-                            <img src="../assets/img/svg/icon-descargar.svg" alt="Download">
+                            <img class="lazyload" data-src="../assets/img/svg/icon-descargar.svg" alt="Download">
                         </button>
                     </div>
                 </form>
@@ -181,7 +188,7 @@
         <div class="detalles-cont">
             <div class="detalle">
                 <div class="detalle-img">
-                    <img src="../assets/img/svg/icono-inicio.svg" alt="">
+                    <img class="lazyload" data-src="../assets/img/svg/icono-inicio.svg" alt="">
                 </div>
                 <div class="detalles">
                     <div class="text robotoRe fs20 grisD9">
@@ -197,7 +204,7 @@
             </div>
             <div class="detalle">
                 <div class="detalle-img">
-                    <img src="../assets/img/svg/icono-duracion.svg" alt="">
+                    <img class="lazyload" data-src="../assets/img/svg/icono-duracion.svg" alt="">
                 </div>
                 <div class="detalles">
                     <div class="text robotoRe fs20 grisD9">
@@ -215,7 +222,7 @@
             </div>
             <div class="detalle">
                 <div class="detalle-img">
-                    <img src="../assets/img/svg/icono-cuota.svg" alt="">
+                    <img class="lazyload" data-src="../assets/img/svg/icono-cuota.svg" alt="">
                 </div>
                 <div class="detalles">
                     <div class="text robotoRe fs20 grisD9">
@@ -226,7 +233,7 @@
                     </div>
                     <div class="notas robotoRe fs14 amarillo73">
                         <a class="amarillo73" href="#ex2" rel="modal:open">
-                            <img src="../assets/img/svg/info-circle-solid.svg" alt="información">
+                            <img class="lazyload" data-src="../assets/img/svg/info-circle-solid.svg" alt="información">
                             Pagos flexibles disponibles
                         </a>
                     </div>
@@ -491,11 +498,11 @@
                     </div>
 
                     <div class="diagram-img desktop">
-                        <img src="../assets/img/svg/Experiencia-laboral-desktop.svg" alt="Experiencia-laboral">
+                        <img class="lazyload" data-src="../assets/img/svg/Experiencia-laboral-desktop.svg" alt="Experiencia-laboral">
                     </div>
                     
                     <div class="diagram-img movil">
-                        <img src="../assets/img/svg/Experiencia-laboral-mobile.svg" alt="Industrias-Participantes">
+                        <img class="lazyload" data-src="../assets/img/svg/Experiencia-laboral-mobile.svg" alt="Industrias-Participantes">
                     </div>
 
                     <div class="movil">
@@ -550,11 +557,11 @@
                     </div>
 
                     <div class="diagram-img desktop">
-                        <img src="../assets/img/svg/Industrias-participantes-desktop.svg" alt="Industrias-Participantes">
+                        <img class="lazyload" data-src="../assets/img/svg/Industrias-participantes-desktop.svg" alt="Industrias-Participantes">
                     </div>
                     
                     <div class="diagram-img movil">
-                        <img src="../assets/img/svg/Industrias-participantes-mobile.svg" alt="Industrias-Participantes">
+                        <img class="lazyload" data-src="../assets/img/svg/Industrias-participantes-mobile.svg" alt="Industrias-Participantes">
                     </div>
                     <div class="movil">
                         <div class="details-cont">
@@ -672,7 +679,7 @@
                 <div class="icons col-md-2 col-sm-6">
                     <div class=row>
                         <div class="icons-img col-sm-12 col-2">
-                            <img src="../assets/img/svg/contexto-recuadro.svg" alt="Contexto">
+                            <img class="lazyload" data-src="../assets/img/svg/contexto-recuadro.svg" alt="Contexto">
                         </div>
                         <div class="icons-description col-sm-12 col-10">
                             <div class="title robotoBo fs20 negro23">
@@ -686,13 +693,13 @@
                 </div>
                 <div class="col-md-1 plus">
                     <div class="plus-img desktop">
-                        <img src="../assets/img/svg/+.svg" alt="Plus">
+                        <img class="lazyload" data-src="../assets/img/svg/+.svg" alt="Plus">
                     </div>
                 </div>
                 <div class="icons col-md-2 col-sm-6">
                     <div class=row>
                         <div class="icons-img col-sm-12 col-2">
-                            <img src="../assets/img/svg/ejemplos-del-mundo-recuadro.svg" alt="Ejemplos-del-mundo-real">
+                            <img class="lazyload" data-src="../assets/img/svg/ejemplos-del-mundo-recuadro.svg" alt="Ejemplos-del-mundo-real">
                         </div>
                         <div class="icons-description col-sm-12 col-10">
                             <div class="title robotoBo fs20 negro23">
@@ -706,13 +713,13 @@
                 </div>
                 <div class="col-md-1 plus">
                     <div class="plus-img desktop">
-                        <img src="../assets/img/svg/+.svg" alt="Plus">
+                        <img class="lazyload" data-src="../assets/img/svg/+.svg" alt="Plus">
                     </div>
                 </div>
                 <div class="icons col-md-2 col-sm-6">
                     <div class=row>
                         <div class="icons-img col-sm-12 col-2">
-                            <img src="../assets/img/svg/Aplicacion-al-conjunto-recuadro.svg" alt="Aplicación-al-conjunto-de-datos">
+                            <img class="lazyload" data-src="../assets/img/svg/Aplicacion-al-conjunto-recuadro.svg" alt="Aplicación-al-conjunto-de-datos">
                         </div>
                         <div class="icons-description col-sm-12 col-10">
                             <div class="title robotoBo fs20 negro23">
@@ -727,13 +734,13 @@
                 </div>
                 <div class="col-md-1 plus">
                     <div class="plus-img desktop">
-                        <img src="../assets/img/svg/+.svg" alt="Plus">
+                        <img class="lazyload" data-src="../assets/img/svg/+.svg" alt="Plus">
                     </div>
                 </div>
                 <div class="icons col-md-2 col-sm-6">
                     <div class=row>
                         <div class="icons-img col-sm-12 col-2">
-                            <img src="../assets/img/svg/Reportes-de-aprendizaje-recuadro.svg" alt="Reportes-de-aprendizaje">
+                            <img class="lazyload" data-src="../assets/img/svg/Reportes-de-aprendizaje-recuadro.svg" alt="Reportes-de-aprendizaje">
                         </div>
                         <div class="icons-description col-sm-12 col-10">
                             <div class="title robotoBo fs20 negro23">
@@ -755,7 +762,8 @@
             Temas del programa
         </div>
         <div class="themes-program-diagram">
-            <img class="desktop" src="../assets/img/svg/Temas-del-programa-desktop.svg" alt="Diagram">
+            <img class="desktop lazyload" data-src="../assets/img/svg/Temas-del-programa-desktop.svg" alt="Diagram">
+            <img class="movil lazyload" data-src="../assets/img/svg/Temas-del-programa-mobile.svg" alt="Diagram">
         </div>
         <div class="themes-container container-fluid">
             <div class="row">
@@ -841,14 +849,173 @@
         </div>
         <div class="button-apply-now">
             <a class="btn-apply-now robotoBo fs16 blanco">
-                DESCARGA EL PLAN DE ESTUDIOS
+                DESCARGA EL FOLLETO
             </a>
         </div>
     </div>
     <!-- Section Examples of the insdustry -->
+    <div class="examples-industry-container">
+        <div class="examples-industry-title robotoBo fs24 azul84">
+            Ejemplos de la industria
+        </div>
+        <div class="examples-container container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 example">
+                    <img class="lazyload" data-src="../assets/img/jpg/Ejemplo-1.jpg" alt="Google:-Proyecto-Oxígeno">
+                    <div class="information">
+                        <div class="title robotoBo fs20">
+                            Google: Proyecto Oxígeno
+                        </div>
+                        <div class="description robotoRe fs16">
+                            Descubre como Google implementó una iniciativa de RH para toda 
+                            la compañía llamada “Proyecto Oxígeno”, para identificar los 
+                            principales atributos de una gestión exitosa haciéndose la 
+                            pregunta: los gerentes... ¿importan?
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 example">
+                    <img class="lazyload" data-src="../assets/img/jpg/Ejemplo-2.jpg" alt="Industria-automotriz-japonesa">
+                    <div class="information">
+                        <div class="title robotoBo fs20">
+                            Industria automotriz japonesa
+                        </div>
+                        <div class="description robotoRe fs16">
+                            Entiende cómo es que la autonomía de los empleados está relacionada 
+                            con la productividad.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 example">
+                    <img class="lazyload" data-src="../assets/img/jpg/Ejemplo-3.jpg" alt="National-Football-League-(NFL)">
+                    <div class="information">
+                        <div class="title robotoBo fs20">
+                            National Football League (NFL)
+                        </div>
+                        <div class="description robotoRe fs16">
+                            Explora cómo en el mundo de los deportes profesionales, donde se 
+                            recolectan más datos que en muchos otros ámbitos, identificar a 
+                            los mejores atletas puede ser todo un reto.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Section Professor -->
+    <div class="professor-container">
+        <div class="professor-title robotoBo fs24 azul84">
+            Profesorado
+        </div>
+        <div class="professor-slider-container">
+            <div class="professor">
+                <div class="professor-img">
+                    <img class="lazyload" data-src="../assets/img/png/Michael-Useem-PhD.png" alt="Michael-Useem,-PhD">
+                </div>
+                <div class="professor-description">
+                    <div class="name robotoBo fs18 negro23">
+                        Michael Useem, PhD
+                    </div>
+                    <div class="info robotoRe fs16 negro23">
+                        Profesor de Administración William and Jacalyn Egan; Director del 
+                        Centro de Liderazgo y Gestión del Cambio; Editor de Wharton 
+                        Leadership Digest
+                    </div>
+                </div>
+            </div>
+            <div class="professor">
+                <div class="professor-img">
+                    <img class="lazyload" data-src="../assets/img/png/Peter-Cappelli-DPhil.png" alt="Peter-Cappelli,-DPhil">
+                </div>
+                <div class="professor-description">
+                    <div class="name robotoBo fs18 negro23">
+                        Peter Cappelli, DPhil
+                    </div>
+                    <div class="info robotoRe fs16 negro23">
+                        Profesor de Administración George W. Taylor; Director del Centro de 
+                        Recursos Humanos, The Wharton School
+                    </div>
+                </div>
+            </div>
+            <div class="professor">
+                <div class="professor-img">
+                    <img class="lazyload" data-src="../assets/img/png/Matthew-Bidwell-PhD.png" alt="Matthew-Bidwell,-PhD">
+                </div>
+                <div class="professor-description">
+                    <div class="name robotoBo fs18 negro23">
+                        Matthew Bidwell, PhD
+                    </div>
+                    <div class="info robotoRe fs16 negro23">
+                        Profesor Adjunto de Administración, The Wharton School
+                    </div>
+                </div>
+            </div>
+            <div class="professor">
+                <div class="professor-img">
+                    <img class="lazyload" data-src="../assets/img/png/cade-massey.png" alt="Cade-Massey,-PhD">
+                </div>
+                <div class="professor-description">
+                    <div class="name robotoBo fs18 negro23">
+                        Cade Massey, PhD
+                    </div>
+                    <div class="info robotoRe fs16 negro23">
+                        Profesor de Práctica, Operaciones, Información y Decisiones, The 
+                        Wharton School
+                    </div>
+                </div>
+            </div>
+            <div class="professor">
+                <div class="professor-img">
+                    <img class="lazyload" data-src="../assets/img/png/martine-haas.png" alt="Martine-Haas,-PhD">
+                </div>
+                <div class="professor-description">
+                    <div class="name robotoBo fs18 negro23">
+                        Martine Haas, PhD
+                    </div>
+                    <div class="info robotoRe fs16 negro23">
+                        Profesora Adjunto de Administración, The Wharton School
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Section Certificate -->
+    <div class="certificate-container">
+        <div class="certificate-cont container-fluid">
+            <div class="row">
+                <div class="certificate-info col-md-6">
+                    <div class="certificate-title robotoBo fs24 azul84">
+                        Certificado
+                    </div>
+                    <div class="certificate-subtitle robotoRe fs20 negro23">
+                        Obtén un certificado digital una vez que termines tu programa 
+                        en línea de manera exitosa.
+                    </div>
+                </div>
+                <div class="col-md-6 certificate-img">
+                    <img class="lazyload" data-src="../assets/img/png/Certificado.png" alt="Certificado">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 certificate-note robotoRe fs16 gris7D">
+                        <i>
+                            Nota: Tras haber completado el programa en línea con éxito, tu certificado 
+                            digital verificado te será enviado vía correo electrónico con el nombre 
+                            que usaste al registrarte para el programa. Todas las imágenes del 
+                            certificado son solo para propósitos ilustrativos y pueden estar sujetas 
+                            a cambios a discreción de The Wharton School. 
+                            <br>
+                            <br>
+                            NOTA: Este programa en línea no otorga créditos académicos o un título 
+                            de la Wharton School, de la Universidad de Pensilvania
+                        </i>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Section Apply Now / Felxible Payments -->
+    <!-- Button trigger modal -->
+
     <!-- Section Colaboration -->
 </body>
 
