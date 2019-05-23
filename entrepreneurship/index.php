@@ -70,9 +70,12 @@
         <div class="hero-title-cont">
             <div class="hero-title">
                 <div class="banner robotoRe fs16 dorado73">Aplica hoy al programa</div>
-                <div class="title robotoBo fs26 blanco">Administración e Inteligencia Analítica de Recursos Humanos:
+                <div class="title robotoBo fs26 blanco">
+                    Emprendimiento e innovación para la aceleración de negocios
                 </div>
-                <div class="subtitle robotoRe fs18 blanco"><i>People Analytics</i>
+                <div class="subtitle robotoRe fs18 blanco">
+                    En este curso, el ganador del mejor pitch obtendrá una inversión de capital 
+                    de $25,000 dólares. El segundo lugar será reconocido con $10,000 dólares.
                 </div>
             </div>
         </div>
@@ -83,7 +86,7 @@
             <div class="form" id="form">
                 <div class="form-title robotoBo fs18 azul41">Solicitar información del curso</div>
                 <!-- Form Element -->
-                <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-04-24/4ypz77" id="fordesk">
+                <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-05-17/53j9xg" id="fordesk">
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                         <input class="robotoRe fs16 gris91 mdl-textfield__input" type="text" id="first_name"
                             name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
@@ -141,7 +144,7 @@
                         <input type="hidden" name="utm_content" id="utm_content" value="">
                         <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
                         <input type="hidden" name="browser" id="browser" value="">
-                        <input type="hidden" name="course" id="course" value="Wharton - People Analytics">
+                        <input type="hidden" name="course" id="course" value="Wharton - Entrepreneurship">
                         <input type="hidden" name="retURL" value="<?php echo $current_link.'Thanks.php' ?>">
                         <button class="robotoBo fs16 blanco" type="submit" id="btn-download-brochure">
                             DESCARGAR EL FOLLETO
@@ -174,10 +177,10 @@
                         INICIA EL
                     </div>
                     <div class="fechas-precio robotoBo fs20 grisD9">
-                        06 de junio del 2019
+                        13 de junio del 2019
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
-                        Nota: la fecha para mandar tu solicitud se extendió hasta el 5 de junio de 2019.
+                        Nota: la fecha para mandar tu solicitud se extendió hasta el 12 de junio de 2019.
                     </div>
                 </div>
             </div>
@@ -190,12 +193,12 @@
                         DURACIÓN
                     </div>
                     <div class="fechas-precio robotoBo fs20 grisD9">
-                        2 meses, en línea,
+                        3 meses, en línea,
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
                         En español
                         <br>
-                        4–6 horas por semana
+                        3–4 horas por semana
                     </div>
                 </div>
             </div>
@@ -280,8 +283,10 @@
     </div>
     <!-- Section Information of program -->
     <div class="information-container">
-        <div class="information-title robotoBo fs24 azul84">
-            No puedes gestionar lo que no puedes medir
+        <div class="information-title robotoRe fs24 azul84">
+            ¿Por qué inscribirte al programa de 
+            <br>
+            <span class="robotoBo">Emprendimiento de Wharton?</span>
         </div>
         <div class="information-description robotoRe fs16 negro23">
             Muchas organizaciones expresan que las personas son su activo más importante. Entonces 
@@ -291,44 +296,39 @@
         </div>
         <div class="information-cont container-fluid">
             <div class="row">
-                <div class="information col-sm">
-                    <div class="number robotoBo fs42 azul84">
-                        5<span class="robotoRe fs19">%</span>
-                    </div>
-                    <div class="description robotoBo fs16 gris7D">
-                        Solo el 5 por ciento de las inversiones en Big Data se destinan a RH. Esto 
-                        es, al grupo que usualmente administra la analítica de RH.
-                    </div>
-                    <div class="source robotoRe fs14 gris7D">FUENTE: TATA CONSULTANCY SERVICES</div>
-                </div>
-                <div class="information col-sm">
-                    <div class="number robotoBo fs42 azul84">
-                        9<span class="robotoRe fs19">%</span>
-                    </div>
-                    <div class="description robotoBo fs16 gris7D">
-                        Solo el 9 por ciento de las compañías cree que entiende con claridad cuál es
-                        el tipo de talento que impulsa el desempeño en su organización.
-                    </div>
-                    <div class="source robotoRe fs14 gris7D">FUENTE: DELOITTE</div>
-                </div>
-                <div class="information col-sm">
-                    <div class="number robotoBo fs42 azul84">
-                        11<span class="robotoRe fs19">%</span>
-                    </div>
-                    <div class="description robotoBo fs16 gris7D">
-                        Solo el 11 por ciento de los encuestados indicaron que su sistema de compensaciones se 
-                        encuentra verdaderamente alineado con sus metas organizacionales; mientras 
-                        que 23% reportaron no saber cuáles son las recompensas que valoran más sus 
-                        empleados.
-                    </div>
-                    <div class="source robotoRe fs14 gris7D">FUENTE: DELOITTE</div>
+                <div class="title-information robotoBo fs20 negro23 col-md-12">
+                    Tres de las razones más comunes por las que una startup fracasa:
                 </div>
             </div>
-        </div>
-        <div class="button-apply-now">
-            <a class="btn-apply-now robotoBo fs16 blanco">
-                DESCARGA EL FOLLETO
-            </a>
+            <div class="row">
+                <div class="information col-sm-4">
+                    <div class="number robotoBo fs42 azul84">
+                        <span class="robotoRe fs19">#</span>1
+                    </div>
+                    <div class="description robotoBo fs16 gris7D">
+                        Vender un producto o servicio que nadie quiere
+                    </div>
+                    <div class="source robotoRe fs14 gris7D">FUENTE: FORBES</div>
+                </div>
+                <div class="information col-sm-4">
+                    <div class="number robotoBo fs42 azul84">
+                        <span class="robotoRe fs19">#</span>2
+                    </div>
+                    <div class="description robotoBo fs16 gris7D">
+                        Modelo de negocio equivocado y no escalable
+                    </div>
+                    <div class="source robotoRe fs14 gris7D">FUENTE: FORBES</div>
+                </div>
+                <div class="information col-sm-4">
+                    <div class="number robotoBo fs42 azul84">
+                        <span class="robotoRe fs19">#</span>3
+                    </div>
+                    <div class="description robotoBo fs16 gris7D">
+                        Falta de financiamiento adecuado para impulsar el crecimiento
+                    </div>
+                    <div class="source robotoRe fs14 gris7D">FUENTE: FORBES</div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Section Who is this program? -->

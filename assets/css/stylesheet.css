@@ -885,6 +885,11 @@ header {
 .information-container .information-cont {
   margin: 60px auto 0;
 }
+.information-container .information-cont .row .title-information {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
 .information-container .information-cont .row .information {
   max-width: 370px;
   margin: 0 auto;

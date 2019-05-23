@@ -958,6 +958,11 @@ header {
         margin: 60px auto 0;
 
         .row {
+            .title-information{
+                width: 100%;
+                text-align: center;
+                margin: 20px auto;
+            }
             .information {
                 max-width: 370px;
                 margin: 0 auto;
