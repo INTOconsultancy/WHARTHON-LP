@@ -16,7 +16,7 @@
     <meta http-equiv="refresh" CONTENT="1;URL= http://bit.ly/2D9uV7B">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¡Gracias por tu interés!</title>
-    <link rel="stylesheet" href="assets/scss/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
@@ -45,7 +45,7 @@
                 <div class="whitMe fs16 gris70">
                     Business Analytics: De los datos a la acción
                 </div>
-                <div class="whitMee fs16 negro46">
+                <div class="whitMe fs16 negro46">
                     Si tu descarga no comienza <a class=" grapBo azulB5" href="http://bit.ly/2D9uV7B">da click aquí</a>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                 </a>
             </div>
             <div class="gracias-redes">
-                <div class="opsRe fs16 negro3D">
+                <div class="whitMe fs16 negro3D">
                     Conéctate con nosotros
                 </div>
                 <div class="icon-redes">

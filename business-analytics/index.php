@@ -68,7 +68,7 @@
         $protocol = "http://";
     }
         
-    $current_link = $protocol.$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"];
+    $current_link = $protocol . $_SERVER["HTTP_HOST"] . parse_url($_SERVER["REQUEST_URI"])['path'];
     
     ?>
     <header class="header">
@@ -196,7 +196,7 @@
                             <input type="hidden" name="browser" id="browser" value="">
                             <input type="hidden" name="course" id="course" value="WHARTON - Business Analytics">
                             <input type="hidden" name="retURL"
-                                value="<?php echo $current_link.'Thanks.php' ?>">
+                                value="<?php echo $current_link . 'Thanks.php?' . $queryString ?>">
                             <button class="whitSBo fs16 blanco" type="submit" id="btn-download-brochure">
                                 DESCARGAR EL FOLLETO
                                 <img src="assets/img/svg/icon-descargar.svg" alt="Download">

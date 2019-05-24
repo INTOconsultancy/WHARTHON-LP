@@ -44,39 +44,48 @@ img {
 
 @font-face {
   font-family: Garamond-SemiBold;
+  font-display: swap;
   src: url("../../../assets/fonts/GaramondPremrPro-Smbd_0.otf");
 }
 @font-face {
   font-family: Garamond-Bold;
+  font-display: swap;
   src: url("../../../assets/fonts/GaramondPremrPro-Bd_0.otf");
 }
 @font-face {
   font-family: Garamond-Regular;
+  font-display: swap;
   src: url("../../../assets/fonts/GaramondPremrPro_0.otf");
 }
 @font-face {
   font-family: Garamond-Medium;
+  font-display: swap;
   src: url("../../../assets/fonts/GaramondPremrPro-Med_1.otf");
 }
 @font-face {
   font-family: Whitney-Light;
+  font-display: swap;
   src: url("../../../assets/fonts/Whitney-Light.otf");
 }
 @font-face {
   font-family: Whitney-Medium;
+  font-display: swap;
   src: url("../../../assets/fonts/Whitney-Medium.otf");
 }
 @font-face {
   font-family: Whitney-Semibold;
+  font-display: swap;
   src: url("../../../assets/fonts/Whitney-Semibold.otf");
 }
 @font-face {
   font-family: Whitney-Bold;
+  font-display: swap;
   src: url("../../../assets/fonts/Whitney Bold.ttf");
 }
 @font-face {
   font-family: Whitney-Medium;
-  src: url("../../../assets/fonts/Whitney Medium.ttf");
+  font-display: swap;
+  src: url("../../../assets/fonts/Whitney-Medium.otf");
 }
 .garaSBo {
   font-family: Garamond-SemiBold;

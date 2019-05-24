@@ -301,6 +301,13 @@
     color: #ffffff !important;
 }
 
+.banner-entrepreneurship{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) 25%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.0) 75%), url('../../assets/img/jpg/hero-image-movil-E.jpg')!important;
+    @media only screen and (min-width: 1024px){
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) 25%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.0) 75%), url('../../assets/img/jpg/hero-image-desktop-E.jpg')!important;
+    }
+}
+
 body {
     overflow-x: hidden;
 }
@@ -449,8 +456,9 @@ header {
     width: 100%;
     padding: 25px 0 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) 25%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.0) 75%), url('../img/jpg/hero-img-mobile.jpg');
-    background-size: cover;
-    background-position-x: center !important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position-x: center!important;
     position: relative;
     height: 400px;
 
@@ -563,11 +571,9 @@ header {
 @media only screen and (min-width: 1024px) {
     .hero-container {
         padding: 25px 0;
-        height: 700px;
-        background-position-x: center;
+        height: 710px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) 25%, rgba(0, 0, 0, 0.0) 40%, rgba(0, 0, 0, 0.0) 75%), url('../img/jpg/hero-img-desktop.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
+        
 
         .hero-title-cont {
             bottom: 200px;
@@ -814,7 +820,7 @@ header {
     .detalles-container {
         width: 100%;
         position: absolute;
-        top: 680px;
+        top: 710px;
 
         .detalles-cont {
             .detalle {
@@ -833,8 +839,8 @@ header {
     }
 }
 .modal-pagos-flexibles {
-    max-width: 745px !important;
-    padding: 17px !important;
+    max-width: 700px !important;
+    padding: 15px !important;
     z-index: 3 !important;
 
     .modal-pagos-title {
@@ -856,15 +862,14 @@ header {
 
     .pagos {
         width: 100%;
-        padding: 10px;
-        max-width: 550px;
-        border-bottom: 2px solid #707070;
+        padding: 10px 0;
 
         .pagos-title {
             line-height: 41px;
         }
 
         .precio-pago {
+            font-size: 16px;
             display: -webkit-box;
             line-height: 22px;
 
@@ -873,34 +878,87 @@ header {
                 height: 6px;
                 margin-top: 7px;
                 margin-right: 5px;
-                border-radius: 1px;
+                border-radius: 50%;
                 background-color: #707070;
             }
         }
     }
 }
+.modal-certificate {
+    max-width: 560px!important;
+    background: transparent!important;
+    height: auto!important;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    padding: 0!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -o-box-shadow: none!important;
+    -ms-box-shadow: none!important;
+    box-shadow: none!important;
+    text-align: left!important;
+    img{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        max-width: 560px;
+    } 
+}
 .modal {
-    overflow: initial !important;
-    vertical-align: middle !important;
-    position: relative !important;
-    box-sizing: border-box !important;
-    width: 90% !important;
-    background: #fff !important;
-    -webkit-border-radius: 8px !important;
-    -moz-border-radius: 8px !important;
-    -o-border-radius: 8px !important;
-    -ms-border-radius: 8px !important;
-    border-radius: 8px !important;
-    -webkit-box-shadow: 0 0 10px #000 !important;
-    -moz-box-shadow: 0 0 10px #000 !important;
-    -o-box-shadow: 0 0 10px #000 !important;
-    -ms-box-shadow: 0 0 10px #000 !important;
-    box-shadow: 0 0 10px #000 !important;
-    text-align: left !important;
+    overflow: initial!important;
+    vertical-align: middle!important;
+    position: relative!important;
+    box-sizing: border-box!important;
+    width: 97%!important;
+    background: #fff;
+    height: auto!important;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 10px #000;
+    -moz-box-shadow: 0 0 10px #000;
+    -o-box-shadow: 0 0 10px #000;
+    -ms-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+    text-align: left!important;    
+    a.close-modal {
+        border-radius: 50%;
+        width: 35px !important;
+        height: 35px !important;
+        border: 5px solid #A90533;
+        background-color: #A90533;
+        background-image: url('../../assets/img/svg/x.svg') !important;
+    
+        @media only screen and (min-width: 1024px) {
+            width: 40px !important;
+            height: 40px !important;
+        }
+    }
+}
+.blocker {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 5!important;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.75);
+    text-align: center;
 }
 @media only screen and (min-width: 1024px) {
     .modal-pagos-flexibles {
-        padding: 40px !important;
+        padding: 30px !important;
 
         .modal-pagos-title {
             line-height: 41px;
@@ -909,8 +967,8 @@ header {
 
         .modal-pagos-descripcion {
             margin: 15px 0;
-            line-height: 22px;
-            font-size: 16px;
+            line-height: 28px;
+            font-size: 18px;
         }
 
         .modal-pagos-subtitle {
@@ -953,77 +1011,81 @@ header {
         margin: 15px auto;
         line-height: 24px;
     }
+}
 
-    .information-cont {
-        margin: 60px auto 0;
+.information-cont {
+    padding: 35px 16px 35px;
+    margin: 0 auto;
 
-        .row {
-            .title-information{
-                width: 100%;
+    .row {
+        justify-content: center;
+        margin: 0 auto;
+        
+        .title-information{
+            width: 100%;
+            text-align: center;
+            margin: 0 auto 40px;
+        }
+        .information {
+            max-width: 370px;
+            margin: 0;
+            padding: 10px;
+
+            .number {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 text-align: center;
-                margin: 20px auto;
-            }
-            .information {
-                max-width: 370px;
-                margin: 0 auto;
-                padding: 10px;
+                line-height: 65px;
 
-                .number {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                    line-height: 65px;
-
-                    span {
-                        line-height: 24px;
-                    }
-                }
-
-                .description {
-                    text-align: center;
-                    line-height: 22px;
-                }
-
-                .source {
-                    margin-top: 20px;
-                    text-align: center;
+                span {
                     line-height: 24px;
                 }
+            }
 
-                &:first-child {
-                    border-bottom: 1px solid #A8A8A8;
+            .description {
+                text-align: center;
+                line-height: 22px;
+            }
 
-                    @media only screen and (min-width: 576px) {
-                        border-right: 1px solid #A8A8A8;
-                        border-bottom: none;
-                    }
+            .source {
+                margin-top: 20px;
+                text-align: center;
+                line-height: 24px;
+            }
+
+            &:first-child {
+                border-bottom: 1px solid #A8A8A8;
+
+                @media only screen and (min-width: 576px) {
+                    border-right: 1px solid #A8A8A8;
+                    border-bottom: none;
                 }
+            }
 
-                &:last-child {
-                    border-top: 1px solid #A8A8A8;
+            &:last-child {
+                border-top: 1px solid #A8A8A8;
 
-                    @media only screen and (min-width: 576px) {
-                        border-left: 1px solid #A8A8A8;
-                        border-top: none;
-                    }
+                @media only screen and (min-width: 576px) {
+                    border-left: 1px solid #A8A8A8;
+                    border-top: none;
                 }
             }
         }
     }
+}
 
-    .button-apply-now {
-        a {
-            width: 260px;
-            display: block;
-            margin: 40px auto 0;
-            text-align: center;
-            padding: 17px 0;
-            cursor: pointer;
-            border-radius: 5px;
-            text-transform: uppercase;
-            background-color: #A90533;
-        }
+.button-apply-now {
+    a {
+        width: 260px;
+        display: block;
+        margin: 40px auto 0;
+        text-align: center;
+        padding: 17px 0;
+        cursor: pointer;
+        border-radius: 5px;
+        text-transform: uppercase;
+        background-color: #A90533;
     }
 }
 @media only screen and (min-width: 1024px) {
@@ -1040,27 +1102,28 @@ header {
             font-size: 18px;
             text-align: center;
         }
+    }
 
-        .information-cont {
-            margin: 70px auto 0;
+    .information-cont {
+        padding: 90px 16px 90px;
+        margin: 0 auto;
 
-            .row {
-                .information {
-                    .number {
-                        font-size: 65px;
-                        line-height: 40px;
+        .row {
+            .information {
+                .number {
+                    font-size: 65px;
+                    line-height: 40px;
 
-                        span {
-                            font-size: 24px;
-                            line-height: 28px;
-                        }
+                    span {
+                        font-size: 24px;
+                        line-height: 28px;
                     }
+                }
 
-                    .description {
-                        margin-top: 15px;
-                        font-size: 20px;
-                        line-height: 26px;
-                    }
+                .description {
+                    margin-top: 15px;
+                    font-size: 20px;
+                    line-height: 26px;
                 }
             }
         }
@@ -1090,6 +1153,11 @@ header {
         max-width: 1160px;
 
         .row {
+
+            .description-list{
+                margin: 0 auto!important;
+                max-width: 190px!important;
+            }
             .list {
                 width: 100%;
                 margin: 0;
@@ -1098,7 +1166,6 @@ header {
                 ul {
                     list-style: disc;
                     margin-bottom: 0;
-
                     li {
                         list-style: disc;
                         margin: 10px 0 0;
@@ -1263,6 +1330,25 @@ header {
         line-height: 24px;
         max-width: 900px;
     }
+    .entrepreneurship-description{
+        text-align: center!important;
+        line-height: 24px!important;
+        max-width: 750px!important;
+    }
+
+    .button-apply-now {
+        a {
+            width: 260px;
+            display: block;
+            margin: 40px auto 0;
+            text-align: center;
+            padding: 17px 0;
+            cursor: pointer;
+            border-radius: 5px;
+            text-transform: uppercase;
+            background-color: #A90533;
+        }
+    }
 
     .experience-list {
         width: 100%;
@@ -1316,7 +1402,11 @@ header {
                     }
                 }
             }
-
+            .icons-title{
+                text-align: center;
+                line-height: 24px;
+                margin: 0 auto 30px;
+            }
             .icons {
                 padding: 0;
                 margin: 8px auto;
@@ -1333,6 +1423,14 @@ header {
                         }
                     }
 
+                    .entrepreneurship-img {
+                        padding: 0;
+                        img {
+                            width: 50px;
+                            height: 50px;
+                            margin: 0 auto;
+                        }
+                    }
                     .icons-description {
                         padding: 0;
 
@@ -1370,6 +1468,10 @@ header {
             line-height: 40px;
         }
 
+        .entrepreneurship-description{
+            font-size: 24px;
+            line-height: 28px!important;
+        }
         .experience-icons {
             margin: 90px auto 0;
 
@@ -1385,6 +1487,13 @@ header {
                                 margin: 0 auto;
                             }
                         }
+                        .entrepreneurship-img {
+                            img {
+                                width: 120px;
+                                height: 80px;
+                                margin: 0 auto;
+                            }
+                        }
 
                         .icons-description {
                             .title {
@@ -1397,6 +1506,10 @@ header {
                             }
                         }
                     }
+                }
+                .icons-title{
+                    font-size: 36px;
+                    line-height: 28px;
                 }
             }
         }
@@ -1450,7 +1563,7 @@ header {
 
                             .number {
                                 margin: 0;
-                                max-width: 70px;
+                                max-width: 80px;
                                 padding: 0;
                                 line-height: 22px;
                             }
@@ -1585,6 +1698,7 @@ header {
                     display: block;
                     margin: 0 auto 20px;
                     max-width: 140px;
+                    border-radius: 50%;
                 }
             }
             .professor-description{
@@ -1593,7 +1707,7 @@ header {
                     line-height: 24px;
                     width: 100%;
                     padding: 0 10px;
-                    margin: 0 auto;
+                    margin: 10px auto 0;
                     max-width: 360px;
                 }
             }
@@ -1774,6 +1888,86 @@ header {
                     }
                 }
             }
+        }
+    }
+}
+//
+//SECTION APPLY NOW / FLEXIBLE PAYMENTS
+.apply-now-container{
+    width: 100%;
+    padding: 35px 15px;
+    background-color: #004884;
+    .button{
+        a{
+            width: 230px;
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+            border-radius: 5px;
+            padding: 16px 0; 
+            text-decoration: none!important;
+            background-color: #fff;
+            cursor: pointer;
+        }
+    }
+    .apply-now-title{
+        text-align: center;
+        color:#fff;
+        margin: 15px auto;
+        line-height: 24px;
+    }
+    .apply-now-subtitle{
+        text-align: center;
+        color:#fff;
+        line-height: 20px;
+        a{
+            cursor: pointer;
+            text-decoration: underline!important;
+            &:hover{
+                color: #D1B173;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1024px){
+    .apply-now-container{
+        padding: 90px 15px;
+        .apply-now-title{
+            font-size: 28px;
+        }
+        .apply-now-subtitle{
+            font-size: 20px;
+        }
+    }
+}
+//
+//SECTION COLABORATION
+.colaboration-container{
+    width: 100%;
+    padding: 35px 16px;
+    background-color: #fff;
+    .logo-emeritus{
+        img{
+            width: 100%;
+            display: block;
+            margin: 0 auto 30px;
+            max-width: 280px;
+        }
+    }
+    .description-emeritus{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 750px;
+        line-height: 20px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .colaboration-container{
+        padding: 90px 16px;
+        .description-emeritus{
+            font-size: 16px;
+            line-height: 24px;
         }
     }
 }

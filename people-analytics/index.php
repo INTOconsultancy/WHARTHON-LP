@@ -188,10 +188,10 @@
                         INICIA EL
                     </div>
                     <div class="fechas-precio robotoBo fs20 grisD9">
-                        06 de junio del 2019
+                        25 de junio del 2019
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
-                        Nota: la fecha para mandar tu solicitud se extendió hasta el 5 de junio de 2019.
+                        Nota: la fecha para mandar tu solicitud se extendió hasta el 24 de junio de 2019.
                     </div>
                 </div>
             </div>
@@ -303,46 +303,48 @@
             gestionando a su gente de manera más efectiva y explotando la analítica de datos? Midiendo, 
             luego gestionando. Sin embargo...
         </div>
-        <div class="information-cont container-fluid">
-            <div class="row">
-                <div class="information col-sm">
-                    <div class="number robotoBo fs42 azul84">
-                        5<span class="robotoRe fs19">%</span>
-                    </div>
-                    <div class="description robotoBo fs16 gris7D">
-                        Solo el 5 por ciento de las inversiones en Big Data se destinan a RH. Esto 
-                        es, al grupo que usualmente administra la analítica de RH.
-                    </div>
-                    <div class="source robotoRe fs14 gris7D">FUENTE: TATA CONSULTANCY SERVICES</div>
+    </div>
+    <div class="information-cont container-fluid">
+        <div class="row">
+            <div class="information col-sm-4">
+                <div class="number robotoBo fs42 azul84">
+                    5<span class="robotoRe fs19">%</span>
                 </div>
-                <div class="information col-sm">
-                    <div class="number robotoBo fs42 azul84">
-                        9<span class="robotoRe fs19">%</span>
-                    </div>
-                    <div class="description robotoBo fs16 gris7D">
-                        Solo el 9 por ciento de las compañías cree que entiende con claridad cuál es
-                        el tipo de talento que impulsa el desempeño en su organización.
-                    </div>
-                    <div class="source robotoRe fs14 gris7D">FUENTE: DELOITTE</div>
+                <div class="description robotoBo fs16 gris7D">
+                    Solo el 5 por ciento de las inversiones en Big Data se destinan a RH. Esto 
+                    es, al grupo que usualmente administra la analítica de RH.
                 </div>
-                <div class="information col-sm">
-                    <div class="number robotoBo fs42 azul84">
-                        11<span class="robotoRe fs19">%</span>
-                    </div>
-                    <div class="description robotoBo fs16 gris7D">
-                        Solo el 11 por ciento de los encuestados indicaron que su sistema de compensaciones se 
-                        encuentra verdaderamente alineado con sus metas organizacionales; mientras 
-                        que 23% reportaron no saber cuáles son las recompensas que valoran más sus 
-                        empleados.
-                    </div>
-                    <div class="source robotoRe fs14 gris7D">FUENTE: DELOITTE</div>
+                <div class="source robotoRe fs14 gris7D">FUENTE: TATA CONSULTANCY SERVICES</div>
+            </div>
+            <div class="information col-sm-4">
+                <div class="number robotoBo fs42 azul84">
+                    9<span class="robotoRe fs19">%</span>
                 </div>
+                <div class="description robotoBo fs16 gris7D">
+                    Solo el 9 por ciento de las compañías cree que entiende con claridad cuál es
+                    el tipo de talento que impulsa el desempeño en su organización.
+                </div>
+                <div class="source robotoRe fs14 gris7D">FUENTE: DELOITTE</div>
+            </div>
+            <div class="information col-sm-4">
+                <div class="number robotoBo fs42 azul84">
+                    11<span class="robotoRe fs19">%</span>
+                </div>
+                <div class="description robotoBo fs16 gris7D">
+                    Solo el 11 por ciento de los encuestados indicaron que su sistema de compensaciones se 
+                    encuentra verdaderamente alineado con sus metas organizacionales; mientras 
+                    que 23% reportaron no saber cuáles son las recompensas que valoran más sus 
+                    empleados.
+                </div>
+                <div class="source robotoRe fs14 gris7D">FUENTE: DELOITTE</div>
             </div>
         </div>
-        <div class="button-apply-now">
-            <a class="btn-apply-now robotoBo fs16 blanco">
-                DESCARGA EL FOLLETO
-            </a>
+        <div class="row">
+            <div class="button-apply-now col-md-12">
+                <a class="btn-apply-now robotoBo fs16 blanco">
+                    DESCARGA EL FOLLETO
+                </a>
+            </div>
         </div>
     </div>
     <!-- Section Who is this program? -->
@@ -986,7 +988,9 @@
                     </div>
                 </div>
                 <div class="col-md-6 certificate-img">
-                    <img class="lazyload" data-src="../assets/img/png/Certificado.png" alt="Certificado">
+                    <a href="#ex1" rel="modal:open">
+                        <img class="lazyload" data-src="../assets/img/png/Certificado-People-Analytics.png" alt="Certificado">
+                    </a>
                 </div>
             </div>
             <div class="row">
@@ -1006,11 +1010,43 @@
             </div>
         </div>
     </div>
+    <!-- Modal HTML embedded directly into document -->
+    <div id="ex1" class="modal modal-certificate">
+        <img src="../assets/img/jpg/certificate-people-analytics.jpg" alt="Certificado">
+    </div>
     <!-- Section Apply Now / Felxible Payments -->
-    <!-- Button trigger modal -->
-
+    <div class="apply-now-container">
+        <div class="button">
+            <a class="robotoBo fs16 azul84" href="http://bit.ly/2XJoBey" target="_blank" rel="noopener noreferrer">
+                APLICA AHORA
+            </a>
+        </div>
+        <div class="apply-now-title robotoBo fs24">
+            Cupo limitado. Aplica lo antes posible.
+        </div>
+        <div class="apply-now-subtitle robotoRe fs18">
+            Opciones de pagos flexibles. 
+            <a class="amarillo73" href="#ex2" rel="modal:open">
+                Haz clic aquí para saber más.
+            </a>
+        </div>
+    </div>
     <!-- Section Colaboration -->
-
+    <div class="colaboration-container">
+        <div class="logo-emeritus">
+            <img class="lazyload" data-src="../assets/img/svg/emeritus-green-logo.svg" alt="Certificado">
+        </div>
+        <div class="description-emeritus robotoRe fs14 negro23">
+            Wharton Executive Education colabora con el proveedor de educación en línea 
+            EMERITUS Institute of Management para ofrecer un portafolio de cursos en 
+            línea de alto impacto. Con más de 16,000 estudiantes de más de 132 países, 
+            EMERITUS imparte programas de administración en línea mediante un modelo 
+            de aprendizaje con clases en vivo, dinámicas de aprendizaje en grupo y 
+            tareas con calificación. Gracias a esta colaboración, tenemos la posibilidad 
+            de ofrecer la educación de clase mundial por la que es conocida Wharton 
+            School, a través de un ambiente digital atractivo e interactivo.
+        </div>
+    </div>
     <!-- Javascript -->
     <script type="text/javascript" src="assets/js/lazysizes.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>

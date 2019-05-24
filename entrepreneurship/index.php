@@ -80,7 +80,7 @@
     <div class="space"></div>
     <div class="text-float movil robotoBo fs20 blanco">CERTIFICADO ONLINE</div>
     <!-- Section Hero Image -->
-    <div class="hero-container">
+    <div class="hero-container banner-entrepreneurship">
         <div class="hero-title-cont">
             <div class="hero-title">
                 <div class="banner robotoRe fs16 dorado73">Aplica hoy al programa</div>
@@ -234,7 +234,7 @@
                         </a>
                     </div>
                     <div id="ex2" class="modal modal-pagos-flexibles">
-                        <div class="modal-pagos-title fs20 openBo negro28">
+                        <div class="modal-pagos-title fs20 robotoBo negro23">
                             Plan de pagos flexibles
                         </div>
                         <div class="modal-pagos-descripcion fs14 robotoBo negro23">
@@ -244,10 +244,10 @@
                         </div>
                         <div class="modal-pagos-subtitle robotoRe fs16 negro46">
                             Las siguientes opciones de pago están disponibles para el
-                            <span class="robotoBo">Curso de People Analytics :</span>
+                            <span class="robotoBo">Curso de Emprendimiento e innovación :</span>
                         </div>
                         <div class="pagos">
-                            <div class="pagos-title fs18 openBo gris70">
+                            <div class="pagos-title fs18 robotoBo gris70">
                                 Pago total
                             </div>
                             <div class="precio-pago fs14 robotoRe negro23">
@@ -257,7 +257,7 @@
                             </div>
                         </div>
                         <div class="pagos">
-                            <div class="pagos-title fs18 openBo gris70">
+                            <div class="pagos-title fs18 robotoBo gris70">
                                 Pago en dos parcialidades
                             </div>
                             <div class="precio-pago fs14 robotoRe negro23">
@@ -268,11 +268,11 @@
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
                                 La segunda parcialidad de <span class="robotoBo">$935 USD</span>
-                                a pagar del 22 de julio del 2019.
+                                a pagar del xx de julio del 2019.
                             </div>
                         </div>
                         <div class="pagos no-border">
-                            <div class="pagos-title fs18 openBo gris70">
+                            <div class="pagos-title fs18 robotoBo gris70">
                                 Pago en tres parcialidades
                             </div>
                             <div class="precio-pago fs14 robotoRe negro23">
@@ -282,11 +282,11 @@
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
                                 La segunda parcialidad de <span class="robotoBo">$635 USD</span>
-                                a pagar del 22 de julio del 2019.
+                                a pagar del xx de julio del 2019.
                             </div>
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
-                                La tercera parcialidad se paga a más tardar el 6 de agosto del 2019
+                                La tercera parcialidad se paga a más tardar el xx de agosto del 2019
                                 <span class="robotoBo">$635 USD.</span>
                             </div>
                         </div>
@@ -308,375 +308,108 @@
             gestionando a su gente de manera más efectiva y explotando la analítica de datos? Midiendo, 
             luego gestionando. Sin embargo...
         </div>
-        <div class="information-cont container-fluid">
-            <div class="row">
-                <div class="title-information robotoBo fs20 negro23 col-md-12">
-                    Tres de las razones más comunes por las que una startup fracasa:
-                </div>
-            </div>
-            <div class="row">
-                <div class="information col-sm-4">
-                    <div class="number robotoBo fs42 azul84">
-                        <span class="robotoRe fs19">#</span>1
-                    </div>
-                    <div class="description robotoBo fs16 gris7D">
-                        Vender un producto o servicio que nadie quiere
-                    </div>
-                    <div class="source robotoRe fs14 gris7D">FUENTE: FORBES</div>
-                </div>
-                <div class="information col-sm-4">
-                    <div class="number robotoBo fs42 azul84">
-                        <span class="robotoRe fs19">#</span>2
-                    </div>
-                    <div class="description robotoBo fs16 gris7D">
-                        Modelo de negocio equivocado y no escalable
-                    </div>
-                    <div class="source robotoRe fs14 gris7D">FUENTE: FORBES</div>
-                </div>
-                <div class="information col-sm-4">
-                    <div class="number robotoBo fs42 azul84">
-                        <span class="robotoRe fs19">#</span>3
-                    </div>
-                    <div class="description robotoBo fs16 gris7D">
-                        Falta de financiamiento adecuado para impulsar el crecimiento
-                    </div>
-                    <div class="source robotoRe fs14 gris7D">FUENTE: FORBES</div>
-                </div>
-            </div>
-        </div>
     </div>
-    <!-- Section Who is this program? -->
-    <div class="for-who-container">
-        <div class="for-who-title robotoBo fs24 azul84">
-            ¿A quién va dirigido este programa?
-        </div>
-        <div class="for-who-list container-fluid">
-            <div class="row">
-                <div class="list col-sm-12">
-                    <ul>
-                        <li class="vino33">
-                            <span class="robotoBo fs16 gris7D">Gerentes y directores de recursos humanos y profesionales de capacitación. </span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoBo fs16 gris7D">Jefes de equipo con funciones de evaluación de desempeño. </span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoBo fs16 gris7D">Directores generales. </span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoBo fs16 gris7D">Propietarios de negocios pequeños y medianos que deseen desarrollar talento. </span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoBo fs16 gris7D">Consultores y profesionales del desarrollo de talento en empresas.</span>
-                        </li>
-                    </ul>
-                </div>
+    <div class="information-cont container-fluid" style="background-color: #F3F3F3;">
+        <div class="row">
+            <div class="title-information robotoBo fs20 negro23 col-md-12">
+                Tres de las razones más comunes por las que una startup fracasa:
             </div>
         </div>
-        <div class="for-who-subtitle robotoBo fs20 azul84">
-            Roles representativos
-        </div>
-        <div class="for-who-list container-fluid">
-            <div class="row">
-                <div class="list col-sm-4">
-                    <ul>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">VP de gestión de talento</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Director de estrategia</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Business manager de división de RH</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Socio de RH</span>
-                        </li>
-                    </ul>
+        <div class="row">
+            <div class="information col-sm-4">
+                <div class="number robotoBo fs42 azul84">
+                    <span class="robotoRe fs19">#</span>1
                 </div>
-                <div class="list col-sm-4">
-                    <ul>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Gerente de programa de people analytics</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">VP senior/Director de operaciones</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Director de compensaciones</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Director de gestión de talento</span>
-                        </li>
-                    </ul>
+                <div class="description robotoBo fs16 gris7D">
+                    Vender un producto o servicio que nadie quiere
                 </div>
-                <div class="list col-sm-4">
-                    <ul>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">VP de RH</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Director de estrategia</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Gerente de Grupo de Recursos Humanos</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Director de cambios y personas</span>
-                        </li>
-                    </ul>
-                </div>
+                <div class="source robotoRe fs14 gris7D">FUENTE: FORBES</div>
             </div>
-        </div>
-        <div class="for-who-subtitle robotoBo fs20 azul84">
-            Compañías representativas
-        </div>
-        <div class="for-who-list container-fluid">
-            <div class="row">
-                <div class="list col-sm-4">
-                    <ul>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">DBS Bank</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">3M</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Google</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">The Home Depot</span>
-                        </li>
-                    </ul>
+            <div class="information col-sm-4">
+                <div class="number robotoBo fs42 azul84">
+                    <span class="robotoRe fs19">#</span>2
                 </div>
-                <div class="list col-sm-4">
-                    <ul>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Kotak Mahindra Bank</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">The Emirates Group</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Godrej Industries Ltd</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">AECOM</span>
-                        </li>
-                    </ul>
+                <div class="description robotoBo fs16 gris7D">
+                    Modelo de negocio equivocado y no escalable
                 </div>
-                <div class="list col-sm-4">
-                    <ul>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Interops Consulting</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Oasis Investments - Al Shirawi Group</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Mercer Japón</span>
-                        </li>
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Power Finance Corporation</span>
-                        </li>
-                    </ul>
-                </div>
+                <div class="source robotoRe fs14 gris7D">FUENTE: FORBES</div>
             </div>
-        </div>
-        <div class="for-who-diagrams container-fluid">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="diagram-title robotoBo fs20 azul84">
-                        Experiencia laboral
-                    </div>
-
-                    <div class="diagram-img desktop">
-                        <img class="lazyload" data-src="../assets/img/svg/Experiencia-laboral-desktop.svg" alt="Experiencia-laboral">
-                    </div>
-                    
-                    <div class="diagram-img movil">
-                        <img class="lazyload" data-src="../assets/img/svg/Experiencia-laboral-mobile.svg" alt="Industrias-Participantes">
-                    </div>
-
-                    <div class="movil">
-                        <div class="details-cont">
-                            <div class="detail">
-                                <div class="square back-1"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    1-5 años
-                                </div>
-                            </div>
-                            <div class="detail">
-                                <div class="square back-2"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    6-10 años
-                                </div>
-                            </div>
-                        </div>
-                        <div class="details-cont">
-                            <div class="detail">
-                                <div class="square back-3"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    11-15 años
-                                </div>
-                            </div>
-                            <div class="detail">
-                                <div class="square back-4"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    16-20 años
-                                </div>
-                            </div>
-                        </div>
-                        <div class="details-cont">
-                            <div class="detail">
-                                <div class="square back-5"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    21-25 años
-                                </div>
-                            </div>
-                            <div class="detail">
-                                <div class="square back-6"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    >25 años
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+            <div class="information col-sm-4">
+                <div class="number robotoBo fs42 azul84">
+                    <span class="robotoRe fs19">#</span>3
                 </div>
-                <div class="col-sm-6">
-                    <div class="diagram-title robotoBo fs20 azul84">
-                        Industrias Participantes
-                    </div>
-
-                    <div class="diagram-img desktop">
-                        <img class="lazyload" data-src="../assets/img/svg/Industrias-participantes-desktop.svg" alt="Industrias-Participantes">
-                    </div>
-                    
-                    <div class="diagram-img movil">
-                        <img class="lazyload" data-src="../assets/img/svg/Industrias-participantes-mobile.svg" alt="Industrias-Participantes">
-                    </div>
-                    <div class="movil">
-                        <div class="details-cont">
-                            <div class="detail" style="width: 210px; margin: 0 auto;">
-                                <div class="square back-2"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    Consultoría
-                                </div>
-                            </div>
-                            <div class="detail" style="width: 210px; margin: 0 auto;">
-                                <div class="square back-3"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    Banca y servicios financieros
-                                </div>
-                            </div>
-                            <div class="detail" style="width: 210px; margin: 0 auto;">
-                                <div class="square back-4"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    Proveedor de servicios de RH
-                                </div>
-                            </div>
-                            <div class="detail" style="width: 210px; margin: 0 auto;">
-                                <div class="square back-5"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    Salud
-                                </div>
-                            </div>
-                            <div class="detail" style="width: 210px; margin: 0 auto;">
-                                <div class="square back-6"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    Energía
-                                </div>
-                            </div>
-                            <div class="detail" style="width: 210px; margin: 0 auto;">
-                                <div class="square back-1"></div>
-                                <div class="title robotoRe fs14 negro23">
-                                    Otros
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="diagram-description robotoRe fs14 negro23">
-                        <i>Otros* - incluye industria minorista, educativa, automotriz, 
-                        aviación, agricultura, manufactura y más</i>
-                    </div>
+                <div class="description robotoBo fs16 gris7D">
+                    Falta de financiamiento adecuado para impulsar el crecimiento
                 </div>
+                <div class="source robotoRe fs14 gris7D">FUENTE: FORBES</div>
             </div>
         </div>
     </div>
     <!-- Section Experience of journey -->
     <div class="experience-container">
-        <div class="experience-title robotoBo fs24 azul84">
-            Tu experiencia de aprendizaje
-        </div>
-        <div class="experience-description robotoRe fs18 negro23">
-            El programa en línea de Wharton, Administración e Inteligencia Analítica de Recursos 
-            Humanos, combina la teoría con aplicaciones prácticas, y la flexibilidad con el rigor, 
-            lo que da como resultado una experiencia de educación profesional holística. Al final 
-            de este curso en línea serás capaz de:
+        <div class="experience-description entrepreneurship-description robotoBo fs20 negro23">
+            Incrementa dramáticamente las probabilidades de éxito de tu negocio aprendiendo a:
         </div>
         <div class="experience-list container-fluid">
-            <div class="row">
-                <div class="list col-sm-12">
+            <div class="row" style="width: 100%; margin: 0 auto; max-width: 780px;">
+                <div class="list col-md-6">
                     <ul>
 
                         <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Entender los principios básicos del uso de la analítica
-                                de RH para mejorar
-                                la colaboración entre empleados y entre departamentos para lograr objetivos,
-                                ya sea que conlleve innovación o eficiencia.</span>
+                            <span class="robotoRe fs16 negro23">
+                                Escoger el modelo de negocio adecuado
+                            </span>
                         </li>
 
                         <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Aprovechar el análisis de datos para separar habilidades
-                                de suerte;
-                                identificar sesgos internos, y entender los ciclos de contratación,
-                                movilidad interna y deserción.</span>
+                            <span class="robotoRe fs16 negro23">
+                                Construir un buen equipo
+                            </span>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="list col-md-6">
+                    <ul>
+
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">
+                                Elegir un método adecuado de financiamiento
+                            </span>
                         </li>
 
                         <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Comprender los cuatro factores clave en medidas de
-                                desempeño: regresión
-                                a la media, tamaño de muestra, independencia de señales (signal independence)
-                                y proceso vs. resultado.</span>
-                        </li>
-
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Iniciar y administrar proyectos de analítica de personas 
-                            para ayudarlo a alcanzar los objetivos de su organización.</span>
-                        </li>
-
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Motivar el desempeño individual y diseñar sistemas de
-                                recompensas.</span>
-                        </li>
-
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Crear una mentalidad y una cultura alrededor de los
-                                sistemas de
-                                trabajo vs. el trabajo individualizado.</span>
-                        </li>
-
-                        <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Diseñar una estructura organizacional optimizada para el
-                                éxito.</span>
+                            <span class="robotoRe fs16 negro23">
+                                Mejorar las ventas y escalar el negocio
+                            </span>
                         </li>
 
                     </ul>
                 </div>
             </div>
         </div>
+        
+        <div class="button-apply-now">
+            <a class="btn-apply-now robotoBo fs16 blanco">
+                DESCARGA EL FOLLETO
+            </a>
+        </div>
+
         <div class="experience-icons container-fluid">
             <div class="row">
-                <div class="icons col-md-2 col-sm-6">
+                <div class="icons-title col-md-12 robotoBo fs24 azul84">
+                    Tu experiencia de aprendizaje
+                </div>
+            </div>
+            <div class="row">
+                <div class="icons col-md-3 col-sm-6">
                     <div class=row>
-                        <div class="icons-img col-sm-12 col-2">
-                            <img class="lazyload" data-src="../assets/img/svg/contexto-recuadro.svg" alt="Contexto">
+                        <div class="icons-img entrepreneurship-img col-sm-12 col-2">
+                            <img class="lazyload" data-src="../assets/img/svg/icono-tu-idea-de-negocio.svg" alt="Contexto">
                         </div>
                         <div class="icons-description col-sm-12 col-10">
                             <div class="title robotoBo fs20 negro23">
-                                Contexto
+                                Tu idea de negocio
                             </div>
                             <div class="subtitle robotoRe fs16 negro23">
                                 Independientemente de su grado de madurez
@@ -684,64 +417,48 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1 plus">
-                    <div class="plus-img desktop">
-                        <img class="lazyload" data-src="../assets/img/svg/+.svg" alt="Plus">
-                    </div>
-                </div>
-                <div class="icons col-md-2 col-sm-6">
+                <div class="icons col-md-3 col-sm-6">
                     <div class=row>
-                        <div class="icons-img col-sm-12 col-2">
-                            <img class="lazyload" data-src="../assets/img/svg/ejemplos-del-mundo-recuadro.svg" alt="Ejemplos-del-mundo-real">
+                        <div class="icons-img entrepreneurship-img col-sm-12 col-2">
+                            <img class="lazyload" data-src="../assets/img/svg/icono-ejemplos-de-la-vida-real.svg" alt="Ejemplos-del-mundo-real">
                         </div>
                         <div class="icons-description col-sm-12 col-10">
                             <div class="title robotoBo fs20 negro23">
-                                Ejemplos del mundo real
+                                Ejemplos de la vida real
                             </div>
                             <div class="subtitle robotoRe fs16 negro23">
-                                A través de clases en video y clases en vivo
+                                Impartidos a través de una mezcla de clases grabadas y en vivo, 
+                                con profesores e invitados que puedes ver en línea
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1 plus">
-                    <div class="plus-img desktop">
-                        <img class="lazyload" data-src="../assets/img/svg/+.svg" alt="Plus">
-                    </div>
-                </div>
-                <div class="icons col-md-2 col-sm-6">
+                <div class="icons col-md-3 col-sm-6">
                     <div class=row>
-                        <div class="icons-img col-sm-12 col-2">
-                            <img class="lazyload" data-src="../assets/img/svg/Aplicacion-al-conjunto-recuadro.svg" alt="Aplicación-al-conjunto-de-datos">
+                        <div class="icons-img entrepreneurship-img col-sm-12 col-2">
+                            <img class="lazyload" data-src="../assets/img/svg/icono-foros-de-discusión.svg" alt="Aplicación-al-conjunto-de-datos">
                         </div>
                         <div class="icons-description col-sm-12 col-10">
                             <div class="title robotoBo fs20 negro23">
-                                Aplicación al conjunto de datos
+                                Foros de discusión
                             </div>
                             <div class="subtitle robotoRe fs16 negro23">
-                                Aprende a través de tareas individuales y 
-                                retroalimentación
+                                Moderados por expertos en la materia
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1 plus">
-                    <div class="plus-img desktop">
-                        <img class="lazyload" data-src="../assets/img/svg/+.svg" alt="Plus">
-                    </div>
-                </div>
-                <div class="icons col-md-2 col-sm-6">
+                <div class="icons col-md-3 col-sm-6">
                     <div class=row>
-                        <div class="icons-img col-sm-12 col-2">
-                            <img class="lazyload" data-src="../assets/img/svg/Reportes-de-aprendizaje-recuadro.svg" alt="Reportes-de-aprendizaje">
+                        <div class="icons-img entrepreneurship-img col-sm-12 col-2">
+                            <img class="lazyload" data-src="../assets/img/svg/icono-inversión-de-capital.svg" alt="Reportes-de-aprendizaje">
                         </div>
                         <div class="icons-description col-sm-12 col-10">
                             <div class="title robotoBo fs20 negro23">
-                                Reportes de aprendizaje
+                                Inversión de capital para los pitches ganadores
                             </div>
                             <div class="subtitle robotoRe fs16 negro23">
-                                A través de una mezcla de videos grabados 
-                                y en vivo
+                                Para los dos mejores pitches… y todos mejoran en el proceso
                             </div>
                         </div>
                     </div>
@@ -754,85 +471,118 @@
         <div class="themes-program-title robotoBo fs24 azul84">
             Temas del programa
         </div>
-        <div class="themes-program-diagram">
-            <img class="desktop lazyload" data-src="../assets/img/svg/Temas-del-programa-desktop.svg" alt="Diagram">
-            <img class="movil lazyload" data-src="../assets/img/svg/Temas-del-programa-mobile.svg" alt="Diagram">
-        </div>
         <div class="themes-container container-fluid">
             <div class="row">
-                <div class="theme-cont col-md-6">
+                <div class="theme-cont col-md-12">
                     <div class="row">
-                        <div class="theme col-md-12">
+                        <div class="theme col-md-12" style="max-width: 700px;">
                             <div class="row">
-                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
                                     Módulo 1
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Introducción a people analytics y evaluación de desempeño
+                                    Emprendimiento basado en evidencias
                                 </div>
                             </div>
                         </div>
-                        <div class="theme col-md-12">
+                        <div class="theme col-md-12" style="max-width: 700px;">
                             <div class="row">
-                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
                                     Módulo 2
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Motivación y recompensa
+                                    Armar el equipo apropiado
                                 </div>
                             </div>
                         </div>
-                        <div class="theme col-md-12">
+                        <div class="theme col-md-12" style="max-width: 700px;">
                             <div class="row">
-                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
                                     Módulo 3
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Puestos y sistemas de trabajo
+                                    Abogados, asesores y mentores
                                 </div>
                             </div>
                         </div>
-                        <div class="theme col-md-12">
+                        <div class="theme col-md-12" style="max-width: 700px;">
                             <div class="row">
-                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
                                     Módulo 4
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Selección estratégica de personal
+                                    Modelos de negocio y valor del tiempo de vida del cliente
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="theme-cont col-md-6">
-                    <div class="row">
-                        <div class="theme col-md-12">
+                        <div class="theme col-md-12" style="max-width: 700px;">
                             <div class="row">
-                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
                                     Módulo 5
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Colaboración y redes
+                                    Captación de clientes y generación de demanda
                                 </div>
                             </div>
                         </div>
-                        <div class="theme col-md-12">
+                        <div class="theme col-md-12" style="max-width: 700px;">
                             <div class="row">
-                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
                                     Módulo 6
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Analítica de talento
+                                    Precio y estrategias de distribución
                                 </div>
                             </div>
                         </div>
-                        <div class="theme col-md-12">
+                        <div class="theme col-md-12" style="max-width: 700px;">
                             <div class="row">
-                                <div class="number robotoBo fs16 azul84 col-md-2 col-3">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
                                     Módulo 7
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Gestionar tu carrera como un profesional de RH
+                                    Prepararse para el crecimiento
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme col-md-12" style="max-width: 700px;">
+                            <div class="row">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
+                                    Módulo 8
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Financiamiento: fondos y valoración
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme col-md-12" style="max-width: 700px;">
+                            <div class="row">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
+                                    Módulo 9
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Financiamiento: capital de riesgo vs. canales de financiamiento 
+                                    alternativos
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme col-md-12" style="max-width: 700px;">
+                            <div class="row">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
+                                    Módulo 10
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Elementos de un pitch
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme col-md-12" style="max-width: 700px;">
+                            <div class="row">
+                                <div class="number robotoBo fs16 negro23 col-md-2 col-3">
+                                    Módulo 11
+                                </div>
+                                <div class="title robotoRe fs16 negro23 col-md-10 col-9">
+                                    Concurso de planes de negocio
                                 </div>
                             </div>
                         </div>
@@ -846,53 +596,110 @@
             </a>
         </div>
     </div>
-    <!-- Section Examples of the insdustry -->
-    <div class="examples-industry-container">
-        <div class="examples-industry-title robotoBo fs24 azul84">
-            Ejemplos de la industria
+    <!-- Section Who is this program? -->
+    <div class="for-who-container" style="background-color: #FFFFFF;">
+        <div class="for-who-title robotoBo fs24 azul84">
+            Entrevistas y ejemplos de la industria
         </div>
-        <div class="examples-container container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-12 example">
-                    <img class="lazyload" data-src="../assets/img/jpg/Ejemplo-1.jpg" alt="Google:-Proyecto-Oxígeno">
-                    <div class="information">
-                        <div class="title robotoBo fs20">
-                            Google: Proyecto Oxígeno
-                        </div>
-                        <div class="description robotoRe fs16">
-                            Descubre como Google implementó una iniciativa de RH para toda 
-                            la compañía llamada “Proyecto Oxígeno”, para identificar los 
-                            principales atributos de una gestión exitosa haciéndose la 
-                            pregunta: los gerentes... ¿importan?
-                        </div>
-                    </div>
+        <div class="for-who-subtitle robotoBo fs18 negro18" style="width: 100%; margin: 15px auto; max-width: 750px; text-align: center;">
+            Este programa de Wharton comprende entrevistas a profundidad con fundadores 
+            de empresas y representantes de startups y de firmas de capital de riesgo.
+        </div>
+        <div class="for-who-list container-fluid">
+            <div class="row" style="width: 100%; margin: 0 auto; max-width: 490px;">
+                <div class="list description-list col-sm-6">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Big Ass Fans</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Forerunner Ventures</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-4 col-md-12 example">
-                    <img class="lazyload" data-src="../assets/img/jpg/Ejemplo-2.jpg" alt="Industria-automotriz-japonesa">
-                    <div class="information">
-                        <div class="title robotoBo fs20">
-                            Industria automotriz japonesa
-                        </div>
-                        <div class="description robotoRe fs16">
-                            Entiende cómo es que la autonomía de los empleados está relacionada 
-                            con la productividad.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 example">
-                    <img class="lazyload" data-src="../assets/img/jpg/Ejemplo-3.jpg" alt="National-Football-League-(NFL)">
-                    <div class="information">
-                        <div class="title robotoBo fs20">
-                            National Football League (NFL)
-                        </div>
-                        <div class="description robotoRe fs16">
-                            Explora cómo en el mundo de los deportes profesionales, donde se 
-                            recolectan más datos que en muchos otros ámbitos, identificar a 
-                            los mejores atletas puede ser todo un reto.
-                        </div>
-                    </div>
+                <div class="list description-list col-sm-6">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Greylock Partners</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Stringr</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
+        <div class="for-who-subtitle robotoRe fs18 negro18" style="width: 100%; margin: 30px auto 15px; max-width: 750px; text-align: center;">
+            El programa en línea también incluye ejemplos de startups y de compañías 
+            establecidas que alguna vez fueron startups. Además, cubre múltiples 
+            industrias, como las de bienes de consumo empaquetados, comercio 
+            electrónico y tecnología.
+        </div>
+        <div class="for-who-list container-fluid">
+            <div class="row" style="width: 100%; margin: 0 auto; max-width: 840px;">
+                <div class="list col-sm-4">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Adobe</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Intel</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Qualcomm</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Aerocardal</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Harry's Blades</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list col-sm-4">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Dollar Shave Club</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Jet.com</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">The Walt Disney Company</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Bandar Foods</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Silicon Valley Bank</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list col-sm-4">
+                    <ul>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">IBM</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Kickstarter</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Xiami</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Belle-V Kitchen</span>
+                        </li>
+                        <li class="vino33">
+                            <span class="robotoRe fs16 negro23">Wholly Moly</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="robotoRe fs14 negro18" style="width: 100%; margin: 30px auto 0; max-width: 750px; text-align: center;">
+            <i>Nota: Todos los productos y los nombres de las compañías son marcas o 
+                marcas registradas de sus respectivos propietarios. Su uso no implica 
+                ninguna afiliación o apoyo.</i>
         </div>
     </div>
     <!-- Section Professor -->
@@ -903,70 +710,68 @@
         <div class="professor-slider-container">
             <div class="professor">
                 <div class="professor-img">
-                    <img class="lazyload" data-src="../assets/img/png/Michael-Useem-PhD.png" alt="Michael-Useem,-PhD">
+                    <img class="lazyload" data-src="../assets/img/png/Ethan-Mollick.png" alt="Ethan-Mollick">
                 </div>
                 <div class="professor-description">
                     <div class="name robotoBo fs18 negro23">
-                        Michael Useem, PhD
+                        Ethan Mollick
                     </div>
                     <div class="info robotoRe fs16 negro23">
-                        Profesor de Administración William and Jacalyn Egan; Director del 
-                        Centro de Liderazgo y Gestión del Cambio; Editor de Wharton 
-                        Leadership Digest
+                        Profesor Adjunto de Administración
                     </div>
                 </div>
             </div>
             <div class="professor">
                 <div class="professor-img">
-                    <img class="lazyload" data-src="../assets/img/png/Peter-Cappelli-DPhil.png" alt="Peter-Cappelli,-DPhil">
+                    <img class="lazyload" data-src="../assets/img/jpg/Kartik-Hosanagar.jpg" alt="Kartik-Hosanagar">
                 </div>
                 <div class="professor-description">
                     <div class="name robotoBo fs18 negro23">
-                        Peter Cappelli, DPhil
+                        Kartik Hosanagar
                     </div>
                     <div class="info robotoRe fs16 negro23">
-                        Profesor de Administración George W. Taylor; Director del Centro de 
-                        Recursos Humanos, The Wharton School
+                        Profesor John C. Hower; Profesor de Operaciones, Información y Decisiones
                     </div>
                 </div>
             </div>
             <div class="professor">
                 <div class="professor-img">
-                    <img class="lazyload" data-src="../assets/img/png/Matthew-Bidwell-PhD.png" alt="Matthew-Bidwell,-PhD">
+                    <img class="lazyload" data-src="../assets/img/jpg/Lori-Rosenkopf.jpg" alt="Lori-Rosenkopf">
                 </div>
                 <div class="professor-description">
                     <div class="name robotoBo fs18 negro23">
-                        Matthew Bidwell, PhD
+                        Lori Rosenkopf
                     </div>
                     <div class="info robotoRe fs16 negro23">
-                        Profesor Adjunto de Administración, The Wharton School
+                        Profesora Simon and Midge Palley; Docente de Administración, Vicerrectora 
+                        y Directora División de Estudiantes
                     </div>
                 </div>
             </div>
             <div class="professor">
                 <div class="professor-img">
-                    <img class="lazyload" data-src="../assets/img/png/cade-massey.png" alt="Cade-Massey,-PhD">
+                    <img class="lazyload" data-src="../assets/img/jpg/David-Hsu.jpg" alt="David-Hsu">
                 </div>
                 <div class="professor-description">
                     <div class="name robotoBo fs18 negro23">
-                        Cade Massey, PhD
+                        David Hsu
                     </div>
                     <div class="info robotoRe fs16 negro23">
-                        Profesor de Práctica, Operaciones, Información y Decisiones, The 
-                        Wharton School
+                    Director Académico Richard A. Sapp Profesor; Profesor de gestion
                     </div>
                 </div>
             </div>
             <div class="professor">
                 <div class="professor-img">
-                    <img class="lazyload" data-src="../assets/img/png/martine-haas.png" alt="Martine-Haas,-PhD">
+                    <img class="lazyload" data-src="../assets/img/jpg/Karl-Ulrich.jpg" alt="Karl-Ulrich">
                 </div>
                 <div class="professor-description">
                     <div class="name robotoBo fs18 negro23">
-                        Martine Haas, PhD
+                        Karl Ulrich
                     </div>
                     <div class="info robotoRe fs16 negro23">
-                        Profesora Adjunto de Administración, The Wharton School
+                        Profesor CIBC Dotado; Profesor de Operaciones, Información y Decisiones; 
+                        Profesor de gestión; y vicedecano de Emprendimiento e Innovación.
                     </div>
                 </div>
             </div>
@@ -986,7 +791,9 @@
                     </div>
                 </div>
                 <div class="col-md-6 certificate-img">
-                    <img class="lazyload" data-src="../assets/img/png/Certificado.png" alt="Certificado">
+                    <a href="#ex1" rel="modal:open">
+                        <img class="lazyload" data-src="../assets/img/png/Certificado-Entreprenuership.png" alt="Certificado">
+                    </a>
                 </div>
             </div>
             <div class="row">
@@ -1006,10 +813,43 @@
             </div>
         </div>
     </div>
+    <!-- Modal HTML embedded directly into document -->
+    <div id="ex1" class="modal modal-certificate">
+        <img src="../assets/img/jpg/certificate-entrepreneurship.jpg" alt="Certificado">
+    </div>
     <!-- Section Apply Now / Felxible Payments -->
-    <!-- Button trigger modal -->
-
+    <div class="apply-now-container">
+        <div class="button">
+            <a class="robotoBo fs16 azul84" href="http://bit.ly/2w4kQoA" target="_blank" rel="noopener noreferrer">
+                APLICA AHORA
+            </a>
+        </div>
+        <div class="apply-now-title robotoBo fs24">
+            Cupo limitado. Aplica lo antes posible.
+        </div>
+        <div class="apply-now-subtitle robotoRe fs18">
+            Opciones de pagos flexibles. 
+            <a class="amarillo73" href="#ex2" rel="modal:open">
+                Haz clic aquí para saber más.
+            </a>
+        </div>
+    </div>
     <!-- Section Colaboration -->
+    <div class="colaboration-container">
+        <div class="logo-emeritus">
+            <img class="lazyload" data-src="../assets/img/svg/emeritus-green-logo.svg" alt="Certificado">
+        </div>
+        <div class="description-emeritus robotoRe fs14 negro23">
+            Wharton Executive Education colabora con el proveedor de educación en línea 
+            EMERITUS Institute of Management para ofrecer un portafolio de cursos en 
+            línea de alto impacto. Con más de 16,000 estudiantes de más de 132 países, 
+            EMERITUS imparte programas de administración en línea mediante un modelo 
+            de aprendizaje con clases en vivo, dinámicas de aprendizaje en grupo y 
+            tareas con calificación. Gracias a esta colaboración, tenemos la posibilidad 
+            de ofrecer la educación de clase mundial por la que es conocida Wharton 
+            School, a través de un ambiente digital atractivo e interactivo.
+        </div>
+    </div>
 
     <!-- Javascript -->
     <script type="text/javascript" src="assets/js/lazysizes.min.js"></script>
