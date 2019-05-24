@@ -19,7 +19,7 @@ jQuery(document).ready(function () {
     
     // If the given utm_source value is not found in the Allowed UTM Sources list, default to Web.
     if(!allowedSources.includes(utm_source_value)){
-        utm_source_value =  "Web";
+        utm_source_value =  "Facebook";
 
     }
 
