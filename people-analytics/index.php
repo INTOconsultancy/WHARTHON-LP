@@ -241,7 +241,7 @@
                         </div>
                         <div class="modal-pagos-subtitle robotoRe fs16 negro46">
                             Las siguientes opciones de pago están disponibles para el
-                            <span class="robotoBo">Curso de People Analytics :</span>
+                            <span class="robotoBo">Curso de Administración e Inteligencia Analítica de Recursos Humanos: People Analytics:</span>
                         </div>
                         <div class="pagos">
                             <div class="pagos-title fs18 openBo gris70">
@@ -259,13 +259,13 @@
                             </div>
                             <div class="precio-pago fs14 robotoRe negro23">
                                 <div class="dot-pagos"></div>
-                                La primera parcialidad de <span class="robotoBo">$,1054 USD</span>
+                                La primera parcialidad de <span class="robotoBo">$,1055 USD</span>
                                 se paga al inicio.
                             </div>
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
-                                La segunda parcialidad de <span class="robotoBo">$935 USD</span>
-                                a pagar del 22 de julio del 2019.
+                                La segunda parcialidad de <span class="robotoBo">$934 USD</span>
+                                a pagar del 20 de julio del 2019.
                             </div>
                         </div>
                         <div class="pagos no-border">
@@ -279,11 +279,11 @@
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
                                 La segunda parcialidad de <span class="robotoBo">$635 USD</span>
-                                a pagar del 22 de julio del 2019.
+                                a pagar del 20 de julio del 2019.
                             </div>
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
-                                La tercera parcialidad se paga a más tardar el 6 de agosto del 2019
+                                La tercera parcialidad se paga a más tardar el 04 de agosto del 2019
                                 <span class="robotoBo">$635 USD.</span>
                             </div>
                         </div>
