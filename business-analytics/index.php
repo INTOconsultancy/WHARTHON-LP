@@ -139,17 +139,17 @@
                     <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-04-12/4ybyr1" method="POST" id="fordesk">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input class="whitLi fs16 gris91 mdl-textfield__input" type="text" id="first_name"
-                                name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
+                                name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;" required>
                             <label class="whitLi fs16 gris91 mdl-textfield__label" for="first_name">Nombre(s)</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input class="whitLi fs16 gris91 mdl-textfield__input" type="text" id="last_name"
-                                name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;">
+                                name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;" required>
                             <label class="whitLi fs16 gris91 mdl-textfield__label" for="last_name">Apellido(s)</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input class="whitLi fs16 gris91 mdl-textfield__input" type="email" id="email" name="email"
-                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$">
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$" required>
                             <label class="whitLi fs16 gris91 mdl-textfield__label" for="email">Email</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -172,7 +172,7 @@
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input class="whitLi fs16 gris91 mdl-textfield__input" type="tel" id="mobile" name="mobile"
-                                maxlength="15" minlength="5" onkeypress="return valida(event)" pattern="[0-9]+">
+                                maxlength="15" minlength="5" onkeypress="return valida(event)" pattern="[0-9]+" required>
                             <label class="whitLi fs16 gris91 mdl-textfield__label" for="mobile">Teléfono Movíl</label>
                         </div>
                         <!-- GDPR checkbox -->
