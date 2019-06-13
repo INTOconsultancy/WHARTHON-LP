@@ -83,10 +83,15 @@
     <div class="hero-container">
         <div class="hero-title-cont">
             <div class="hero-title">
-                <div class="banner robotoRe fs16 dorado73">Aplica hoy al programa</div>
-                <div class="title robotoBo fs26 blanco">Administración e Inteligencia Analítica de Recursos Humanos:
+                <!-- <div class="banner robotoRe fs16 dorado73">Aplica hoy al programa</div> -->
+                <div class="title robotoBo fs26 blanco">
+                    Administración e Inteligencia 
+                    <br>
+                    <span class="robotoRe">
+                        <i>Analítica de Recursos Humanos</i>
+                    </span>
                 </div>
-                <div class="subtitle robotoRe fs18 blanco"><i>People Analytics</i>
+                <!-- <div class="subtitle robotoRe fs18 blanco"><i>People Analytics</i> -->
                 </div>
             </div>
         </div>
@@ -332,8 +337,8 @@
                 </div>
                 <div class="description robotoBo fs16 gris7D">
                     Solo el 11 por ciento de los encuestados indicaron que su sistema de compensaciones se 
-                    encuentra verdaderamente alineado con sus metas organizacionales; mientras 
-                    que 23% reportaron no saber cuáles son las recompensas que valoran más sus 
+                    encuentra verdaderamente alineado con sus metas organizacionales, mientras 
+                    que 23 por ciento reportaron no saber cuáles son las recompensas que valoran más sus 
                     empleados.
                 </div>
                 <div class="source robotoRe fs14 gris7D">FUENTE: DELOITTE</div>
@@ -399,7 +404,7 @@
                 <div class="list col-sm-4">
                     <ul>
                         <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Gerente de programa de people analytics</span>
+                            <span class="robotoRe fs16 negro23">Gerente de programa de analítica de personas</span>
                         </li>
                         <li class="vino33">
                             <span class="robotoRe fs16 negro23">VP senior/Director de operaciones</span>
@@ -418,7 +423,7 @@
                             <span class="robotoRe fs16 negro23">VP de RH</span>
                         </li>
                         <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Director de estrategia</span>
+                            <span class="robotoRe fs16 negro23">Chief People Officer</span>
                         </li>
                         <li class="vino33">
                             <span class="robotoRe fs16 negro23">Gerente de Grupo de Recursos Humanos</span>
@@ -613,8 +618,8 @@
             Tu experiencia de aprendizaje
         </div>
         <div class="experience-description robotoRe fs18 negro23">
-            El programa en línea de Wharton, Administración e Inteligencia Analítica de Recursos 
-            Humanos, combina la teoría con aplicaciones prácticas, y la flexibilidad con el rigor, 
+            El programa en línea de Wharton, <i>Administración e Inteligencia Analítica de Recursos 
+            Humanos</i>, combina la teoría con aplicaciones prácticas, y la flexibilidad con el rigor, 
             lo que da como resultado una experiencia de educación profesional holística. Al final 
             de este curso en línea serás capaz de:
         </div>
@@ -632,7 +637,7 @@
 
                         <li class="vino33">
                             <span class="robotoRe fs16 negro23">Aprovechar el análisis de datos para separar habilidades
-                                de suerte;
+                                de suerte,
                                 identificar sesgos internos, y entender los ciclos de contratación,
                                 movilidad interna y deserción.</span>
                         </li>
@@ -651,18 +656,17 @@
 
                         <li class="vino33">
                             <span class="robotoRe fs16 negro23">Motivar el desempeño individual y diseñar sistemas de
-                                recompensas.</span>
+                                recompensas, para crear un ambiente de trabajo positivo..</span>
                         </li>
 
                         <li class="vino33">
                             <span class="robotoRe fs16 negro23">Crear una mentalidad y una cultura alrededor de los
                                 sistemas de
-                                trabajo vs. el trabajo individualizado.</span>
+                                trabajo vs. el trabajo individualizado, enfocándose en retención y el potencial del empleado.</span>
                         </li>
 
                         <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Diseñar una estructura organizacional optimizada para el
-                                éxito.</span>
+                            <span class="robotoRe fs16 negro23">Diseñar una estructura organizacional optimizada para reclutar al mejor talento y obtener ventaja competitiva.</span>
                         </li>
 
                     </ul>
@@ -681,7 +685,7 @@
                                 Contexto
                             </div>
                             <div class="subtitle robotoRe fs16 negro23">
-                                Independientemente de su grado de madurez
+                                A través de clases en video
                             </div>
                         </div>
                     </div>
@@ -770,7 +774,7 @@
                                     Módulo 1
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Introducción a people analytics y evaluación de desempeño
+                                    Introducción a la analítica de personas y evaluación de desempeño
                                 </div>
                             </div>
                         </div>
@@ -790,7 +794,7 @@
                                     Módulo 3
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Puestos y sistemas de trabajo
+                                    Tareas, trabajos y sistemas de trabajo
                                 </div>
                             </div>
                         </div>
@@ -814,7 +818,7 @@
                                     Módulo 5
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Colaboración y redes
+                                    Redes de colaboración
                                 </div>
                             </div>
                         </div>
@@ -824,7 +828,7 @@
                                     Módulo 6
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Analítica de talento
+                                    Administración de talento y analítica
                                 </div>
                             </div>
                         </div>
@@ -983,7 +987,7 @@
                         Certificado
                     </div>
                     <div class="certificate-subtitle robotoRe fs20 negro23">
-                        Obtén un certificado digital una vez que termines tu programa 
+                        Obtén un certificado digital de Wharton School una vez que termines tu programa 
                         en línea de manera exitosa.
                     </div>
                 </div>
@@ -1022,7 +1026,7 @@
             </a>
         </div>
         <div class="apply-now-title robotoBo fs24">
-            Cupo limitado. Aplica lo antes posible.
+            Aplica lo antes posible.
         </div>
         <div class="apply-now-subtitle robotoRe fs18">
             Opciones de pagos flexibles. 

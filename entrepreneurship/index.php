@@ -83,13 +83,19 @@
     <div class="hero-container banner-entrepreneurship">
         <div class="hero-title-cont">
             <div class="hero-title">
-                <div class="banner robotoRe fs16 dorado73">Aplica hoy al programa</div>
-                <div class="title robotoBo fs26 blanco">
-                    Emprendimiento e innovación para la aceleración de negocios
+                <!-- <div class="banner robotoRe fs16 dorado73">Aplica hoy al programa</div> -->
+                <div class="title robotoBo fs26 blanco" style="border-bottom: 1px solid white">
+                    Programa de Aceleración del Emprendimiento: 
+                    <span class="robotoRe">Escala tu negocio</span>
                 </div>
                 <div class="subtitle robotoRe fs18 blanco">
                     En este curso, el ganador del mejor pitch obtendrá una inversión de capital 
                     de $25,000 dólares. El segundo lugar será reconocido con $10,000 dólares.
+                </div>
+                <div class="apply">
+                    <a class="robotoRe fs15" target="_blank" rel="noopener noreferrer">
+                        <i>*Aplican términos y condiciones</i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -786,8 +792,8 @@
                         Certificado
                     </div>
                     <div class="certificate-subtitle robotoRe fs20 negro23">
-                        Obtén un certificado digital una vez que termines tu programa 
-                        en línea de manera exitosa.
+                        Obtén un certificado digital de Wharton School una vez que 
+                        termines tu programa en línea de manera exitosa. 
                     </div>
                 </div>
                 <div class="col-md-6 certificate-img">

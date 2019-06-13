@@ -494,6 +494,17 @@ header {
                 line-height: 20px;
                 text-align: center;
             }
+
+            .apply {
+                margin-top: 20px;
+                line-height: 26px;
+                text-align: left;
+                a{
+                    color: #FFFFFF;
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }
@@ -595,6 +606,7 @@ header {
                     font-size: 36px;
                     line-height: 36px;
                     text-align: left;
+                    padding-bottom: 5px;
                 }
 
                 .subtitle {
