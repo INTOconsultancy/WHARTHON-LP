@@ -209,7 +209,7 @@
                         DURACIÓN
                     </div>
                     <div class="fechas-precio robotoBo fs20 grisD9">
-                        2 meses, en línea,
+                        2 meses, en línea
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
                         En español
@@ -404,7 +404,7 @@
                 <div class="list col-sm-4">
                     <ul>
                         <li class="vino33">
-                            <span class="robotoRe fs16 negro23">Gerente de programa de analítica de personas</span>
+                            <span class="robotoRe fs16 negro23">Gerente de Programa de analítica de personas</span>
                         </li>
                         <li class="vino33">
                             <span class="robotoRe fs16 negro23">VP senior/Director de operaciones</span>

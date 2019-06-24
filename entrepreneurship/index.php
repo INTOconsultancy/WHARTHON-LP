@@ -213,7 +213,7 @@
                         DURACIÓN
                     </div>
                     <div class="fechas-precio robotoBo fs20 grisD9">
-                        3 meses, en línea,
+                        3 meses, en línea
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
                         En español
