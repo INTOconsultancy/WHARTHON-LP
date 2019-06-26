@@ -656,7 +656,7 @@
 
                         <li class="vino33">
                             <span class="robotoRe fs16 negro23">Motivar el desempeño individual y diseñar sistemas de
-                                recompensas, para crear un ambiente de trabajo positivo..</span>
+                                recompensas, para crear un ambiente de trabajo positivo.</span>
                         </li>
 
                         <li class="vino33">
@@ -774,7 +774,7 @@
                                     Módulo 1
                                 </div>
                                 <div class="title robotoRe fs16 negro23 col-md-10 col-9">
-                                    Introducción a la analítica de personas y evaluación de desempeño
+                                    Introducción a people analytics y evaluación del desempeño
                                 </div>
                             </div>
                         </div>
