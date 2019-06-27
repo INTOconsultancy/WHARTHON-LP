@@ -16,7 +16,7 @@
     <meta http-equiv="refresh" CONTENT="1;URL= http://bit.ly/2D9uV7B">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>¡Gracias por tu interés!</title>
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/scss/stylesheet.css">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />

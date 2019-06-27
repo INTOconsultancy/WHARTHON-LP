@@ -15,6 +15,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WHARTON | Business Analytics</title>
 
+    <meta property="og:title" content="WHARTON | Business Analytics" />
+    <meta property="og:description" content="Este programa te ayudará a analizar datos para identificar insights valiosos, mejorar tu habilidad para hacer predicciones a largo plazo y prescribir acciones a futuro que ayuden a tomar mejores decisiones de negocio." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://execed-emeritus.wharton.upenn.edu/latam/business-analytics/" />
+    <meta property="og:image" content="https://execed-emeritus.wharton.upenn.edu/latam/assets/img/jpg/Wharton.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="500" />
+    <meta property="og:image:alt" content="Business Analytics" />
+    <meta property="fb:app_id" content="2445358148817883" />
 
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
@@ -208,7 +218,7 @@
                             Tus datos personales no serán compartidos con terceros.
                         </div>
                         <div>
-                            <a class="whitSBo fs16 vino56" href="#" target="_blank" rel="noopener noreferrer">
+                            <a class="whitSBo fs16 vino56" href="https://latam.emeritus.org/politica-de-privacidad" target="_blank" rel="noopener noreferrer">
                                 Política de Privacidad
                             </a>
                         </div>

@@ -45,7 +45,7 @@
                 <div class="whitMe fs16 gris70">
                     Emprendimiento e innovación 
                 </div>
-                <div class="whitMee fs16 negro46">
+                <div class="whitMe fs16 negro46">
                     Si tu descarga no comienza <a class=" grapBo azulB5" href="http://bit.ly/2WQ4JXh">da click aquí</a>
                 </div>
             </div>

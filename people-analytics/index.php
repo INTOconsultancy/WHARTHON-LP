@@ -173,7 +173,7 @@
                         Tu información no se compartirá con nadie
                     </div>
                     <div>
-                        <a class="robotoBo fs16 azul84" href="#" target="_blank" rel="noopener noreferrer">
+                        <a class="robotoBo fs16 azul84" href="https://latam.emeritus.org/politica-de-privacidad" target="_blank" rel="noopener noreferrer">
                             Política de Privacidad
                         </a>
                     </div>
