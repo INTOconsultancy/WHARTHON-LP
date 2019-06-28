@@ -972,7 +972,9 @@
                         Martine Haas, PhD
                     </div>
                     <div class="info robotoRe fs16 negro23">
-                        Profesora Adjunto de Administración, The Wharton School
+                        Profesora de Administración en Wharton School, Directora Anthony L. Davis 
+                        del Joseph H. Lauder Institute for Management and International Studies, 
+                        Universidad de Pensilvania
                     </div>
                 </div>
             </div>
