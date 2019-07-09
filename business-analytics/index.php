@@ -121,7 +121,7 @@
                 04 / septiembre / 2019
             </div>
             <div class="whitMe fs16 negro19">
-                3 MESES
+                2 MESES
             </div>
             <div class="movil whitMe fs16 negro19">
                 6-7 HORAS POR SEMANA
