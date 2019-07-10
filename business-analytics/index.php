@@ -236,8 +236,8 @@
             Plan de pagos flexibles
         </div>
         <div class="modal-pagos-descripcion fs18 whitBo negro19">
-            Esta opción permite al alumno pagar la cuota del curso en parcialidades.
-            Está disponible en la solicitud de inscripción y deberá seleccionarse
+            Esta opción permite al alumno pagar la cuota del curso en parcialidades. 
+            Está disponible en la solicitud de inscripción y deberá seleccionarse 
             antes de realizar el pago.
         </div>
         <div class="modal-pagos-subtitle fs16 whitMe negro19">
@@ -256,12 +256,12 @@
                 Pago en dos parcialidades
             </div>
             <div class="precio-pago fs14 whitMe negro23">
-                <div class="dot-pagos"></div>La primera parcialidad de $,1054 USD
+                <div class="dot-pagos"></div>La primera parcialidad de $1,054 USD
                 se paga al inicio.
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $935 USD.
-                a pagar del 22 de julio del 2019.
+                a pagar del 29 de septiembre de 2019.
             </div>
         </div>
         <div class="pagos no-border">
@@ -274,10 +274,11 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
-                a pagar del 22 de julio del 2019.
+                a pagar del 29 de septiembre de 2019.
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La tercera parcialidad se paga a más tardar el 06 de agosto $635 USD.
+                <div class="dot-pagos"></div>La tercera parcialidad de $635 USD 
+                se paga el 14 de octubre de 2019.
             </div>
         </div>
     </div>
