@@ -193,10 +193,10 @@
                         INICIA EL
                     </div>
                     <div class="fechas-precio robotoBo fs20 grisD9">
-                        25 de junio del 2019
+                        05 de septiembre del 2019
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
-                        Nota: la fecha para mandar tu solicitud se extendió hasta el 24 de junio de 2019.
+                        Nota: la fecha para mandar tu solicitud se extendió hasta el 04 de septiembre de 2019.
                     </div>
                 </div>
             </div>
@@ -269,8 +269,8 @@
                             </div>
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
-                                La segunda parcialidad de <span class="robotoBo">$934 USD</span>
-                                a pagar del 20 de julio del 2019.
+                                La segunda parcialidad de <span class="robotoBo">$935 USD</span>
+                                a pagar del 30 de septiembre del 2019.
                             </div>
                         </div>
                         <div class="pagos no-border">
@@ -284,11 +284,11 @@
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
                                 La segunda parcialidad de <span class="robotoBo">$635 USD</span>
-                                a pagar del 20 de julio del 2019.
+                                a pagar del 30 de septiembre del 2019.
                             </div>
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
-                                La tercera parcialidad se paga a más tardar el 04 de agosto del 2019
+                                La tercera parcialidad se paga a más tardar el 15 de octubre del 2019
                                 <span class="robotoBo">$635 USD.</span>
                             </div>
                         </div>
