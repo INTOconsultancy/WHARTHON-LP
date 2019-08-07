@@ -23,12 +23,11 @@ var canSubmit = false;
 function callRegisterAjax() {
     // Constructing the values object.
     var dataObject = {
-        "salutation": jQuery("#salutation").val(),
         "first_name": jQuery("#first_name").val(),
         "last_name": jQuery("#last_name").val(),
         "country": jQuery("#country").val(),
         "email": jQuery("#email").val(),
-        "00N9000000CnMwU": jQuery("#00N9000000CnMwU").val(),
+        "work_experience": jQuery("#work_experience").val(),
         "mobile": jQuery("#mobile").val(),
         "browser": jQuery("#browser").val(),
         "lead_source": jQuery("#lead_source").val(),
