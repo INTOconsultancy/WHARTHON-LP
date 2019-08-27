@@ -821,7 +821,7 @@
     </div>
     <!-- Modal HTML embedded directly into document -->
     <div id="ex1" class="modal modal-certificate">
-        <img src="../assets/img/jpg/certificate-entrepreneurship.jpg" alt="Certificado">
+        <img src="../assets/img/jpg/diploma-Wharton-Entrepreneurship-agosto.jpg" alt="Certificado">
     </div>
     <!-- Section Apply Now / Felxible Payments -->
     <div class="apply-now-container">
