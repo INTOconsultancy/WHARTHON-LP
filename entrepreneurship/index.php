@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WHARTON | EMPREDIMIENTO E INNOVACIÓN</title>
+    <title>WHARTON | EMPRENDIMIENTO E INNOVACIÓN</title>
 
     <link rel="shortcut icon" type="image/png" href="../business-analytics/assets/img/favicon.ico" />
 
@@ -309,10 +309,9 @@
             <span class="robotoBo">Emprendimiento de Wharton?</span>
         </div>
         <div class="information-description robotoRe fs16 negro23">
-            Muchas organizaciones expresan que las personas son su activo más importante. Entonces 
-            ¿cómo pueden los profesionales de RH continuar ganando como socios estratégicos de negocio 
-            gestionando a su gente de manera más efectiva y explotando la analítica de datos? Midiendo, 
-            luego gestionando. Sin embargo...
+            Las startups y sus fundadores enfrentan dificultades y obstáculos continuamente. De echo,
+            el 90% de estos enprendimientos fracasa, un porcentaje suficiente para persuadirte de que es
+            mejor quedarte en tu trabajo para siempre.
         </div>
     </div>
     <div class="information-cont container-fluid" style="background-color: #F3F3F3;">
