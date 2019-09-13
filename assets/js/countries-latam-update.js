@@ -2,7 +2,7 @@
 // Countries
 
 
-var country_arr = new Array("Argentina~~Argentina~", "Chile~~Chile~", "Colombia~~Colombia~", "Costa Rica~~Costa Rica~", "Ecuador~~Ecuador~", "El Salvador~~El Salvador~", "United States~~Estados Unidos~", "Spain~~España~", "Guatemala~~Guatemala~", "Honduras~~Honduras~", "Mexico~~México~", "Nicaragua~~Nicaragua~", "Panama~~Panamá~", "Paraguay~~Paraguay~", "Peru~~Perú", "dominican republic~~República Dominicana", "Others~~Otros");
+var country_arr = new Array("Argentina~~Argentina~", "Chile~~Chile~", "Colombia~~Colombia~", "Costa Rica~~Costa Rica~", "Ecuador~~Ecuador~", "El Salvador~~El Salvador~", "United States~~Estados Unidos~", "Spain~~España~", "Guatemala~~Guatemala~", "Honduras~~Honduras~", "Mexico~~México~", "Nicaragua~~Nicaragua~", "Panama~~Panamá~", "Paraguay~~Paraguay~", "Peru~~Perú", "Dominican Republic~~República Dominicana", "Others~~Otros");
 
 function populateCountryCode( countryElementId, codeElementId ,OTPElementId){
 	
