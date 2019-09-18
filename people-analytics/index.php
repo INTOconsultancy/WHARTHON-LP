@@ -270,7 +270,7 @@
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
                                 La segunda parcialidad de <span class="robotoBo">$935 USD</span>
-                                a pagar del 30 de septiembre del 2019.
+                                a pagar del 9 de diciembre del 2019.
                             </div>
                         </div>
                         <div class="pagos no-border">
@@ -284,11 +284,11 @@
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
                                 La segunda parcialidad de <span class="robotoBo">$635 USD</span>
-                                a pagar del 30 de septiembre del 2019.
+                                a pagar del 9 de diciembre del 2019.
                             </div>
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
-                                La tercera parcialidad se paga a más tardar el 15 de octubre del 2019
+                                La tercera parcialidad se paga a más tardar el 24 de diciembre del 2019
                                 <span class="robotoBo">$635 USD.</span>
                             </div>
                         </div>

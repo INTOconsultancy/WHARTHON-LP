@@ -261,7 +261,7 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $935 USD.
-                a pagar del 29 de septiembre de 2019.
+                a pagar del 29 de noviembre de 2019.
             </div>
         </div>
         <div class="pagos no-border">
@@ -274,11 +274,11 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
-                a pagar del 29 de septiembre de 2019.
+                a pagar del 29 de noviembre de 2019.
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La tercera parcialidad de $635 USD 
-                se paga el 14 de octubre de 2019.
+                se paga el 14 de diciembre de 2019.
             </div>
         </div>
     </div>
