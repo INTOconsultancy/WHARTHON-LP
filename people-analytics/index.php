@@ -193,10 +193,10 @@
                         INICIA EL
                     </div>
                     <div class="fechas-precio robotoBo fs20 grisD9">
-                        05 de septiembre del 2019
+                        14 de noviembre del 2019
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
-                        Nota: la fecha para mandar tu solicitud se extendió hasta el 04 de septiembre de 2019.
+                        Nota: la fecha para mandar tu solicitud se extendió hasta el 14 de noviembre de 2019.
                     </div>
                 </div>
             </div>
