@@ -193,10 +193,10 @@
                         INICIA EL
                     </div>
                     <div class="fechas-precio robotoBo fs20 grisD9">
-                        14 de noviembre del 2019
+                        12 de marzo del 2020
                     </div>
                     <div class="notas robotoRe fs14 grisD9">
-                        Nota: la fecha para mandar tu solicitud se extendió hasta el 14 de noviembre de 2019.
+                        Nota: la fecha para mandar tu solicitud se extendió hasta el 12 de marzo de 2020.
                     </div>
                 </div>
             </div>
@@ -270,7 +270,7 @@
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
                                 La segunda parcialidad de <span class="robotoBo">$935 USD</span>
-                                a pagar del 9 de diciembre del 2019.
+                                a pagar del 6 de abril de 2020.
                             </div>
                         </div>
                         <div class="pagos no-border">
@@ -284,11 +284,11 @@
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
                                 La segunda parcialidad de <span class="robotoBo">$635 USD</span>
-                                a pagar del 9 de diciembre del 2019.
+                                a pagar del 6 de abril de 2020.
                             </div>
                             <div class="precio-pago">
                                 <div class="dot-pagos"></div>
-                                La tercera parcialidad se paga a más tardar el 24 de diciembre del 2019
+                                La tercera parcialidad se paga a más tardar el 21 de abril de 2020
                                 <span class="robotoBo">$635 USD.</span>
                             </div>
                         </div>
