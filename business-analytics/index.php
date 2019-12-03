@@ -118,7 +118,7 @@
 
         <div class="price-container">
             <div class="whitSBo fs20 negro4B">
-                13 / noviembre / 2019
+                30 / enero / 2020
             </div>
             <div class="whitMe fs16 negro19">
                 2 MESES
@@ -261,7 +261,7 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $935 USD.
-                a pagar del 29 de noviembre de 2019.
+                a pagar del 24 de febrero de 2020.
             </div>
         </div>
         <div class="pagos no-border">
@@ -274,11 +274,11 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
-                a pagar del 29 de noviembre de 2019.
+                a pagar del 24 de febrero de 2020.
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La tercera parcialidad de $635 USD 
-                se paga el 14 de diciembre de 2019.
+                se paga el 10 de marzo de 2020.
             </div>
         </div>
     </div>
