@@ -261,7 +261,7 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $935 USD.
-                a pagar del 02 de abril de 2020.
+                a pagar del 20 de abril de 2020.
             </div>
         </div>
         <div class="pagos no-border">
@@ -274,7 +274,7 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
-                a pagar del 02 de abril de 2020.
+                a pagar del 20 de abril de 2020.
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La tercera parcialidad de $635 USD 
