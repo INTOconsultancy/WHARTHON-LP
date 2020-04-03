@@ -78,10 +78,64 @@ function callRegisterAjax() {
 }
 
 
-jQuery(document).ready(function () {
-    jQuery("#browser").val(checkBrowser());
+function callRegisterFeeAjax() {
 
-    jQuery("#fordesk").submit(function () {
+    // Constructing the values object.
+    var dataObject = {
+        "first_name": jQuery("#firstName").val(),
+        "Company": jQuery("#Company").val(),
+        "email": jQuery("#Email").val(),
+        "email": jQuery("#email").val(),
+        "job_title": jQuery("#jobTitle").val(),
+        "mobile": jQuery("#mobile").val(),
+        "Group_Enrol_No_of_Enrolments": jQuery("#groupEnrol").val(),
+        "Group_Enrol_Query": jQuery("#groupEnrolQuery").val(),
+        "browser": jQuery("#Browser").val(),
+        "lead_source": jQuery("#leadSource").val(),
+        "utm_source": jQuery("#utmSource").val(),
+        "utm_medium": jQuery("#utmMedium").val(),
+        "utm_term": jQuery("#utmTerm").val(),
+        "utm_content": jQuery("#utmContent").val(),
+        "utm_campaign": jQuery("#utmCampaign").val(),
+        "course": jQuery("#Course").val()
+    };
+
+
+    // Appending the form variables to the URL's querystring to be sent as part of the POST request.
+    Object.keys(dataObject).forEach(function (key) {
+
+        console.log(key + '=' + dataObject[key]);
+        var value = dataObject[key];
+        if (value !== "" && value !== undefined) {
+            url += "&" + key + "=" + encodeURI(value);
+        }
+
+    });
+
+
+    jQuery.ajax({
+        url: url,
+        type: "POST",
+        cache: false,
+        data: {},
+        success: function (result) {
+            canSubmit = true;
+            jQuery("#formSpecialFee").submit();
+
+        },
+        error: function (xhr, status, error) {
+            console.log("Error calling the logger:");
+            console.log(error);
+
+        }
+
+    });
+}
+
+jQuery(document).ready(function () {
+    jQuery("#browser").val(checkBrowser());         // Retrievin the browser name.
+
+    jQuery("#fordesk").submit(function () {         // Form submit listener.
 
         if (!canSubmit) {
             callRegisterAjax();
@@ -92,5 +146,21 @@ jQuery(document).ready(function () {
 
         }
 
+
     });
+
+    jQuery("#formSpecialFee").submit(function () {         // Form submit listener.
+
+        if (!canSubmit) {
+            callRegisterFeeAjax();
+            return false;
+
+        } else {
+            return true;
+
+        }
+
+
+    });
+
 });

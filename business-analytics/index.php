@@ -3,11 +3,22 @@
 
 <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TJ2PZ8R');</script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TJ2PZ8R');
+    </script>
     <!-- End Google Tag Manager -->
 
     <meta charset="UTF-8">
@@ -16,7 +27,8 @@
     <title>WHARTON | Business Analytics</title>
 
     <meta property="og:title" content="WHARTON | Business Analytics" />
-    <meta property="og:description" content="Este programa te ayudará a analizar datos para identificar insights valiosos, mejorar tu habilidad para hacer predicciones a largo plazo y prescribir acciones a futuro que ayuden a tomar mejores decisiones de negocio." />
+    <meta property="og:description"
+        content="Este programa te ayudará a analizar datos para identificar insights valiosos, mejorar tu habilidad para hacer predicciones a largo plazo y prescribir acciones a futuro que ayuden a tomar mejores decisiones de negocio." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://execed-emeritus.wharton.upenn.edu/latam/business-analytics/" />
     <meta property="og:image" content="https://execed-emeritus.wharton.upenn.edu/latam/assets/img/jpg/Wharton.jpg" />
@@ -48,17 +60,18 @@
     <script type="text/javascript" src="../assets/js/main.js"></script>
     <script type="text/javascript" src="../assets/libs/slick/slick.js"></script>
     <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js">
+    </script>
 
 
 </head>
 
-<body> 
+<body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJ2PZ8R"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->   
-    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJ2PZ8R" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Getting the querystring -->
     <?php
         $queryStringArray = array();
@@ -138,6 +151,11 @@
                     Pagos flexibles disponibles
                 </a>
             </div>
+            <div class="notas">
+                <a class="whitBo fs16 vino56" href="#specialFee" rel="modal:open">
+                    *Precio especial para grupos
+                </a>
+            </div>
         </div>
 
         <div class="formulario-container">
@@ -146,15 +164,18 @@
                     <div class="form-title whitSBo fs18 negro23">Para obtener más información, llena el formulario</div>
 
                     <!-- Form Element -->
-                    <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-04-12/4ybyr1" method="POST" id="fordesk">
+                    <form class="form-cont" action="http://www2.emeritus.org/l/134351/2019-04-12/4ybyr1" method="POST"
+                        id="fordesk">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input class="whitLi fs16 gris91 mdl-textfield__input" type="text" id="first_name"
-                                name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;" required>
+                                name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;"
+                                required>
                             <label class="whitLi fs16 gris91 mdl-textfield__label" for="first_name">Nombre(s)</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input class="whitLi fs16 gris91 mdl-textfield__input" type="text" id="last_name"
-                                name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;" required>
+                                name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" style="text-transform: capitalize;"
+                                required>
                             <label class="whitLi fs16 gris91 mdl-textfield__label" for="last_name">Apellido(s)</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -182,7 +203,8 @@
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input class="whitLi fs16 gris91 mdl-textfield__input" type="tel" id="mobile" name="mobile"
-                                maxlength="15" minlength="5" onkeypress="return valida(event)" pattern="[0-9]+" required>
+                                maxlength="15" minlength="5" onkeypress="return valida(event)" pattern="[0-9]+"
+                                required>
                             <label class="whitLi fs16 gris91 mdl-textfield__label" for="mobile">Teléfono Movíl</label>
                         </div>
                         <!-- GDPR checkbox -->
@@ -218,7 +240,8 @@
                             Tus datos personales no serán compartidos con terceros.
                         </div>
                         <div>
-                            <a class="whitSBo fs16 vino56" href="https://latam.emeritus.org/politica-de-privacidad" target="_blank" rel="noopener noreferrer">
+                            <a class="whitSBo fs16 vino56" href="https://latam.emeritus.org/politica-de-privacidad"
+                                target="_blank" rel="noopener noreferrer">
                                 Política de Privacidad
                             </a>
                         </div>
@@ -236,8 +259,8 @@
             Plan de pagos flexibles
         </div>
         <div class="modal-pagos-descripcion fs18 whitBo negro19">
-            Esta opción permite al alumno pagar la cuota del curso en parcialidades. 
-            Está disponible en la solicitud de inscripción y deberá seleccionarse 
+            Esta opción permite al alumno pagar la cuota del curso en parcialidades.
+            Está disponible en la solicitud de inscripción y deberá seleccionarse
             antes de realizar el pago.
         </div>
         <div class="modal-pagos-subtitle fs16 whitMe negro19">
@@ -277,12 +300,109 @@
                 a pagar del 20 de abril de 2020.
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La tercera parcialidad de $635 USD 
+                <div class="dot-pagos"></div>La tercera parcialidad de $635 USD
                 se paga el 04 de mayo de 2020.
             </div>
         </div>
     </div>
 
+    <!-- Program special fee -->
+    <div id="specialFee" class="modal special-modal-container">
+
+        <div class="special-modal-cont">
+
+            <div class="special-modal-title whitMe">
+                PRECIO ESPECIAL PARA INSCRIPCIÓN EN GRUPO
+            </div>
+
+            <div class="special-modal-subtitle whitMe">
+                El programa ofrece un descuento hasta de 20% si te inscribes con tus colegas.
+            </div>
+
+            <form class="special-modal-form" action="https://www2.emeritus.org/l/134351/2020-03-27/5db1dl"
+                id="formSpecialFee" method="POST">
+
+                <div class="special-modal-flex">
+
+                    <div class="input-group-special-modal mdInput">
+
+                        <label for="" class="special-label-title whitMe">Nombre*</label>
+                        <input type="text" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required name="first_name" id="firstName"
+                            class="special-input" style="text-transform: capitalize;">
+
+                    </div>
+
+                    <div class="input-group-special-modal mdInput">
+
+                        <label for="" class="special-label-title whitMe">Email*</label>
+                        <input type="text" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$" required
+                            name="email" id="Email" class="special-input">
+
+                    </div>
+
+                </div>
+
+                <div class="special-modal-flex">
+
+                    <div class="input-group-special-modal mdInput">
+
+                        <label for="" class="special-label-title whitMe">Compañía*</label>
+                        <input type="text" name="Company" id="Company" class="special-input">
+
+                    </div>
+
+                    <div class="input-group-special-modal mdInput">
+
+                        <label for="" class="special-label-title whitMe">Puesto*</label>
+                        <input type="text" name="job_title" id="jobTitle" class="special-input">
+
+                    </div>
+
+                </div>
+
+                <div class="input-group-special-modal lgInput">
+
+                    <label for="" class="special-label-title whitMe">¿Cuántas personas te interesa inscribir?*</label>
+                    <select class="special-input" name="Group_Enrol_No_of_Enrolments" id="groupEnrol" required>
+                        <option value=""></option>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="More than 10">Mas de 10</option>
+                    </select>
+
+                </div>
+
+                <div class="input-group-special-modal lgInput">
+
+                    <label for="" class="special-label-title whitMe">Comentarios y preguntas</label>
+                    <textarea class="special-input __textarea" name="Group_Enrol_Query" id="groupEnrolQuery" cols="30"
+                        rows="5"></textarea>
+
+                </div>
+
+                <div class="input-group-button">
+                    <input type="hidden" name="lead_source" id="lead_source" value="">
+                    <input type="hidden" name="utm_source" id="utm_source" value="">
+                    <input type="hidden" name="utm_medium" id="utm_medium" value="">
+                    <input type="hidden" name="utm_term" id="utm_term" value="">
+                    <input type="hidden" name="utm_content" id="utm_content" value="">
+                    <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+                    <input type="hidden" name="browser" id="Browser" value="">
+                    <input type="hidden" name="course" id="Course" value="programSpecialFee">
+                            <input type="hidden" name="retURL"
+                                value="<?php echo $current_link . '?' . $queryString ?>">
+                    <button type="submit" class="button-special-fee-submit whitMe">
+                        Confirmar
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
 
     <!-- Section no 2: Additional information fo universisty -->
     <div class="university-info-container">
@@ -931,7 +1051,8 @@
                     Institute of Executive Education.
                 </div>
                 <div class="certificado-button">
-                    <a class="whitSBo fs14 blanco" href="http://bit.ly/2VQvwCg" target="_blank" rel="noopener noreferrer">
+                    <a class="whitSBo fs14 blanco" href="http://bit.ly/2VQvwCg" target="_blank"
+                        rel="noopener noreferrer">
                         APLICAR
                         <!-- <img src="assets/img/svg/long-arrow-alt-right-solid.svg" alt="arrow"> -->
                     </a>
