@@ -131,7 +131,7 @@
 
         <div class="price-container">
             <div class="whitSBo fs20 negro4B">
-                26 / marzo / 2020
+                25 / junio / 2020
             </div>
             <div class="whitMe fs16 negro19">
                 2 MESES
@@ -284,7 +284,7 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $935 USD.
-                a pagar del 20 de abril de 2020.
+                a pagar del 20 de julio de 2020.
             </div>
         </div>
         <div class="pagos no-border">
@@ -297,11 +297,11 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de $635 USD.
-                a pagar del 20 de abril de 2020.
+                a pagar del 20 de julio de 2020.
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La tercera parcialidad de $635 USD
-                se paga el 04 de mayo de 2020.
+                se paga el 04 de agosto de 2020.
             </div>
         </div>
     </div>
